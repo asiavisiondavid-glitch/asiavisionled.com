@@ -1,0 +1,9 @@
+V6.516.08.10.26
+
+Release date: 2026-09-26
+Total blog articles: 513
+Canonical domain: https://asiavisionled.com
+Dead-domain references: 0
+Chinese language switch: fixed
+Factory internal links: fixed
+Product offers: pending price data
