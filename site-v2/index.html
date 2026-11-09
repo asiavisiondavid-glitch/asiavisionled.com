@@ -1270,11 +1270,11 @@ section{padding:100px 0}
 .why-figs{max-width:1180px;margin:0 auto}
 .why-figs .section-header{text-align:center;margin-bottom:40px}
 .why-figs > .section-header{margin-top:56px}
+.why-figs > .section-header:first-child{margin-top:0}
 @media(max-width:768px){.why-figs > .section-header{margin-top:36px}}
 .why-hero{border-radius:var(--radius-xl);overflow:hidden;border:1px solid rgba(0,0,0,.05);
   box-shadow:0 1px 3px rgba(0,0,0,.03);aspect-ratio:16/9;background:var(--bg-tertiary)}
 .why-hero img{width:100%;height:100%;object-fit:cover;display:block}
-.why-main{display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:stretch}
 .why-left{display:flex;flex-direction:column;gap:12px}
 .why-row{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:12px}
 .why-row div{border-radius:var(--radius-lg);overflow:hidden;border:1px solid rgba(0,0,0,.05);
@@ -1307,33 +1307,14 @@ section{padding:100px 0}
 /* COB 图片轮播改版（箭头 + 图注覆盖 + 圆点） */
 .cob-carousel{max-width:600px;margin:0}
 .why-media{max-width:none}
-.why-main{align-items:start}
 .why-feats.compact .wf{padding:8px 10px}
 .why-feats.compact .wf h4{font-size:.82rem;margin-bottom:4px}
 .why-feats.compact .wf p{font-size:.74rem;line-height:1.55}
-.cob-viewport{position:relative;aspect-ratio:16/9;border-radius:var(--radius-lg);overflow:hidden;
-  background:var(--bg-tertiary);border:1px solid var(--border-glass)}
-.cob-slide{position:absolute;inset:0;margin:0;opacity:0;transition:opacity .6s ease}
-.cob-slide.on{opacity:1}
-.cob-slide img,.cob-slide video{width:100%;height:100%;object-fit:contain;display:block}
-.cob-cap{position:absolute;left:0;right:0;bottom:0;z-index:2;padding:46px 22px 16px;
-  font-size:.78rem;line-height:1.5;color:#fff;pointer-events:none;
-  background:linear-gradient(180deg,rgba(0,0,0,0),rgba(0,0,0,.62))}
-.cob-arrow{position:absolute;top:50%;transform:translateY(-50%);z-index:3;width:38px;height:38px;
-  border-radius:50%;border:1px solid rgba(255,255,255,.4);background:rgba(0,0,0,.32);color:#fff;
-  font-size:1.35rem;line-height:1;display:flex;align-items:center;justify-content:center;cursor:pointer;
-  opacity:.85;transition:background .2s,opacity .2s}
-.cob-arrow:hover{background:rgba(0,0,0,.62);opacity:1}
-.cob-prev{left:14px}.cob-next{right:14px}
-.cob-dots{position:absolute;top:14px;right:14px;z-index:3;display:flex;gap:7px}
-.cob-dots button{width:8px;height:8px;padding:0;border:0;border-radius:50%;background:rgba(255,255,255,.5);cursor:pointer;transition:background .2s}
-.cob-dots button.on{background:#fff}
-.cob-thumbs{display:grid;grid-auto-flow:column;grid-auto-columns:1fr;gap:8px;margin-top:10px}
-.cob-thumbs button{padding:0;border:1px solid var(--border-glass);border-radius:8px;overflow:hidden;background:none;cursor:pointer;opacity:.5;transition:opacity .2s,border-color .2s;line-height:0}
-.cob-thumbs button.on{opacity:1;border-color:var(--cyan)}
-.cob-thumbs img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block}
-@media(max-width:600px){.cob-cap{font-size:.72rem;padding:34px 14px 12px}.cob-arrow{width:32px;height:32px;font-size:1.15rem}}
-.cob-strip{position:relative}
+.cob-feature-imgs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.cob-feature{margin:0}
+.cob-feature img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block;border-radius:var(--radius-lg);border:1px solid var(--border-glass);background:var(--bg-tertiary)}
+.cob-feature figcaption{padding:10px 4px 0;font-size:.78rem;color:var(--white-50);text-align:center}
+@media(max-width:600px){.cob-feature-imgs{grid-template-columns:1fr}}
 
 
 
@@ -1373,7 +1354,6 @@ table.tt td:first-child{font-weight:800;color:var(--cyan);white-space:nowrap}
 .why-poster img{width:100%;height:auto;display:block}
 @media(max-width:1024px){
   .global-grid{grid-template-columns:1fr;gap:28px}
-  .why-main{display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:stretch}
   .why-row{grid-template-columns:repeat(4,1fr)}
   .why-feats{grid-template-columns:repeat(2,1fr)}
   .why-terms{grid-template-columns:1fr;gap:28px}
@@ -1487,7 +1467,6 @@ table.tt td:first-child{font-weight:800;color:var(--cyan);white-space:nowrap}
 @media(max-width:900px){.cob-cards.row{grid-template-columns:1fr}}
 
 /* 特性卡与轮播等高（2026-10-02） */
-.why-main{display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:stretch}
 .why-feats.compact{height:100%;grid-auto-rows:1fr}
 .why-feats.compact .wf{display:flex;align-items:flex-start}
 
@@ -1572,7 +1551,6 @@ table.tt td:first-child{font-weight:800;color:var(--cyan);white-space:nowrap}
 
 /* ===== 移动端栏目比例修复 2026-10-05（原规则被更后的全局规则覆盖 / 缺移动规则）===== */
 @media(max-width:1024px){
-  .why-main{grid-template-columns:1fr}
   .cob-row{grid-template-columns:1fr;gap:24px}
   .cob-imgs{grid-template-columns:1fr 1fr;gap:12px}
 }
@@ -1594,12 +1572,12 @@ table.tt td:first-child{font-weight:800;color:var(--cyan);white-space:nowrap}
 /* --- COB 栏目布局 2026-10 改版：上方左视频 + 右文字，下方三图带 --- */
 .cob-row{grid-template-columns:minmax(0,1fr) minmax(0,1fr)!important;gap:28px 40px!important;align-items:start}
 .cob-info{grid-column:2;grid-row:1/3;align-self:center}
-.cob-strip{grid-column:1;grid-row:1}
+.cob-feature-imgs{grid-column:1;grid-row:1}
 .cob-info .case-stats{grid-template-columns:repeat(4,1fr)!important}
 @media(max-width:900px){
   .cob-row{grid-template-columns:1fr!important;gap:26px!important}
   .cob-info .case-stat{min-width:0}
-  .cob-strip{grid-column:1;grid-row:1}
+  .cob-feature-imgs{grid-column:1;grid-row:1}
   .cob-info{grid-column:1;grid-row:3;align-self:stretch}
 }
 
@@ -1610,7 +1588,7 @@ table.tt td:first-child{font-weight:800;color:var(--cyan);white-space:nowrap}
 
 /* ===== COB 区块排版 2026-10-22：左轮播 / 右文字 ===== */
 .cob-row{grid-template-columns:600px minmax(0,1fr)!important;gap:40px 56px!important;align-items:center}
-.cob-strip{grid-column:1!important;grid-row:1!important}
+.cob-feature-imgs{grid-column:1!important;grid-row:1!important}
 .cob-info{grid-column:2!important;grid-row:1!important;align-self:center!important;
   display:flex;flex-direction:column;align-items:flex-start;padding-left:0;border-left:0;max-width:560px}
 .cob-info .case-tag{padding:4px 12px;font-size:.62rem;margin-bottom:10px}
@@ -1628,45 +1606,104 @@ table.tt td:first-child{font-weight:800;color:var(--cyan);white-space:nowrap}
 .cob-info .case-study-link:hover{background:none;color:#e55a2a;gap:12px}
 @media(max-width:900px){
   .cob-row{grid-template-columns:minmax(0,1fr)!important;gap:26px!important}
-  .cob-strip{grid-column:1!important;grid-row:1!important}
+  .cob-feature-imgs{grid-column:1!important;grid-row:1!important}
   .cob-info{grid-column:1!important;grid-row:2!important;max-width:none}
   .cob-carousel{max-width:none}
 }
 
 /* ===== WHY 区：轮播 16:9 + 6 卡等高（2026-10-22）===== */
-.why-main{align-items:stretch}
-.why-right{height:100%}
 .why-feats.compact{gap:6px;flex:1;align-content:stretch;grid-auto-rows:1fr}
 .why-feats.compact .wf{padding:3px 9px}
 .why-feats.compact .wf h4{font-size:.75rem;margin-bottom:2px}
 .why-feats.compact .wf p{font-size:.69rem;line-height:1.38}
 .why-media{height:auto}
 .why-media .cob-viewport{height:auto;aspect-ratio:16/9;background:var(--bg-tertiary)}
-.why-main{grid-template-columns:600px minmax(0,1fr)}
 .why-media{max-width:600px}
 @media(max-width:900px){
   .why-feats.compact{flex:none;height:auto;align-content:start;grid-auto-rows:auto}
 }
 @media(max-width:1024px){
-  .why-main{grid-template-columns:1fr}
   .why-media{max-width:none}
 }
+
+/* ===== 演唱会板块：上行展开卡片墙 (2026-11-08, route B — fresh build, no Karina upfold files) ===== */
+.concert-cta{margin:18px 0 0}
+.concert-cta-btn{display:inline-flex;align-items:center;gap:8px;padding:12px 28px;border-radius:24px;background:var(--cyan);color:#fff;font-size:.88rem;font-weight:600;text-decoration:none;transition:background .25s,gap .25s}
+.concert-cta-btn:hover{background:#e55a2a;gap:13px}
+
+/* ===== 演唱会 3D 环形画廊（2026-11-08）：CSS 3D 圆柱旋转画廊；卡片数与半径由 JS 按实际卡片数计算，新增图片自动进入圆柱 ===== */
+.concert-hero{margin:0 auto 28px;max-width:1080px}
+.concert-hero img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;display:block;border-radius:var(--radius-lg);border:1px solid var(--border-glass);background:var(--bg-tertiary)}
+.why-hero{margin:0 auto 28px;max-width:1080px}
+.why-hero img{width:100%;height:auto;display:block;background:var(--bg-tertiary)}
+.concert-gallery{margin:0 auto;max-width:1080px}
+.gallery-thumbs{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.gallery-thumb{padding:0;border:2px solid transparent;border-radius:8px;overflow:hidden;background:none;cursor:pointer;transition:border-color .2s ease,transform .2s ease}
+.gallery-thumb img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block}
+.gallery-thumb:hover{border-color:var(--cyan)}
+.why-right{margin-top:36px}
+.why-right .why-feats.compact{grid-template-columns:repeat(3,1fr)}
+.ring-lightbox{position:fixed;inset:0;z-index:1100;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;background:rgba(5,6,8,.92);padding:24px}
+.ring-lightbox[hidden]{display:none}
+.ring-lightbox-img{max-width:min(1100px,92vw);max-height:76vh;width:auto;height:auto;border-radius:12px;border:1px solid rgba(255,255,255,.2);box-shadow:0 30px 80px rgba(0,0,0,.7)}
+.ring-lightbox-cap{margin:0;font-size:.9rem;color:rgba(255,255,255,.85)}
+.ring-lightbox-close{position:absolute;top:18px;right:22px;width:44px;height:44px;border-radius:50%;border:1px solid rgba(255,255,255,.3);background:transparent;color:#fff;font-size:1.6rem;line-height:1;cursor:pointer}
+.ring-lightbox-nav{position:absolute;top:50%;transform:translateY(-50%);width:48px;height:48px;border-radius:50%;border:1px solid rgba(255,255,255,.3);background:rgba(255,255,255,.08);color:#fff;font-size:1.6rem;line-height:1;cursor:pointer}
+.ring-lightbox-prev{left:18px}
+.ring-lightbox-next{right:18px}
+.ring-lightbox-close:hover,.ring-lightbox-nav:hover{border-color:var(--cyan);background:rgba(255,122,26,.25)}
+.concert-gallery button:focus-visible,.ring-lightbox button:focus-visible{outline:2px solid var(--cyan);outline-offset:3px}
+@media(max-width:900px){.why-right .why-feats.compact{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:600px){.gallery-thumbs{grid-template-columns:repeat(2,1fr);gap:10px}.why-right .why-feats.compact{grid-template-columns:1fr}}
+@media (prefers-reduced-motion:reduce){.gallery-thumb{transition:none}}
+/* ===== COB 制造流程（2026-11-08）：4 张图直接横排展示 ===== */
+.cob-process{margin-top:44px}
+.cob-process-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.cob-process-card{border:1px solid var(--border-glass);border-radius:var(--radius-lg);background:var(--bg-secondary);overflow:hidden}
+.cob-process-fig{margin:0}
+.cob-process-fig img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;display:block}
+.cob-process-fig figcaption{padding:10px 14px 0;font-size:.78rem;color:var(--white-50);line-height:1.5}
+.cob-process-body{padding:12px 16px 18px}
+.cob-process-tag{display:inline-block;padding:3px 10px;border-radius:999px;background:var(--cyan-glow);color:var(--cyan);font-size:.68rem;font-weight:700;letter-spacing:.4px}
+.cob-process-body h3{font-size:1rem;font-weight:800;color:var(--white);margin:8px 0 8px}
+.cob-process-body h3 span{font-weight:500;color:var(--white-50);font-size:.8rem;margin-left:6px}
+.cob-process-body p{font-size:.85rem;color:var(--white-70);line-height:1.7;margin:0}
+.cob-actions a:focus-visible{outline:2px solid var(--cyan);outline-offset:3px}
+@media(max-width:900px){.cob-process-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:600px){.cob-process-grid{grid-template-columns:1fr}}
 
 /* ===== 体育赛事栏目（2026-10-22）===== */
 .sports-section{padding:72px 0;background:var(--bg-primary)}
 .sports-section .section-header{max-width:860px;margin:0 auto 34px}
-.sports-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
-.sports-card{margin:0;background:#fff;border:1px solid rgba(0,0,0,.06);border-radius:var(--radius-lg);overflow:hidden;display:flex;flex-direction:column;box-shadow:0 1px 3px rgba(0,0,0,.03)}
-.sports-card img{width:100%;height:auto;display:block;background:#fff;border-radius:15px}
-.sports-card figcaption{padding:11px 15px;font-size:.76rem;color:var(--white-50);line-height:1.5}
+/* Stadium photos (2026-11-08): widescreen perimeter photos, shown directly; no diagram, hotspots, scenario toggle or detail panel */
+/* Stadium lead panorama (2026-11-08): the stadium panorama is the section's main image */
+.sports-hero{margin:0 auto 26px;max-width:1080px}
+.sports-hero img{width:100%;height:auto;aspect-ratio:16/10;object-fit:cover;display:block;border-radius:var(--radius-lg);border:1px solid var(--border-glass);background:var(--bg-tertiary)}
+.sports-hero figcaption{padding:10px 4px 0;font-size:.78rem;color:var(--white-50);text-align:center}
+.sports-gallery{display:grid;grid-template-columns:1fr 1fr;gap:16px;max-width:960px;margin:26px auto 0}
+.sports-gallery .sports-card{margin:0}
+.sports-gallery .sports-card img{width:100%;height:auto;display:block;border-radius:var(--radius-lg);border:1px solid var(--border-glass);background:var(--bg-tertiary)}
+.sports-gallery .sports-card figcaption{padding:10px 4px 0;font-size:.78rem;color:var(--white-50);text-align:center}
+/* Stadium widescreen photos (2026-11-08): the SVG diagram was removed; David's stitched perimeter photos are shown directly */
+.stadium-photos{display:flex;flex-direction:column;gap:16px;max-width:1080px;margin:0 auto}
+.stadium-photo{margin:0}
+.stadium-photo img{width:100%;height:auto;aspect-ratio:16/10;object-fit:cover;display:block;border-radius:var(--radius-lg);border:1px solid var(--border-glass);background:var(--bg-tertiary)}
+.stadium-photo figcaption{padding:10px 4px 0;font-size:.78rem;color:var(--white-50);text-align:center}
+.stadium-caption{margin:14px 4px 0;text-align:center;font-size:.8rem;color:var(--white-50);line-height:1.6}
 .sports-points{display:grid;grid-template-columns:repeat(2,1fr);gap:14px 26px;max-width:960px;margin:30px auto 0}
-.sports-point{border-left:2px solid rgba(255,107,53,.35);padding:2px 0 2px 14px}
+.sports-point{display:flex;gap:12px;align-items:flex-start;opacity:0;transform:translateY(14px);transition:opacity .5s ease,transform .5s ease}
+.sports-point:nth-child(2){transition-delay:90ms}
+.sports-point:nth-child(3){transition-delay:180ms}
+.sports-point:nth-child(4){transition-delay:270ms}
+.sports-point.is-visible{opacity:1;transform:none}
+.stadium-icon{flex:none;width:40px;height:40px;border-radius:12px;background:#fff;border:1px solid var(--border-glass);display:grid;place-items:center;color:var(--cyan)}
 .sports-point h3{font-size:.9rem;font-weight:700;color:var(--white);margin-bottom:5px}
 .sports-point p{font-size:.8rem;color:var(--white-50);line-height:1.65;margin:0}
 .sports-note{max-width:880px;margin:26px auto 0;text-align:center;font-size:.86rem;color:var(--white-50);line-height:1.8}
 .sports-cta a{display:inline-flex;align-items:center;gap:8px;padding:12px 28px;border-radius:24px;background:var(--cyan);color:#fff;font-size:.88rem;font-weight:600;text-decoration:none;transition:background .25s,gap .25s}
 .sports-cta a:hover{background:#e55a2a;gap:13px}
-@media(max-width:700px){.sports-grid,.sports-points{grid-template-columns:1fr}.sports-section{padding:56px 0}}
+@media (prefers-reduced-motion: reduce){.sports-point{opacity:1;transform:none;transition:none}}
+@media(max-width:700px){.sports-points{grid-template-columns:1fr}.sports-gallery{grid-template-columns:1fr}.sports-section{padding:56px 0}}
 
 /* ============================================================
    MEGA MENUS — injected (apply_mega_menu.py)
@@ -1930,21 +1967,40 @@ src="https://www.facebook.com/tr?id=XXXXXXXXXXXXXXXX&ev=PageView&noscript=1"
   <div class="container">
     <div class="why-figs">
       <div class="cob-cards row"><a href="/products/cob-eh-pro" class="cob-card ui-card ui-card--product"><img width="1390" height="1400" src="images/products/ehpro-main.jpg" alt="COB EH-PRO Series LED display" loading="lazy"><div class="cob-txt"><h4>COB EH-PRO Series</h4><span>Outdoor Fine Pitch · IP65 · 3500cd</span></div></a><a href="/products/cob-zh" class="cob-card ui-card ui-card--product"><img width="1400" height="934" src="images/products/cobzh-5.jpg" alt="COB ZH Series LED display" loading="lazy"><div class="cob-txt"><h4>COB ZH Series</h4><span>Durable COB Touring · 3400–4000 nits · Wind 20m/s</span></div></a><a href="/products/e-pro" class="cob-card ui-card ui-card--product"><img width="1400" height="1307" src="images/products/epro-2.jpg" alt="E-PRO Series LED display" loading="lazy"><div class="cob-txt"><h4>E-PRO Series</h4><span>High-End Rental · COB+SMD Dual Platform · XR Studio</span></div></a><a href="/products/cob-z" class="cob-card ui-card ui-card--product"><img width="1400" height="1050" src="images/products/cobz-1.jpg" alt="COB Z Series LED display" loading="lazy"><div class="cob-txt"><h4>COB Z Series</h4><span>High Stability COB Rental · 7680Hz · Flip Chip</span></div></a></div>
-<div class="cob-row cob-row--gallery">
-    <div class="cob-strip">
-      <div class="cob-reel" data-hover-play>
-        <div class="cob-viewport cob-track">
-          <figure class="cob-slide cob-gcard ui-card ui-card--case" data-cap="Flexible sizing &mdash; 16:9, 4:3, 2:1 and custom"><img loading="lazy" decoding="async" src="images/scenes/flexible-cabinet-design-16x9.jpg" alt="Flexible COB cabinet design available in 16:9, 4:3, 2:1 and custom dimensions" width="1376" height="768"></figure>
-          <figure class="cob-slide cob-gcard ui-card ui-card--case" data-cap="Our COB line &mdash; encapsulation, assembly, inspection"><img loading="lazy" decoding="async" src="images/scenes/cob-workshop-shenzhen.jpg" alt="COB production workshop and inspection line at the Asia Vision factory in Shenzhen" width="1362" height="768"></figure>
-          <figure class="cob-slide cob-gcard ui-card ui-card--case is-video" data-cap="COB Z Series workshop test demo" data-duration="18.3"><video src="images/videos/cob-z-workshop-test.mp4" poster="images/videos/cob-z-workshop-test-poster-sm.jpg" width="1280" height="720" muted playsinline loop preload="none" disablepictureinpicture></video></figure>
-          <figure class="cob-slide cob-gcard ui-card ui-card--case" data-cap="Pixel-by-pixel calibration"><img loading="lazy" decoding="async" src="images/scenes/cob-pixel-calibration.jpg" alt="Pixel-by-pixel chromaticity calibration of a COB LED display" width="1394" height="768"></figure>
-          <figure class="cob-slide cob-gcard ui-card ui-card--case" data-cap="Ultra Slim Display COB"><img loading="lazy" decoding="async" src="images/scenes/ultra-slim-display-cob.jpg" alt="Ultra slim COB LED display" width="1672" height="941"></figure>
-          <figure class="cob-slide cob-gcard ui-card ui-card--case is-video" data-cap="Outdoor custom high-brightness display" data-duration="14.7"><video src="images/videos/outdoor-high-brightness-display.mp4" poster="images/videos/outdoor-high-brightness-display-poster-sm.jpg" width="1280" height="720" muted playsinline loop preload="none" disablepictureinpicture></video></figure>
+    <h2 class="sr-only">Why Asia Vision &mdash; Built for AV Integrators &amp; Rental Fleets</h2>
+      <figure class="why-hero">
+        <img loading="eager" decoding="async" width="1206" height="679" src="images/why-asia-vision.jpg" alt="Why Asia Vision &mdash; Built for AV Integrators &amp; Rental Fleets. More than an LED display manufacturer. A reliable production and technical partner for your business.">
+      </figure>
+
+      <div class="concert-gallery" id="concertGallery">
+        <div class="gallery-thumbs" role="list" aria-label="Concert LED displays">
+          <button type="button" class="gallery-thumb" role="listitem" data-scenes="touring" data-full="images/why-02.jpg" data-alt="Panoramic view of a concert stage LED display build" data-cap="Concert stage LED build" aria-label="Concert stage LED build"><img loading="eager" decoding="async" width="1600" height="900" src="images/why-02.jpg" alt=""></button>
+          <button type="button" class="gallery-thumb" role="listitem" data-scenes="touring" data-full="images/concert-back-stage.jpg" data-alt="LED display screen behind a concert stage" data-cap="Behind the concert stage" aria-label="Behind the concert stage"><img loading="lazy" decoding="async" width="1600" height="900" src="images/concert-back-stage.jpg" alt=""></button>
+          <button type="button" class="gallery-thumb" role="listitem" data-scenes="launch" data-full="images/concert-screen-rear.jpg" data-alt="Concert LED screen seen from the rear" data-cap="Concert screen from the rear" aria-label="Concert screen from the rear"><img loading="lazy" decoding="async" width="1600" height="900" src="images/concert-screen-rear.jpg" alt=""></button>
+          <button type="button" class="gallery-thumb" role="listitem" data-scenes="launch" data-full="images/scenes/concert-display-1.jpg" data-alt="Concert LED display 1" data-cap="Concert display 1" aria-label="Concert display 1"><img loading="lazy" decoding="async" width="1206" height="678" src="images/scenes/concert-display-1.jpg" alt=""></button>
+          <button type="button" class="gallery-thumb" role="listitem" data-scenes="festival" data-full="images/scenes/concert-display-2.jpg" data-alt="Concert LED display" data-cap="Concert display 2" aria-label="Concert display 2"><img loading="lazy" decoding="async" width="1554" height="874" src="images/scenes/concert-display-2.jpg" alt=""></button>
+          <button type="button" class="gallery-thumb" role="listitem" data-scenes="launch" data-full="images/scenes/event-infocomm-beijing.jpg" data-alt="LED display wall at an InfoComm China launch event in Beijing" data-cap="InfoComm China launch event" aria-label="InfoComm China launch event"><img loading="lazy" decoding="async" width="1206" height="678" src="images/scenes/event-infocomm-beijing.jpg" alt=""></button>
         </div>
-        <button class="cob-arrow cob-prev cob-gnav" type="button" aria-label="Previous">&#8249;</button>
-          <button class="cob-arrow cob-next cob-gnav" type="button" aria-label="Next">&#8250;</button>
-          <div class="cob-cap">Ultra Slim Display COB</div>
       </div>
+      <div class="ring-lightbox" id="ringLightbox" role="dialog" aria-modal="true" aria-label="Image preview" hidden>
+        <button type="button" class="ring-lightbox-close" id="ringLightboxClose" aria-label="Close preview">&times;</button>
+        <button type="button" class="ring-lightbox-nav ring-lightbox-prev" id="ringLightboxPrev" aria-label="Previous image">&#8249;</button>
+        <img class="ring-lightbox-img" id="ringLightboxImg" alt="">
+        <p class="ring-lightbox-cap" id="ringLightboxCap"></p>
+        <button type="button" class="ring-lightbox-nav ring-lightbox-next" id="ringLightboxNext" aria-label="Next image">&#8250;</button>
+      </div>
+
+      <figure class="concert-hero">
+        <img loading="eager" decoding="async" width="1206" height="679" src="images/scenes/concert-cob-zh-stage.jpg" alt="COB ZH Series &mdash; Engineered for the Big Stage: professional COB LED display for touring and outdoor events">
+      </figure>
+      <div class="why-right">
+<div class="why-feats compact"><div class="wf"><div class="ic">&#127981;</div><h4>OEM &amp; ODM for AV Partners</h4><p>We manufacture under your brand &mdash; cabinet size, pixel pitch, structure, configuration and branding are specified to your project, not picked from a catalogue.</p></div><div class="wf"><div class="ic">&#9889;</div><h4>7680Hz Stage Refresh</h4><p>Rental and touring panels run at &ge;7680Hz for flicker-free broadcast and XR capture. Indoor fixed series run at 3840Hz, matched to their viewing environment.</p></div><div class="wf"><div class="ic">&#128230;</div><h4>18-Day Factory Dispatch</h4><p>Goods leave our Shenzhen factory within 18 days of order confirmation. Production slots are reserved for fleet and repeat orders.</p></div><div class="wf"><div class="ic">&#128737;</div><h4>3-year warranty</h4><p>Every panel ships with a 3-year warranty, backed by in-house spare-parts logistics so a rental fleet keeps working on site.</p></div><div class="wf"><div class="ic">&#128208;</div><h4>P0.78 &ndash; P10, COB / SMD / GOB</h4><p>Three process platforms from a 5,000m&sup2; Shenzhen plant, shipping worldwide with batch-matched brightness and colour.</p></div><div class="wf"><div class="ic">&#129309;</div><h4>Built for Integrators</h4><p>Engineering drawings, mounting interfaces and measured performance data supplied with the order &mdash; what you specify is what arrives.</p></div></div>
+      </div>
+      <p class="concert-cta"><a class="concert-cta-btn" href="/contact">为你的巡演配屏</a></p>
+<div class="cob-row cob-row--gallery">
+    <div class="cob-feature-imgs">
+      <figure class="cob-feature"><img loading="lazy" decoding="async" width="1376" height="768" src="images/scenes/flexible-cabinet-design-16x9.jpg" alt="Flexible COB cabinet design available in 16:9, 4:3, 2:1 and custom dimensions"><figcaption>Flexible sizing &mdash; 16:9, 4:3, 2:1 and custom</figcaption></figure>
+      <figure class="cob-feature"><img loading="lazy" decoding="async" width="1672" height="941" src="images/scenes/ultra-slim-display-cob.jpg" alt="Ultra slim COB LED display"><figcaption>Ultra Slim Display COB</figcaption></figure>
     </div>
     <div class="cob-info">
           <span class="case-tag">COB Manufacturing</span>
@@ -1954,39 +2010,38 @@ src="https://www.facebook.com/tr?id=XXXXXXXXXXXXXXXX&ev=PageView&noscript=1"
           <div class="case-stats">
             <div class="case-stat"><div class="num">P0.62&ndash;2.6</div><div class="label">Pixel Pitch</div><div class="stat-detail">0.62 / 0.93 / 1.25 / 1.56 / 1.953 / 2.604mm</div></div>
             <div class="case-stat"><div class="num">IP65</div><div class="label">Protection</div><div class="stat-detail">Fully sealed</div></div>
-            <div class="case-stat"><div class="num">4000</div><div class="label">Nits Max</div><div class="stat-detail">Daylight visible</div></div>
+            <div class="case-stat"><div class="num" data-count="4000">4000</div><div class="label">Nits Max</div><div class="stat-detail">Daylight visible</div></div>
             <div class="case-stat"><div class="num">In-House</div><div class="label">COB Process</div><div class="stat-detail">Encapsulation to QC</div></div>
           </div>
           <a href="/products/cob-zh" class="case-study-link">Explore COB Products <span style="font-size:1.1rem">&rarr;</span></a>
         </div>
     
   </div>
-    <div class="section-header">
-        <span class="tag">Why Asia Vision</span>
-        <h2>Built for AV Integrators &amp; Rental Fleets</h2>
-        <p>OEM/ODM manufacturing from our own Shenzhen plant &mdash; 18-day factory dispatch and a 3-year warranty for partners worldwide.</p>
+    <!-- COB 制造流程（2026-11-08）：4 张图直接横排展示，不用点开；文案沿用原步骤详情文字 -->
+    <div class="cob-process" id="cobProcess">
+      <div class="cob-process-grid" role="list" aria-label="COB manufacturing process">
+        <article class="cob-process-card" role="listitem">
+          <figure class="cob-process-fig"><img loading="lazy" decoding="async" width="1362" height="768" src="images/scenes/cob-workshop-shenzhen.jpg" alt="COB production workshop and inspection line at the Asia Vision factory in Shenzhen"><figcaption>Our COB line &mdash; encapsulation, assembly, inspection</figcaption></figure>
+          <div class="cob-process-body"><span class="cob-process-tag">STEP 1 &middot; 封装</span><h3>封装 <span>Encapsulation</span></h3><p>Chip-on-board encapsulation on our own line &mdash; no exposed lamp bead or wire bond to fail.</p></div>
+        </article>
+        <article class="cob-process-card" role="listitem">
+          <figure class="cob-process-fig"><img loading="lazy" decoding="async" width="1394" height="768" src="images/scenes/cob-pixel-calibration.jpg" alt="Pixel-by-pixel chromaticity calibration of a COB LED display"><figcaption>Pixel-by-pixel calibration</figcaption></figure>
+          <div class="cob-process-body"><span class="cob-process-tag">STEP 2 &middot; 校准</span><h3>校准 <span>Calibration</span></h3><p>Pixel-by-pixel chromaticity calibration &mdash; brightness and colour calibration (Chroma / LightSpace).</p></div>
+        </article>
+        <article class="cob-process-card" role="listitem">
+          <figure class="cob-process-fig"><img loading="lazy" decoding="async" width="1206" height="679" src="images/factory/aging-test-72h.jpg" alt="Aging and Testing Lab - 72 hour LED burn-in"><figcaption>72-hour burn-in aging</figcaption></figure>
+          <div class="cob-process-body"><span class="cob-process-tag">STEP 3 &middot; 老化测试</span><h3>老化测试 <span>Aging Test</span></h3><p>72-hour burn-in aging for every display, plus IP65 waterproof testing.</p></div>
+        </article>
+        <article class="cob-process-card" role="listitem">
+          <figure class="cob-process-fig"><img loading="lazy" decoding="async" width="1206" height="679" src="images/factory/dispatch-flight-cases.jpg" alt="Custom flight case packaging for LED display shipment"><figcaption>Custom flight case packaging</figcaption></figure>
+          <div class="cob-process-body"><span class="cob-process-tag">STEP 4 &middot; 出货</span><h3>出货 <span>Dispatch</span></h3><p>Custom flight case packaging and global shipping &mdash; goods leave our Shenzhen factory within 18 days of order confirmation.</p></div>
+        </article>
       </div>
-
-      <div class="why-main">
-        <div class="cob-carousel why-media">
-        <div class="cob-viewport">
-          <figure class="cob-slide on" data-cap="Concert stage LED build"><img loading="lazy" decoding="async" width="1600" height="900" src="images/why-02.jpg" alt="Panoramic view of a concert stage LED display build"></figure>
-          <figure class="cob-slide" data-cap="Behind the concert stage"><img loading="lazy" decoding="async" width="1600" height="900" src="images/concert-back-stage.jpg" alt="LED display screen behind a concert stage"></figure>
-          <figure class="cob-slide" data-cap="Concert screen from the rear"><img loading="lazy" decoding="async" width="1600" height="900" src="images/concert-screen-rear.jpg" alt="Concert LED screen seen from the rear"></figure>
-          <figure class="cob-slide" data-cap="Concert display 1"><img loading="lazy" decoding="async" width="1206" height="678" src="images/scenes/concert-display-1.jpg" alt="Concert LED display 1"></figure>
-          <figure class="cob-slide" data-cap="Concert display 2"><img loading="lazy" decoding="async" width="1554" height="874" src="images/scenes/concert-display-2.jpg" alt="Concert LED display"></figure>
-          <figure class="cob-slide" data-cap="Concert display 3"><img loading="lazy" decoding="async" width="1287" height="724" src="images/scenes/concert-display-3.jpg" alt="Concert LED display"></figure>
-          
-          <button class="cob-arrow cob-prev" type="button" aria-label="Previous">&#8249;</button>
-          <button class="cob-arrow cob-next" type="button" aria-label="Next">&#8250;</button>
-          <div class="cob-cap">Concert stage LED build</div>
-          <div class="cob-dots"><button class="on" type="button" aria-label="Image 1"></button><button type="button" aria-label="Image 2"></button><button type="button" aria-label="Image 3"></button><button type="button" aria-label="Image 4"></button><button type="button" aria-label="Image 5"></button><button type="button" aria-label="Image 6"></button></div>
-        </div>
-      </div>
-      <div class="why-right">
-<div class="why-feats compact"><div class="wf"><div class="ic">&#127981;</div><h4>OEM &amp; ODM for AV Partners</h4><p>We manufacture under your brand &mdash; cabinet size, pixel pitch, structure, configuration and branding are specified to your project, not picked from a catalogue.</p></div><div class="wf"><div class="ic">&#9889;</div><h4>7680Hz Stage Refresh</h4><p>Rental and touring panels run at &ge;7680Hz for flicker-free broadcast and XR capture. Indoor fixed series run at 3840Hz, matched to their viewing environment.</p></div><div class="wf"><div class="ic">&#128230;</div><h4>18-Day Factory Dispatch</h4><p>Goods leave our Shenzhen factory within 18 days of order confirmation. Production slots are reserved for fleet and repeat orders.</p></div><div class="wf"><div class="ic">&#128737;</div><h4>3-year warranty</h4><p>Every panel ships with a 3-year warranty, backed by in-house spare-parts logistics so a rental fleet keeps working on site.</p></div><div class="wf"><div class="ic">&#128208;</div><h4>P0.78 &ndash; P10, COB / SMD / GOB</h4><p>Three process platforms from a 5,000m&sup2; Shenzhen plant, shipping worldwide with batch-matched brightness and colour.</p></div><div class="wf"><div class="ic">&#129309;</div><h4>Built for Integrators</h4><p>Engineering drawings, mounting interfaces and measured performance data supplied with the order &mdash; what you specify is what arrives.</p></div></div>
-</div>
-      </div>
+    </div>
+    <div class="cob-actions">
+      <a class="cob-cta-btn" href="/contact">索取 COB 报价</a>
+      <a class="cob-visit-link" href="/factory/">参观工厂 &rarr;</a>
+    </div>
 
       
     </div>
@@ -2009,20 +2064,27 @@ src="https://www.facebook.com/tr?id=XXXXXXXXXXXXXXXX&ev=PageView&noscript=1"
       <h2>LED Displays for Sports Venues and Events</h2>
       <p>From stadium perimeter boards and arena screens to temporary event walls &mdash; specified around sight lines, ambient light and the broadcast plan, then built in our Shenzhen factory.</p>
     </div>
-    <div class="sports-grid">
-      <figure class="sports-card ui-card ui-card--case"><img loading="lazy" decoding="async" width="1080" height="672" src="images/scenes/sports-venue.jpg" alt="Stadium LED display installed at a sports venue"><figcaption>Stadium LED display in operation</figcaption></figure>
-      <figure class="sports-card ui-card ui-card--case"><img loading="lazy" decoding="async" width="1312" height="816" src="images/scenes/sports-poster-2.jpg" alt="Sports event LED display campaign visual 2"><figcaption>PROFESSIONAL GRADE &ndash; PERIMETER DISPLAY SOLUTION</figcaption></figure>
-      <figure class="sports-card ui-card ui-card--case"><img loading="lazy" decoding="async" width="1935" height="1080" src="images/scenes/sports-rigging.jpg" alt="Event LED screen built with fixed brackets for quick setup"><figcaption>Built-in fixed brackets for quick event screen setup</figcaption></figure>
-      <figure class="sports-card ui-card ui-card--case"><img loading="lazy" decoding="async" width="1376" height="768" src="images/scenes/sports-poster-1.jpg" alt="Sports event LED display campaign visual 1"><figcaption>IP65 ULTIMATE PROTECTION &mdash; BUILT FOR FOOTBALL</figcaption></figure>
+    <figure class="sports-hero">
+      <img loading="eager" decoding="async" width="1080" height="672" src="images/scenes/sports-venue.jpg" alt="Stadium panorama with LED perimeter and ribbon displays in operation">
+      <figcaption>Stadium LED display in operation</figcaption>
+    </figure>
+    <div class="stadium-photos">
+      <figure class="stadium-photo"><img loading="eager" decoding="async" width="1206" height="678" src="images/scenes/sports-perimeter-wide-1-v2.jpg" alt="Perimeter LED boards close-up at a football stadium"><figcaption>Perimeter LED boards close-up during a football match</figcaption></figure>
+      <figure class="stadium-photo"><img loading="eager" decoding="async" width="1206" height="678" src="images/scenes/sports-perimeter-wide-2.jpg" alt="Perimeter LED boards showing matchday advertising at a football stadium"><figcaption>Perimeter LED boards showing matchday advertising</figcaption></figure>
+      <p class="stadium-caption">Stadium perimeter boards and arena screens &mdash; specified around sight lines, ambient light and the broadcast plan.</p>
+    </div>
+    <div class="sports-gallery">
+      <figure class="sports-card"><img loading="lazy" decoding="async" width="1206" height="674" src="images/scenes/sports-poster-2-v2.jpg" alt="Sports event LED display campaign visual 2"><figcaption>PROFESSIONAL GRADE &ndash; PERIMETER DISPLAY SOLUTION</figcaption></figure>
+      <figure class="sports-card"><img loading="lazy" decoding="async" width="1376" height="768" src="images/scenes/sports-poster-1.jpg" alt="Sports event LED display campaign visual 1"><figcaption>IP65 ULTIMATE PROTECTION &ndash; BUILT FOR FOOTBALL</figcaption></figure>
     </div>
     <div class="sports-points">
-      <div class="sports-point"><h3>Stadium &amp; perimeter</h3><p>High-brightness ribbon and perimeter displays with sealed cabinets for outdoor exposure.</p></div>
-      <div class="sports-point"><h3>Arena &amp; centre-hung</h3><p>Lightweight cabinets, front service and fine pitch for courtside and centre-hung screens.</p></div>
-      <div class="sports-point"><h3>Broadcast-ready refresh</h3><p>3840&ndash;7680Hz panels keep live camera capture flicker-free.</p></div>
-      <div class="sports-point"><h3>Event rental &amp; rigging</h3><p>Fast-lock cabinets, flight cases and spare-parts kits for touring event crews.</p></div>
+      <div class="sports-point"><span class="stadium-icon" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" focusable="false"><rect x="3" y="7" width="16" height="6" rx="1"/><path d="M6 13v4M14 13v4M3 17h14"/></svg></span><div><h3>Stadium &amp; perimeter</h3><p>High-brightness ribbon and perimeter displays with sealed cabinets for outdoor exposure.</p></div></div>
+      <div class="sports-point"><span class="stadium-icon" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M11 2.5l7 4v9l-7 4-7-4v-9z"/><path d="M11 2.5v9m0 0l7-4.5M11 11.5L4 7"/></svg></span><div><h3>Arena &amp; centre-hung</h3><p>Lightweight cabinets, front service and fine pitch for courtside and centre-hung screens.</p></div></div>
+      <div class="sports-point"><span class="stadium-icon" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M4 11a7 7 0 0 1 14 0"/><path d="M7.5 14.5a3.5 3.5 0 0 1 7 0"/><circle cx="11" cy="18" r="1.2" fill="currentColor" stroke="none"/></svg></span><div><h3>Broadcast-ready refresh</h3><p>3840&ndash;7680Hz panels keep live camera capture flicker-free.</p></div></div>
+      <div class="sports-point"><span class="stadium-icon" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" focusable="false"><rect x="3" y="7" width="16" height="10" rx="1.5"/><path d="M9 7V5.5A1.5 1.5 0 0 1 10.5 4h1A1.5 1.5 0 0 1 13 5.5V7M3 12h16"/></svg></span><div><h3>Event rental &amp; rigging</h3><p>Fast-lock cabinets, flight cases and spare-parts kits for touring event crews.</p></div></div>
       </div>
     <p class="sports-note">Every sports project starts with the venue: seating plan, nearest and furthest spectator, ambient light and camera positions. Tell us the sport and the venue &mdash; we confirm pitch, brightness and cabinet type, then manufacture and test the panels in-house.</p>
-    <div class="sports-cta ui-btn ui-btn--primary"><a href="/contact">Discuss a sports project &rarr;</a></div>
+    <div class="sports-cta ui-btn ui-btn--primary"><a href="/contact">获取球场屏方案 &rarr;</a></div>
   </div>
 </section>
 
@@ -2495,7 +2557,86 @@ if (typeof gsap !== 'undefined' && typeof ScrollTrigger !== 'undefined') {
 })();
 </script>
 <script src="/js/search.js"></script>
-<script>(function(){var roots=document.querySelectorAll('.cob-carousel');roots.forEach(function(c){var sl=c.querySelectorAll('.cob-slide'),dots=c.querySelectorAll('.cob-dots button'),cap=c.querySelector('.cob-cap'),prev=c.querySelector('.cob-prev'),next=c.querySelector('.cob-next'),i=0,t=null,ths=[];if(!sl.length)return;function pauseVid(el){var v=el.querySelector('video');if(v)v.pause();}function playVid(el){var v=el.querySelector('video');if(v){v.currentTime=0;var p=v.play();if(p&&p.catch)p.catch(function(){});}}function schedule(){if(t){clearTimeout(t);t=null;}var d=parseFloat(sl[i].getAttribute('data-duration'))*1000;if(!d||d<6000)d=6000;t=setTimeout(function(){go(i+1);},d);}function go(n){pauseVid(sl[i]);sl[i].classList.remove('on');dots[i].classList.remove('on');if(ths[i])ths[i].classList.remove('on');i=(n+sl.length)%sl.length;sl[i].classList.add('on');dots[i].classList.add('on');if(ths[i])ths[i].classList.add('on');if(cap){cap.textContent=sl[i].getAttribute('data-cap')||'';}playVid(sl[i]);schedule();}dots.forEach(function(b,k){b.addEventListener('click',function(){go(k);});});if(prev){prev.addEventListener('click',function(){go(i-1);});}if(next){next.addEventListener('click',function(){go(i+1);});}var th=document.createElement('div');th.className='cob-thumbs';sl.forEach(function(f,k){var b=document.createElement('button');b.type='button';b.setAttribute('aria-label','View '+(k+1));var s0=f.querySelector('img'),v0=f.querySelector('video'),im=document.createElement('img');if(s0){im.src=s0.getAttribute('src');im.alt=s0.alt||'';}else if(v0){im.src=v0.getAttribute('poster')||'';im.alt='Video';}im.loading='lazy';b.appendChild(im);b.addEventListener('click',function(){go(k);});th.appendChild(b);ths.push(b);});if(ths[0])ths[0].classList.add('on');c.appendChild(th);c.addEventListener('mouseenter',function(){if(t){clearTimeout(t);t=null;}pauseVid(sl[i]);});c.addEventListener('mouseleave',function(){var v=sl[i].querySelector('video');if(v){var p=v.play();if(p&&p.catch)p.catch(function(){});}schedule();});schedule();});})();</script>
+<script>(function(){
+  /* Concert gallery (2026-11-08): 2x3 thumbnail grid — click a thumbnail
+     to open the lightbox; arrows/Esc navigate inside the lightbox.
+     No featured image, no auto-rotation, no 3D, no drag. The lightbox
+     keeps its own index (boxCurrent), independent of the grid. */
+  var wrap=document.getElementById('concertGallery');
+  if(!wrap) return;
+  var thumbs=Array.prototype.slice.call(wrap.querySelectorAll('.gallery-thumb'));
+  var N=thumbs.length;
+  var box=document.getElementById('ringLightbox');
+  var boxImg=document.getElementById('ringLightboxImg');
+  var boxCap=document.getElementById('ringLightboxCap');
+  var boxCurrent=0;
+  function openBox(i){
+    boxCurrent=(i+N)%N;
+    var t=thumbs[boxCurrent];
+    boxImg.src=t.getAttribute('data-full');
+    boxImg.alt=t.getAttribute('data-alt');
+    var c=t.getAttribute('data-cap')||'';
+    boxCap.textContent=c ? c+'  \u00b7  '+(boxCurrent+1)+' / '+N : (boxCurrent+1)+' / '+N;
+    box.hidden=false;
+    document.getElementById('ringLightboxClose').focus();
+  }
+  function closeBox(){ box.hidden=true; }
+  thumbs.forEach(function(t,i){ t.addEventListener('click',function(){ openBox(i); }); });
+  document.getElementById('ringLightboxClose').addEventListener('click',closeBox);
+  document.getElementById('ringLightboxPrev').addEventListener('click',function(){ openBox(boxCurrent-1); });
+  document.getElementById('ringLightboxNext').addEventListener('click',function(){ openBox(boxCurrent+1); });
+  box.addEventListener('click',function(e){ if(e.target===box) closeBox(); });
+  document.addEventListener('keydown',function(e){
+    if(!box.hidden){
+      if(e.key==='Escape') closeBox();
+      if(e.key==='ArrowLeft') openBox(boxCurrent-1);
+      if(e.key==='ArrowRight') openBox(boxCurrent+1);
+    }
+  });
+})();</script>
+<script>(function(){
+  /* Scroll reveal for the four sports points, one by one; instant when reduced motion is preferred. */
+  var reduceMotion=window.matchMedia('(prefers-reduced-motion: reduce)').matches,
+      points=Array.prototype.slice.call(document.querySelectorAll('.sports-point'));
+  function revealAll(){ points.forEach(function(p){ p.classList.add('is-visible'); }); }
+  if(reduceMotion || !('IntersectionObserver' in window)){ revealAll(); }
+  else{
+    var obs=new IntersectionObserver(function(entries,ob){
+      entries.forEach(function(entry){ if(entry.isIntersecting){ entry.target.classList.add('is-visible'); ob.unobserve(entry.target); } });
+    },{threshold:0.25});
+    points.forEach(function(p){ obs.observe(p); });
+  }
+})();</script>
+<script>(function(){
+  /* COB stats count-up (2026-11-08): numeric stat only (4000 Nits Max). Other stats are ranges/labels, not countable numbers. */
+  var reduceMotion=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var num=document.querySelector('.case-stats .num[data-count]');
+  if(!num) return;
+  var target=parseInt(num.getAttribute('data-count'),10), done=false;
+  function runCount(){
+    if(done) return;
+    done=true;
+    if(reduceMotion){ num.textContent=String(target); return; }
+    var duration=1200, startTime=null;
+    function step(ts){
+      if(!startTime) startTime=ts;
+      var p=Math.min((ts-startTime)/duration,1),
+          eased=1-Math.pow(1-p,3);
+      num.textContent=String(Math.floor(eased*target));
+      if(p<1) requestAnimationFrame(step);
+      else num.textContent=String(target);
+    }
+    requestAnimationFrame(step);
+  }
+  if('IntersectionObserver' in window){
+    var statObserver=new IntersectionObserver(function(entries,obs){
+      entries.forEach(function(entry){
+        if(entry.isIntersecting){ runCount(); obs.disconnect(); }
+      });
+    },{threshold:0.4});
+    statObserver.observe(num);
+  } else { runCount(); }
+})();</script>
 <script src="/js/mega-menu.js" defer></script><script src="/js/av-motion.js" defer></script><script src="/js/av-interactions.js" defer></script><script src="/js/av-led-hero.js" defer></script>
 </body>
 </html>
