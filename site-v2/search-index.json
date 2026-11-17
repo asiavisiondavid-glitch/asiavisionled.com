@@ -198,12 +198,6 @@
     "c": "Guide"
   },
   {
-    "t": "Control Room LED Wall Buying Guide for Operations Teams",
-    "u": "/blog/control-room-led-wall-buying-guide",
-    "d": "Control room LED wall buying guide: uptime, fine pitch, viewing comfort, signal redundancy, and 24/7 operation for operations centres.",
-    "c": "Guide"
-  },
-  {
     "t": "Corporate Meeting Room LED Display Guide 2026 for Offices",
     "u": "/blog/corporate-meeting-led-guide",
     "d": "How to specify a corporate meeting room LED display: pitch by table distance, brightness and glare control, and video conferencing integration.",
@@ -237,12 +231,6 @@
     "t": "FCC Certification for LED Displays: Class A, B &amp; SDoC Costs",
     "u": "/blog/fcc-certification-led-imports",
     "d": "FCC Part 15 for LED display imports — Class A vs Class B, SDoC versus certification, costs, and what the importer is legally responsible for.",
-    "c": "Guide"
-  },
-  {
-    "t": "Flexible Curved LED Display Guide 2026: Bendable Screens",
-    "u": "/blog/flexible-curved-led-guide",
-    "d": "Flexible and curved LED display guide: bend radius, cabinet options, and how to specify a curved screen for columns, tunnels, and corners.",
     "c": "Guide"
   },
   {
@@ -504,12 +492,6 @@
     "c": "Guide"
   },
   {
-    "t": "Interactive LED Dance Floor Guide 2026: Video Floors",
-    "u": "/blog/led-dance-floor-guide",
-    "d": "Specifying an interactive LED dance floor: load rating, glass protection, sensor types, control software, and installation for clubs and venues.",
-    "c": "Guide"
-  },
-  {
     "t": "Digital Out-of-Home (DOOH) LED Advertising Trends 2026",
     "u": "/blog/led-digital-ooh-trends",
     "d": "Complete guide to DOOH LED advertising market trends 2026. Digital billboard technology, programmatic advertising, audience measurement.",
@@ -741,12 +723,6 @@
     "t": "LED Video Wall Contrast Ratio: Static vs Dynamic Specs and How to Specify Them",
     "u": "/blog/led-display-contrast-ratio-guide",
     "d": "What a good LED video wall contrast ratio means, why dynamic 10,000:1 claims mislead, and how to specify static contrast for rooms, stages and rental screens.",
-    "c": "Guide"
-  },
-  {
-    "t": "LED Display Control Room Buying Guide for 2026 Buyers",
-    "u": "/blog/led-display-control-room-buying-guide",
-    "d": "LED display control room buying guide: pixel pitch, 24/7 reliability, calibration, redundancy, and how to specify a wall for operators in 2026.",
     "c": "Guide"
   },
   {
@@ -1608,18 +1584,6 @@
     "c": "Guide"
   },
   {
-    "t": "LED Display Trading Company vs Factory: Buyer Guide 2026",
-    "u": "/blog/led-display-trading-company-vs-factory",
-    "d": "Led display trading company vs factory guide: how to tell them apart, the pros and cons of each, and how to choose the right supplier for your order.",
-    "c": "Guide"
-  },
-  {
-    "t": "LED Display Transparent LED Buying Guide for Buyers 2026",
-    "u": "/blog/led-display-transparent-led-buying-guide",
-    "d": "Led display transparent LED buying guide: how to buy a transparent screen, the transparency rate, the brightness, the mounting, and the cost.",
-    "c": "Guide"
-  },
-  {
     "t": "LED Display Transparent Screen Guide for Retail 2026",
     "u": "/blog/led-display-transparent-screen-guide",
     "d": "Led display transparent screen guide: how transparent screens work, the transparency rate, brightness, and retail glass applications in 2026.",
@@ -1866,12 +1830,6 @@
     "c": "Guide"
   },
   {
-    "t": "Museum &amp; Art Gallery LED Display Guide 2026",
-    "u": "/blog/led-museum-gallery-guide",
-    "d": "Guide for LED display installations in museums, galleries and cultural venues. Digital art exhibits, interactive installations, archival presentations.",
-    "c": "Guide"
-  },
-  {
     "t": "Music Studio &amp; Recording LED Display Guide 2026",
     "u": "/blog/led-music-studio-guide",
     "d": "Guide for LED displays in recording studios, music production suites and audio post-production. Reference displays, session visualization.",
@@ -1905,12 +1863,6 @@
     "t": "Outdoor Kitchen &amp; BBQ Area LED Display Guide 2026",
     "u": "/blog/led-outdoor-kitchen-guide",
     "d": "Guide for LED display installations in outdoor kitchens, BBQ areas and patio entertainment zones. Weather-resistant entertainment screens.",
-    "c": "Guide"
-  },
-  {
-    "t": "Outdoor Rental LED Guide 2026: Panels Built for Touring",
-    "u": "/blog/led-outdoor-rental-guide",
-    "d": "How outdoor rental LED panels are built for touring: 500x500mm cabinets, fast locks, IP rating, rigging and flight cases, with pitch selection.",
     "c": "Guide"
   },
   {
@@ -1986,12 +1938,6 @@
     "c": "Guide"
   },
   {
-    "t": "Retail Store Window LED Display Guide 2026",
-    "u": "/blog/led-retail-window-guide",
-    "d": "Guide for LED displays in retail store windows and shopfronts. Transparent window displays, digital signage, after-hours advertising.",
-    "c": "Guide"
-  },
-  {
     "t": "Rooftop LED Signage 2026: High-Rise Display Guide",
     "u": "/blog/led-rooftop-signage-guide",
     "d": "Rooftop and high-rise LED signage — structural loads, wind rating, brightness and permits, plus what to check before commissioning a skyline screen.",
@@ -2025,12 +1971,6 @@
     "t": "Sports Betting Venue LED Guide 2026: Odds Boards and Walls",
     "u": "/blog/led-sports-betting-guide",
     "d": "How sportsbooks and betting venues use LED: odds boards, video walls, ticker displays, data feeds and the redundancy that keeps them running.",
-    "c": "Guide"
-  },
-  {
-    "t": "Stadium LED Display Guide 2026: Scoreboard &amp; Perimeter",
-    "u": "/blog/led-sports-stadium-buying-guide",
-    "d": "Complete stadium LED display buying guide 2026. How to choose scoreboards, perimeter LED boards, and large video screens for sports venues.",
     "c": "Guide"
   },
   {
@@ -2109,12 +2049,6 @@
     "t": "Wedding LED Display Guide 2026: Rental Video Walls",
     "u": "/blog/led-wedding-guide",
     "d": "Wedding and banquet LED video walls: camera-friendly refresh rates, pitch for photography, backdrop content ideas, and venue rental logistics.",
-    "c": "Guide"
-  },
-  {
-    "t": "Church LED Display Guide 2026: Worship Sanctuary Screens",
-    "u": "/blog/led-worship-church-guide",
-    "d": "Church and worship LED screens: pitch and brightness for sanctuaries, projector replacement, heritage retrofits, and a volunteer content workflow.",
     "c": "Guide"
   },
   {
@@ -2259,12 +2193,6 @@
     "t": "Top LED Display Manufacturers in China 2026: How to Choose",
     "u": "/blog/top-10-led-display-manufacturers-china-2026",
     "d": "How the top LED display manufacturers in China are ranked, and the checks US and EU importers should run before committing to a factory partner.",
-    "c": "Guide"
-  },
-  {
-    "t": "Transparent LED Display Guide 2026: Glass Facade Screens",
-    "u": "/blog/transparent-led-guide",
-    "d": "Transparent LED displays explained: transparency rates, pixel pitch trade-offs, glass facade mounting, and brightness for indoor and outdoor use.",
     "c": "Guide"
   },
   {
@@ -2517,6 +2445,186 @@
     "t": "Stadium Video Board Size and Sightlines",
     "u": "/blog/stadium-videoboard-sightline-guide",
     "d": "Size a stadium LED video board from viewing distance, pitch and sightlines, including bowl versus arena, and what to confirm on the quotation.",
+    "c": "Guide"
+  },
+  {
+    "t": "Bond-Funded LED Display Projects: What Schools Can and Cannot Buy",
+    "u": "/blog/bond-funded-led-display-projects",
+    "d": "How a school bond works as a funding source for LED displays — what capital money can cover, the project timeline, and the procurement conditions that attach to it.",
+    "c": "Guide"
+  },
+  {
+    "t": "Building Facade LED Displays: Permits, Zoning and Sign Codes",
+    "u": "/blog/building-facade-led-display-permits",
+    "d": "Why a building facade LED display is a planning approval before it is a purchase — sign codes, zoning, brightness limits and design review, and who has to file the application.",
+    "c": "Guide"
+  },
+  {
+    "t": "Carbon Fiber LED Display Cabinets vs Aluminium: 2026 Guide",
+    "u": "/blog/carbon-fiber-rental-led-cabinet-guide",
+    "d": "Carbon fiber LED display cabinets vs die-cast aluminium and magnesium for rental and stage fleets: real weights, heat, corrosion, repair and what to ask.",
+    "c": "Guide"
+  },
+  {
+    "t": "CoB dvLED: What Chip-on-Board Changes for Integrators",
+    "u": "/blog/cob-dvled-for-av-integrators",
+    "d": "CoB dvLED replaces the packaged LED with a directly bonded chip. What that changes for AV integrators — durability, viewing angle, maintenance and pitch.",
+    "c": "Guide"
+  },
+  {
+    "t": "Experience Center LED Video Walls: What Enterprise Buyers Specify",
+    "u": "/blog/corporate-experience-center-led-video-wall",
+    "d": "An experience center screen carries the brand in a controlled room — why colour accuracy, seamlessness and content workflow matter more than raw brightness, and who buys it.",
+    "c": "Guide"
+  },
+  {
+    "t": "Standardising LED Displays Across Multiple Corporate Sites",
+    "u": "/blog/corporate-led-display-standardization-multi-site",
+    "d": "Why large organisations standardise on one LED display specification across sites — what to standardise, what to leave local, and how a rollout is phased and procured.",
+    "c": "Guide"
+  },
+  {
+    "t": "Custom LED Display Manufacturer: What Custom Really Covers",
+    "u": "/blog/custom-led-display-manufacturer",
+    "d": "What a custom LED display actually means — cabinet size, pitch, shape and finish — what a factory can change, and what it cannot. A buyer",
+    "c": "Guide"
+  },
+  {
+    "t": "dvLED Bid Spec: What to Write So Quotes Stay Honest",
+    "u": "/blog/dvled-bid-spec-guide",
+    "d": "A dvLED bid spec that names the right seven items stops suppliers from quoting a de-specified wall. What to write, and what to leave out of the tender.",
+    "c": "Guide"
+  },
+  {
+    "t": "dvLED Buyer's Guide for Enterprise IT and Facilities",
+    "u": "/blog/dvled-buyers-guide-enterprise-it",
+    "d": "A practical dvLED buying guide for the end-user side of the project — IT directors, facilities managers and procurement, who own the outcome but not the installation.",
+    "c": "Guide"
+  },
+  {
+    "t": "dvLED Contract Vehicles: How AV Integrators Buy Walls",
+    "u": "/blog/dvled-contract-vehicles-for-av-integrators",
+    "d": "Contract vehicles decide how an integrator buys dvLED — direct, through distribution, or via a GSA schedule or cooperative contract. What each route changes.",
+    "c": "Guide"
+  },
+  {
+    "t": "dvLED for Architects and Interior Designers",
+    "u": "/blog/dvled-for-architects-and-interior-designers",
+    "d": "What architects and interior designers need to know about dvLED walls — sightlines, structure, finishes, coordination and how to design a screen into a space.",
+    "c": "Guide"
+  },
+  {
+    "t": "dvLED Installation: Site Survey and Wall Preparation",
+    "u": "/blog/dvled-installation-site-survey-guide",
+    "d": "What to check before a dvLED wall is installed — wall structure, power, service access, viewing geometry and the site conditions that cause rework.",
+    "c": "Guide"
+  },
+  {
+    "t": "dvLED for Lobbies and Entrances: Design and Specification",
+    "u": "/blog/dvled-lobby-and-entrance-display-guide",
+    "d": "Specifying a dvLED wall for a lobby or entrance — brightness against daylight, sightlines from the door, service access and how the screen reads from outside.",
+    "c": "Guide"
+  },
+  {
+    "t": "Briefing an Integrator on a dvLED Project",
+    "u": "/blog/dvled-project-brief-for-integrators",
+    "d": "How an end user should brief and select an AV integrator for a dvLED wall — what to put in the brief, what to ask, and how to compare proposals on the same basis.",
+    "c": "Guide"
+  },
+  {
+    "t": "dvLED Submittal and Cut Sheet Guide for US Projects",
+    "u": "/blog/dvled-submittal-cut-sheet-guide",
+    "d": "What a dvLED submittal package contains, what belongs on a cut sheet, and which documents the manufacturer should supply for a US project approval.",
+    "c": "Guide"
+  },
+  {
+    "t": "dvLED Wall Preparation: What the Building Must Provide",
+    "u": "/blog/dvled-wall-preparation-building-requirements",
+    "d": "A dvLED wall is a building change as much as an AV purchase. What the structure, power, access and fire requirements are, and who is responsible for each.",
+    "c": "Guide"
+  },
+  {
+    "t": "Facade LED Display Procurement: How a Media Facade Gets Bought",
+    "u": "/blog/facade-led-display-procurement-guide",
+    "d": "Who buys a media facade, how the deal is structured — owner-funded, design-build or media-operator — and why the display is specified before the screen is ordered.",
+    "c": "Guide"
+  },
+  {
+    "t": "Football Stadium LED Screens: Perimeter Boards, Big Screens and Broadcast Specs",
+    "u": "/blog/football-stadium-led-display-guide",
+    "d": "Football stadium LED screens explained: pitch-side perimeter boards, big screens and scoreboards, player safety, flicker-free broadcast and sponsor rotation, and what clubs should specify.",
+    "c": "Guide"
+  },
+  {
+    "t": "Front Service vs Rear Service LED Display: 2026 Guide",
+    "u": "/blog/front-vs-rear-service-led-display",
+    "d": "Front service vs rear service LED displays: how each is maintained, wall depth and ADA protrusion limits, service corridors, lifetime cost and how to choose.",
+    "c": "Guide"
+  },
+  {
+    "t": "GPO Contracts for Healthcare LED Displays: How They Work",
+    "u": "/blog/gpo-contracts-healthcare-led-displays",
+    "d": "How group purchasing organisations shape healthcare LED display purchases — how a product gets on contract, why it shortens the hospital",
+    "c": "Guide"
+  },
+  {
+    "t": "University LED Display Procurement: How Higher Ed Buys",
+    "u": "/blog/higher-education-led-display-procurement",
+    "d": "Why a university is not one buyer but many — departmental budgets, donor gifts, consortium contracts and athletics — and how that changes an LED display purchase.",
+    "c": "Guide"
+  },
+  {
+    "t": "How Enterprises Buy LED Displays: IT, Facilities and Procurement",
+    "u": "/blog/how-enterprises-buy-led-displays",
+    "d": "How a large company buys an LED display — who owns the decision, why the integrator is almost always in the middle, and how capital, lease and service models differ.",
+    "c": "Guide"
+  },
+  {
+    "t": "How Hospitals Buy LED Displays: Healthcare Procurement Explained",
+    "u": "/blog/how-hospitals-buy-led-displays",
+    "d": "How a hospital actually buys an LED display — the GPO layer, capital and foundation funding, multi-site standardisation, and who signs off before a screen is ordered.",
+    "c": "Guide"
+  },
+  {
+    "t": "How School Districts Buy LED Displays: A Procurement Guide",
+    "u": "/blog/how-school-districts-buy-led-displays",
+    "d": "How K-12 school districts actually buy LED displays — who signs off, where the money comes from, the RFP and co-op routes, and what a vendor must bring to a school bid.",
+    "c": "Guide"
+  },
+  {
+    "t": "Landmark Facade LED Integration: Structure, Weight and Wind",
+    "u": "/blog/landmark-facade-led-structural-integration",
+    "d": "A facade LED screen is a building element, not equipment — how weight, wind load, thermal behaviour and service access are resolved with the facade and structural engineers.",
+    "c": "Guide"
+  },
+  {
+    "t": "Infection Control and LED Displays in Healthcare: What It Changes",
+    "u": "/blog/led-display-infection-control-healthcare",
+    "d": "Why infection prevention shapes a hospital LED display specification — cleanable surfaces, closed cabinets, the construction risk assessment, and installing in an occupied building.",
+    "c": "Guide"
+  },
+  {
+    "t": "LED Display Manufacturer for Rental Companies",
+    "u": "/blog/led-display-manufacturer-for-rental-companies",
+    "d": "What a rental company needs from an LED display manufacturer — panel durability, fleet standardisation, spares and lead time — and how to choose a supplier for a touring fleet.",
+    "c": "Guide"
+  },
+  {
+    "t": "LED Display for Retail Brands: What the Brand Owner Specifies",
+    "u": "/blog/led-display-retail-brand-owner-guide",
+    "d": "A guide for retail brand owners buying LED displays — what to specify, how to brief an integrator, and what the brand is actually responsible for.",
+    "c": "Guide"
+  },
+  {
+    "t": "Sports Event LED Displays for Match Day and Event Operations",
+    "u": "/blog/sports-event-led-display-guide",
+    "d": "On a match day the screens are an operations tool, not equipment — who controls them, how sponsorship rotation and replays are run, and what to rehearse before the event.",
+    "c": "Guide"
+  },
+  {
+    "t": "What Is a dvLED Video Wall? Direct-View LED Definition and Uses",
+    "u": "/blog/what-is-a-dvled-video-wall",
+    "d": "A dvLED video wall is a direct-view LED display built from cabinets, with no LCD bezels. Definition, how it differs from LCD video walls, typical pixel pitches and main applications.",
     "c": "Guide"
   }
 ]
