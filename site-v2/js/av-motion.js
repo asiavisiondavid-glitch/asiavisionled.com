@@ -1,22 +1,18 @@
 (function(){
  var reduce=matchMedia('(prefers-reduced-motion: reduce)').matches,vh=innerHeight;
  // 滚动揭示：只作用于加载时完全位于首屏以下的区块/卡片，保证 LCP 不受影响
+ /* 滚动揭示（11-05 重构）：只揭示卡片与区块标题，不再整段 section 淡入（大面积重绘）；
+    先一次性批量读取位置、再批量写入 class（避免读写交错的强制同步布局）；IO 一次性触发后 unobserve；无 scroll 监听。 */
  if(!reduce&&'IntersectionObserver' in window){
-  var groups=new Map(),below=function(el){return el.getBoundingClientRect().top>=vh*1.05},skip='header,nav,.mega-menu,.mobile-nav,footer,.av-blognav';
-  var mark=function(el){var p=el.parentElement,i=groups.get(p)||0;groups.set(p,i+1);el.style.setProperty('--i',Math.min(i,8));el.classList.add('av-reveal');io.observe(el);};
-  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('is-in');io.unobserve(e.target);}})},{rootMargin:'0px 0px -8% 0px'});
-  // 1) 卡片与正文图：按父容器错峰（60ms × 序号，最多 8 级）
-  document.querySelectorAll('.ui-card, .card, .rel-card, .case-card, .product-card, .guide-card, .sc-card, .fc-card, .article-img, .table-wrap').forEach(function(el){
-   if(el.closest(skip)||el.closest('.av-reveal')||!below(el))return; mark(el);});
-  // 2) 不含卡片的区块：整体淡入；含卡片的区块只淡入其标题区
-  document.querySelectorAll('main section, body > section').forEach(function(sec){
-   if(sec.closest(skip)||!below(sec))return;
-   if(!sec.querySelector('.av-reveal')){mark(sec);return;}
-   sec.querySelectorAll(':scope h2, :scope .section-header').forEach(function(h){if(!h.closest('.av-reveal')&&below(h))mark(h);});
-  });
-  var chk=function(){document.querySelectorAll('.av-reveal:not(.is-in)').forEach(function(el){if(el.getBoundingClientRect().top<innerHeight*0.98)el.classList.add('is-in')})};
-  requestAnimationFrame(chk);addEventListener('load',chk);
-  setTimeout(function(){document.querySelectorAll('.av-reveal:not(.is-in)').forEach(function(el){if(el.getBoundingClientRect().top<innerHeight)el.classList.add('is-in')})},3000);
+  var skip='header,nav,.mega-menu,.mobile-nav,footer,.av-blognav,.cob-carousel,.hero-full';
+  var cand=[].slice.call(document.querySelectorAll('.ui-card, .card, .rel-card, .case-card, .product-card, .guide-card, .sc-card, .fc-card, .article-img, .table-wrap, main .section-header, body > section .section-header'))
+   .filter(function(el){return !el.closest(skip)&&!el.parentElement.closest('.ui-card,.card,.product-card,.case-card')});
+  var tops=cand.map(function(el){return el.getBoundingClientRect().top});           // 批量读
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('is-in');io.unobserve(e.target);}})},{rootMargin:'0px 0px -6% 0px'});
+  var groups=new Map();
+  cand.forEach(function(el,k){if(tops[k]<vh*1.02)return;                              // 首屏内元素不动画
+   var p=el.parentElement,i=groups.get(p)||0;groups.set(p,i+1);
+   el.style.setProperty('--i',Math.min(i,5));el.classList.add('av-reveal');io.observe(el);}); // 批量写
  }
  // 头部 scrolled 状态（IO 替代 scroll 监听）
  var h=document.querySelector('.header');

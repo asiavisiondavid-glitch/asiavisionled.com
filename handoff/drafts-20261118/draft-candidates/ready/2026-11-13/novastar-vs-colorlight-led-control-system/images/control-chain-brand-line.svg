@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1152pt" height="648pt" viewBox="0 0 1152 648" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-13T04:11:53.123633</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 648 
+L 1152 648 
+L 1152 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 32.688 313.9776 
+L 202.032 313.9776 
+Q 207.6768 313.9776 207.6768 309.6 
+L 207.6768 205.632 
+Q 207.6768 201.2544 202.032 201.2544 
+L 32.688 201.2544 
+Q 27.0432 201.2544 27.0432 205.632 
+L 27.0432 309.6 
+Q 27.0432 313.9776 32.688 313.9776 
+z
+" clip-path="url(#p55b65919d6)" style="fill: #eef1f5; stroke: #8a94a6; stroke-width: 2.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 251.424 313.9776 
+L 456.048 313.9776 
+Q 461.6928 313.9776 461.6928 309.6 
+L 461.6928 205.632 
+Q 461.6928 201.2544 456.048 201.2544 
+L 251.424 201.2544 
+Q 245.7792 201.2544 245.7792 205.632 
+L 245.7792 309.6 
+Q 245.7792 313.9776 251.424 313.9776 
+z
+" clip-path="url(#p55b65919d6)" style="fill: #fbebc8; stroke: #e07a1f; stroke-width: 2.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 505.44 313.9776 
+L 688.896 313.9776 
+Q 694.5408 313.9776 694.5408 309.6 
+L 694.5408 205.632 
+Q 694.5408 201.2544 688.896 201.2544 
+L 505.44 201.2544 
+Q 499.7952 201.2544 499.7952 205.632 
+L 499.7952 309.6 
+Q 499.7952 313.9776 505.44 313.9776 
+z
+" clip-path="url(#p55b65919d6)" style="fill: #fbebc8; stroke: #e07a1f; stroke-width: 2.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 738.288 313.9776 
+L 914.688 313.9776 
+Q 920.3328 313.9776 920.3328 309.6 
+L 920.3328 205.632 
+Q 920.3328 201.2544 914.688 201.2544 
+L 738.288 201.2544 
+Q 732.6432 201.2544 732.6432 205.632 
+L 732.6432 309.6 
+Q 732.6432 313.9776 738.288 313.9776 
+z
+" clip-path="url(#p55b65919d6)" style="fill: #fbebc8; stroke: #e07a1f; stroke-width: 2.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 957.024 313.9776 
+L 1119.312 313.9776 
+Q 1124.9568 313.9776 1124.9568 309.6 
+L 1124.9568 205.632 
+Q 1124.9568 201.2544 1119.312 201.2544 
+L 957.024 201.2544 
+Q 951.3792 201.2544 951.3792 205.632 
+L 951.3792 309.6 
+Q 951.3792 313.9776 957.024 313.9776 
+z
+" clip-path="url(#p55b65919d6)" style="fill: #dcebf8; stroke: #1e73be; stroke-width: 2.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 738.288 461.7216 
+L 914.688 461.7216 
+Q 920.3328 461.7216 920.3328 457.344 
+L 920.3328 375.264 
+Q 920.3328 370.8864 914.688 370.8864 
+L 738.288 370.8864 
+Q 732.6432 370.8864 732.6432 375.264 
+L 732.6432 457.344 
+Q 732.6432 461.7216 738.288 461.7216 
+z
+" clip-path="url(#p55b65919d6)" style="fill: #fbebc8; stroke: #e07a1f; stroke-width: 2.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 957.024 461.7216 
+L 1119.312 461.7216 
+Q 1124.9568 461.7216 1124.9568 457.344 
+L 1124.9568 375.264 
+Q 1124.9568 370.8864 1119.312 370.8864 
+L 957.024 370.8864 
+Q 951.3792 370.8864 951.3792 375.264 
+L 951.3792 457.344 
+Q 951.3792 461.7216 957.024 461.7216 
+z
+" clip-path="url(#p55b65919d6)" style="fill: #dcebf8; stroke: #1e73be; stroke-width: 2.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 251.424 461.7216 
+L 463.104 461.7216 
+Q 468.7488 461.7216 468.7488 457.344 
+L 468.7488 375.264 
+Q 468.7488 370.8864 463.104 370.8864 
+L 251.424 370.8864 
+Q 245.7792 370.8864 245.7792 375.264 
+L 245.7792 457.344 
+Q 245.7792 461.7216 251.424 461.7216 
+z
+" clip-path="url(#p55b65919d6)" style="fill: #fbebc8; stroke: #e07a1f; stroke-width: 2.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 32.688 553.104 
+L 64.44 553.104 
+L 64.44 533.952 
+L 32.688 533.952 
+z
+" clip-path="url(#p55b65919d6)" style="fill: #fbebc8; stroke: #e07a1f; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 364.32 553.104 
+L 396.072 553.104 
+L 396.072 533.952 
+L 364.32 533.952 
+z
+" clip-path="url(#p55b65919d6)" style="fill: #dcebf8; stroke: #1e73be; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 251.424 186.48 
+L 251.424 167.328 
+L 914.688 167.328 
+L 914.688 186.48 
+" clip-path="url(#p55b65919d6)" style="fill: none; stroke: #e07a1f; stroke-width: 3; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 14.5px; font-family: 'DejaVu Sans'; fill: #0b1f3a" transform="translate(70.666602 243.97977)">Video source</text>
+    <text style="font-size: 14.5px; font-family: 'DejaVu Sans'; fill: #0b1f3a" transform="translate(64.389688 261.383734)">(media server,</text>
+    <text style="font-size: 14.5px; font-family: 'DejaVu Sans'; fill: #0b1f3a" transform="translate(73.113477 278.786566)">PC, camera)</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 14.5px; font-family: 'DejaVu Sans'; fill: #0b1f3a" transform="translate(309.096391 252.680619)">Processor or</text>
+    <text style="font-size: 14.5px; font-family: 'DejaVu Sans'; fill: #0b1f3a" transform="translate(328.859438 270.084584)">sender</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 14.5px; font-family: 'DejaVu Sans'; fill: #0b1f3a" transform="translate(558.04632 252.681186)">Data cable</text>
+    <text style="font-size: 14.5px; font-family: 'DejaVu Sans'; fill: #0b1f3a" transform="translate(551.732023 270.08515)">Cat6 or fibre</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 14.5px; font-family: 'DejaVu Sans'; fill: #0b1f3a" transform="translate(773.160852 252.681186)">Receiving card</text>
+    <text style="font-size: 14.5px; font-family: 'DejaVu Sans'; fill: #0b1f3a" transform="translate(765.184719 270.08515)">(in each cabinet)</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 14.5px; font-family: 'DejaVu Sans'; fill: #0b1f3a" transform="translate(994.19675 252.681186)">Driver ICs +</text>
+    <text style="font-size: 14.5px; font-family: 'DejaVu Sans'; fill: #0b1f3a" transform="translate(990.713352 270.08515)">LED modules</text>
+   </g>
+   <g id="patch_12">
+    <path d="M 211.09188 257.616 
+Q 228.494316 257.616 243.213471 257.616 
+" style="fill: none; stroke: #0b1f3a; stroke-width: 2.4; stroke-linecap: round"/>
+    <path d="M 239.213471 255.616 
+L 243.213471 257.616 
+L 239.213471 259.616 
+" style="fill: none; stroke: #0b1f3a; stroke-width: 2.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 465.10788 257.616 
+Q 482.510316 257.616 497.229471 257.616 
+" style="fill: none; stroke: #0b1f3a; stroke-width: 2.4; stroke-linecap: round"/>
+    <path d="M 493.229471 255.616 
+L 497.229471 257.616 
+L 493.229471 259.616 
+" style="fill: none; stroke: #0b1f3a; stroke-width: 2.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 697.95588 257.616 
+Q 715.358316 257.616 730.077471 257.616 
+" style="fill: none; stroke: #0b1f3a; stroke-width: 2.4; stroke-linecap: round"/>
+    <path d="M 726.077471 255.616 
+L 730.077471 257.616 
+L 726.077471 259.616 
+" style="fill: none; stroke: #0b1f3a; stroke-width: 2.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 923.740128 257.616 
+Q 937.617363 257.616 948.811316 257.616 
+" style="fill: none; stroke: #0b1f3a; stroke-width: 2.4; stroke-linecap: round"/>
+    <path d="M 944.811316 255.616 
+L 948.811316 257.616 
+L 944.811316 259.616 
+" style="fill: none; stroke: #0b1f3a; stroke-width: 2.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #e07a1f" x="583.056" y="153.648" transform="rotate(-0 583.056 153.648)">Brand-locked: NovaStar sender needs NovaStar cards, Colorlight needs Colorlight</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; fill: #0b1f3a" transform="translate(770.44175 411.879684)">Configuration file</text>
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; fill: #0b1f3a" transform="translate(767.867141 427.483238)">+ calibration data</text>
+   </g>
+   <g id="patch_16">
+    <path d="M 826.488 370.525764 
+Q 826.488 342.430663 826.488 316.795238 
+" style="fill: none; stroke: #e07a1f; stroke-width: 2.2; stroke-linecap: round"/>
+    <path d="M 824.488 320.795238 
+L 826.488 316.795238 
+L 828.488 320.795238 
+" style="fill: none; stroke: #e07a1f; stroke-width: 2.2; stroke-linecap: round"/>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; fill: #0b1f3a" transform="translate(992.972688 411.879684)">Power supply,</text>
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; fill: #0b1f3a" transform="translate(992.671047 427.483238)">cabinet frame</text>
+   </g>
+   <g id="patch_17">
+    <path d="M 1038.168 370.525764 
+Q 1038.168 342.430663 1038.168 316.795238 
+" style="fill: none; stroke: #1e73be; stroke-width: 2.2; stroke-linecap: round"/>
+    <path d="M 1036.168 320.795238 
+L 1038.168 316.795238 
+L 1040.168 320.795238 
+" style="fill: none; stroke: #1e73be; stroke-width: 2.2; stroke-linecap: round"/>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; fill: #0b1f3a" transform="translate(313.182828 411.879684)">Configuration</text>
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; fill: #0b1f3a" transform="translate(329.350563 427.483238)">software</text>
+   </g>
+   <g id="patch_18">
+    <path d="M 357.264 370.525764 
+Q 357.264 342.430663 357.264 316.795238 
+" style="fill: none; stroke: #e07a1f; stroke-width: 2.2; stroke-linecap: round"/>
+    <path d="M 355.264 320.795238 
+L 357.264 316.795238 
+L 359.264 320.795238 
+" style="fill: none; stroke: #e07a1f; stroke-width: 2.2; stroke-linecap: round"/>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 13.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b1f3a" x="75.024" y="547.308963" transform="rotate(-0 75.024 547.308963)">Tied to one control family</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 13.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b1f3a" x="406.656" y="547.308963" transform="rotate(-0 406.656 547.308963)">Brand-neutral (but the card must be configured for it)</text>
+   </g>
+  </g>
+  <g id="text_12">
+   <text style="font-weight: 700; font-size: 24px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b1f3a" x="23.04" y="45.36" transform="rotate(-0 23.04 45.36)">Where the control brand line runs in an LED wall</text>
+  </g>
+  <g id="text_13">
+   <text style="font-size: 14px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #8a94a6" x="23.04" y="74.52" transform="rotate(-0 23.04 74.52)">Schematic, simplified</text>
+  </g>
+  <g id="text_14">
+   <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #8a94a6" x="17.28" y="636.336" transform="rotate(-0 17.28 636.336)">Sources: NovaStar and Colorlight product sites; DDW and REILED compatibility guides (2026). Asia Vision editorial diagram.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p55b65919d6">
+   <rect x="11.52" y="90.72" width="1128.96" height="492.48"/>
+  </clipPath>
+ </defs>
+<text x="1573" y="873" text-anchor="end" font-family="DejaVu Sans, Arial, sans-serif" font-weight="bold" font-size="33" fill="#0B1F3A" fill-opacity="0.37">asiavisionled.com</text>
+</svg>

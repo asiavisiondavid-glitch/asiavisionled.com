@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1152pt" height="648pt" viewBox="0 0 1152 648" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-13T04:16:27.393201</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 648 
+L 1152 648 
+L 1152 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 39.744 329.9616 
+L 191.448 329.9616 
+Q 195.6816 329.9616 195.6816 326.592 
+L 195.6816 236.736 
+Q 195.6816 233.3664 191.448 233.3664 
+L 39.744 233.3664 
+Q 35.5104 233.3664 35.5104 236.736 
+L 35.5104 326.592 
+Q 35.5104 329.9616 39.744 329.9616 
+z
+" clip-path="url(#p5f1581e814)" style="fill: #eef1f5; stroke: #8a94a6; stroke-width: 2.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 226.728 329.9616 
+L 378.432 329.9616 
+Q 382.6656 329.9616 382.6656 326.592 
+L 382.6656 236.736 
+Q 382.6656 233.3664 378.432 233.3664 
+L 226.728 233.3664 
+Q 222.4944 233.3664 222.4944 236.736 
+L 222.4944 326.592 
+Q 222.4944 329.9616 226.728 329.9616 
+z
+" clip-path="url(#p5f1581e814)" style="fill: #fbebc8; stroke: #e07a1f; stroke-width: 2.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 413.712 329.9616 
+L 565.416 329.9616 
+Q 569.6496 329.9616 569.6496 326.592 
+L 569.6496 236.736 
+Q 569.6496 233.3664 565.416 233.3664 
+L 413.712 233.3664 
+Q 409.4784 233.3664 409.4784 236.736 
+L 409.4784 326.592 
+Q 409.4784 329.9616 413.712 329.9616 
+z
+" clip-path="url(#p5f1581e814)" style="fill: #dcebf8; stroke: #1e73be; stroke-width: 2.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 600.696 329.9616 
+L 752.4 329.9616 
+Q 756.6336 329.9616 756.6336 326.592 
+L 756.6336 236.736 
+Q 756.6336 233.3664 752.4 233.3664 
+L 600.696 233.3664 
+Q 596.4624 233.3664 596.4624 236.736 
+L 596.4624 326.592 
+Q 596.4624 329.9616 600.696 329.9616 
+z
+" clip-path="url(#p5f1581e814)" style="fill: #dcebf8; stroke: #0b1f3a; stroke-width: 2.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 787.68 329.9616 
+L 939.384 329.9616 
+Q 943.6176 329.9616 943.6176 326.592 
+L 943.6176 236.736 
+Q 943.6176 233.3664 939.384 233.3664 
+L 787.68 233.3664 
+Q 783.4464 233.3664 783.4464 236.736 
+L 783.4464 326.592 
+Q 783.4464 329.9616 787.68 329.9616 
+z
+" clip-path="url(#p5f1581e814)" style="fill: #dcebf8; stroke: #1e73be; stroke-width: 2.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 974.664 329.9616 
+L 1126.368 329.9616 
+Q 1130.6016 329.9616 1130.6016 326.592 
+L 1130.6016 236.736 
+Q 1130.6016 233.3664 1126.368 233.3664 
+L 974.664 233.3664 
+Q 970.4304 233.3664 970.4304 236.736 
+L 970.4304 326.592 
+Q 970.4304 329.9616 974.664 329.9616 
+z
+" clip-path="url(#p5f1581e814)" style="fill: #e3f3e5; stroke: #2a9d3f; stroke-width: 2.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 600.696 191.808 
+L 752.4 191.808 
+" clip-path="url(#p5f1581e814)" style="fill: none"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 14px; font-family: 'DejaVu Sans'; fill: #0b1f3a" transform="translate(75.178656 276.899352)">Mines and</text>
+    <text style="font-weight: 700; font-size: 14px; font-family: 'DejaVu Sans'; fill: #0b1f3a" transform="translate(86.698031 293.70318)">traders</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #333333" transform="translate(89.9535 362.182359)">3TG ore,</text>
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #333333" transform="translate(99.218813 376.584703)">scrap</text>
+   </g>
+   <g id="patch_8">
+    <path d="M 197.681432 262.008 
+Q 209.086856 262.008 217.808998 262.008 
+" style="fill: none; stroke: #0b1f3a; stroke-width: 2.4; stroke-linecap: round"/>
+    <path d="M 213.808998 260.008 
+L 217.808998 262.008 
+L 213.808998 264.008 
+" style="fill: none; stroke: #0b1f3a; stroke-width: 2.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 220.494568 301.32 
+Q 209.089144 301.32 200.367002 301.32 
+" style="fill: none; stroke: #e07a1f; stroke-width: 2.4; stroke-linecap: round"/>
+    <path d="M 204.367002 303.32 
+L 200.367002 301.32 
+L 204.367002 299.32 
+" style="fill: none; stroke: #e07a1f; stroke-width: 2.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 14px; font-family: 'DejaVu Sans'; fill: #0b1f3a" transform="translate(250.230937 276.899352)">Smelters and</text>
+    <text style="font-weight: 700; font-size: 14px; font-family: 'DejaVu Sans'; fill: #0b1f3a" transform="translate(271.842344 293.70318)">refiners</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #333333" transform="translate(265.171875 362.183297)">RMAP audits</text>
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #333333" transform="translate(277.449375 376.586578)">are here</text>
+   </g>
+   <g id="patch_10">
+    <path d="M 384.665432 262.008 
+Q 396.070856 262.008 404.792998 262.008 
+" style="fill: none; stroke: #0b1f3a; stroke-width: 2.4; stroke-linecap: round"/>
+    <path d="M 400.792998 260.008 
+L 404.792998 262.008 
+L 400.792998 264.008 
+" style="fill: none; stroke: #0b1f3a; stroke-width: 2.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 407.478568 301.32 
+Q 396.073144 301.32 387.351002 301.32 
+" style="fill: none; stroke: #e07a1f; stroke-width: 2.4; stroke-linecap: round"/>
+    <path d="M 391.351002 303.32 
+L 387.351002 301.32 
+L 391.351002 299.32 
+" style="fill: none; stroke: #e07a1f; stroke-width: 2.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 14px; font-family: 'DejaVu Sans'; fill: #0b1f3a" transform="translate(444.443531 276.898805)">Component</text>
+    <text style="font-weight: 700; font-size: 14px; font-family: 'DejaVu Sans'; fill: #0b1f3a" transform="translate(460.713063 293.702633)">makers</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #333333" transform="translate(445.393687 362.183297)">LED chips, ICs,</text>
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #333333" transform="translate(432.3465 376.586578)">capacitors, boards,</text>
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #333333" transform="translate(444.414 390.989859)">power supplies</text>
+   </g>
+   <g id="patch_12">
+    <path d="M 571.649432 262.008 
+Q 583.054856 262.008 591.776998 262.008 
+" style="fill: none; stroke: #0b1f3a; stroke-width: 2.4; stroke-linecap: round"/>
+    <path d="M 587.776998 260.008 
+L 591.776998 262.008 
+L 587.776998 264.008 
+" style="fill: none; stroke: #0b1f3a; stroke-width: 2.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 594.462568 301.32 
+Q 583.057144 301.32 574.335002 301.32 
+" style="fill: none; stroke: #e07a1f; stroke-width: 2.4; stroke-linecap: round"/>
+    <path d="M 578.335002 303.32 
+L 574.335002 301.32 
+L 578.335002 299.32 
+" style="fill: none; stroke: #e07a1f; stroke-width: 2.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 14px; font-family: 'DejaVu Sans'; fill: #0b1f3a" transform="translate(630.999875 276.899352)">LED display</text>
+    <text style="font-weight: 700; font-size: 14px; font-family: 'DejaVu Sans'; fill: #0b1f3a" transform="translate(622.664406 293.70318)">manufacturer</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #333333" transform="translate(636.399562 362.183297)">CMRT, policy,</text>
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #333333" transform="translate(642.990187 376.586578)">smelter list</text>
+   </g>
+   <g id="patch_14">
+    <path d="M 758.633432 262.008 
+Q 770.038856 262.008 778.760998 262.008 
+" style="fill: none; stroke: #0b1f3a; stroke-width: 2.4; stroke-linecap: round"/>
+    <path d="M 774.760998 260.008 
+L 778.760998 262.008 
+L 774.760998 264.008 
+" style="fill: none; stroke: #0b1f3a; stroke-width: 2.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 781.446568 301.32 
+Q 770.041144 301.32 761.319002 301.32 
+" style="fill: none; stroke: #e07a1f; stroke-width: 2.4; stroke-linecap: round"/>
+    <path d="M 765.319002 303.32 
+L 761.319002 301.32 
+L 765.319002 299.32 
+" style="fill: none; stroke: #e07a1f; stroke-width: 2.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 14px; font-family: 'DejaVu Sans'; fill: #0b1f3a" transform="translate(818.118406 276.898805)">Importer or</text>
+    <text style="font-weight: 700; font-size: 14px; font-family: 'DejaVu Sans'; fill: #0b1f3a" transform="translate(823.262312 293.702633)">integrator</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #333333" transform="translate(831.684187 362.183297)">Passes the</text>
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #333333" transform="translate(832.481062 376.585641)">answer on</text>
+   </g>
+   <g id="patch_16">
+    <path d="M 945.617432 262.008 
+Q 957.022856 262.008 965.744998 262.008 
+" style="fill: none; stroke: #0b1f3a; stroke-width: 2.4; stroke-linecap: round"/>
+    <path d="M 961.744998 260.008 
+L 965.744998 262.008 
+L 961.744998 264.008 
+" style="fill: none; stroke: #0b1f3a; stroke-width: 2.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 968.430568 301.32 
+Q 957.025144 301.32 948.303002 301.32 
+" style="fill: none; stroke: #e07a1f; stroke-width: 2.4; stroke-linecap: round"/>
+    <path d="M 952.303002 303.32 
+L 948.303002 301.32 
+L 952.303002 299.32 
+" style="fill: none; stroke: #e07a1f; stroke-width: 2.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 14px; font-family: 'DejaVu Sans'; fill: #0b1f3a" transform="translate(996.355688 276.899352)">End customer</text>
+    <text style="font-weight: 700; font-size: 14px; font-family: 'DejaVu Sans'; fill: #0b1f3a" transform="translate(1013.530844 293.70318)">or tender</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #333333" transform="translate(1029.306 362.183297)">Files or</text>
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #333333" transform="translate(1037.1135 376.586578)">asks</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 14px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0b1f3a" x="576" y="152.496" transform="rotate(-0 576 152.496)">Metal and components flow downstream</text>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 14px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #e07a1f" x="576" y="186.192" transform="rotate(-0 576 186.192)">Declarations flow upstream to downstream, one tier at a time</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 14px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0b1f3a" x="576" y="483.84" transform="rotate(-0 576 483.84)">An LED display maker can report what its component suppliers report to it. It cannot trace a metal atom to a mine.</text>
+   </g>
+  </g>
+  <g id="text_16">
+   <text style="font-weight: 700; font-size: 24px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b1f3a" x="34.56" y="45.36" transform="rotate(-0 34.56 45.36)">Where a conflict minerals answer comes from</text>
+  </g>
+  <g id="text_17">
+   <text style="font-size: 14px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #8a94a6" x="34.56" y="74.52" transform="rotate(-0 34.56 74.52)">Material moves left to right; declarations (CMRT) move right to left</text>
+  </g>
+  <g id="text_18">
+   <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #8a94a6" x="17.28" y="636.336" transform="rotate(-0 17.28 636.336)">Sources: OECD Due Diligence Guidance (electronics sector summary); RMI CMRT introduction; Asia Vision editorial diagram.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p5f1581e814">
+   <rect x="11.52" y="90.72" width="1128.96" height="505.44"/>
+  </clipPath>
+ </defs>
+<text x="1573" y="873" text-anchor="end" font-family="DejaVu Sans, Arial, sans-serif" font-weight="bold" font-size="33" fill="#0B1F3A" fill-opacity="0.37">asiavisionled.com</text>
+</svg>

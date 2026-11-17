@@ -29,6 +29,8 @@
     contact: 'contact.html'
   };
 
+  var CART_UI = false; // 2026-11-11: cart icon + slideout removed site-wide
+
   // Build cart HTML
   var cartHTML =
     '<div class="av-cart-overlay" id="avCartOverlay"></div>' +
@@ -40,7 +42,7 @@
     '<a href="'+T.contact+'" class="av-cart-submit" id="avCartSubmit">'+T.submit+'</a>' +
     '</div></div>';
 
-  document.body.insertAdjacentHTML('beforeend', cartHTML);
+  if (CART_UI) document.body.insertAdjacentHTML('beforeend', cartHTML);
 
   // State
   var cart = JSON.parse(localStorage.getItem('av-inquiry-v2') || '[]');
@@ -75,7 +77,7 @@
     '.prod-card:hover .av-inquiry-btn,.product-card:hover .av-inquiry-btn{opacity:1}' +
     '@media(max-width:500px){.av-cart-slideout{width:100%;right:-100%}}';
 
-  document.head.appendChild(style);
+  if (CART_UI) document.head.appendChild(style);
 
   // Functions
   function save() { localStorage.setItem('av-inquiry-v2', JSON.stringify(cart)); }
@@ -102,7 +104,9 @@
   };
 
   function renderCart() {
+    if (!CART_UI) return;
     var body = document.getElementById('avCartBody');
+    if (!body) return;
     var footer = document.getElementById('avCartFooter');
     if (cart.length === 0) {
       body.innerHTML = '<p class="av-cart-empty">'+T.empty+'</p>';
@@ -125,25 +129,35 @@
   }
 
   function openCart() {
-    document.getElementById('avCartSlideout').classList.add('open');
-    document.getElementById('avCartOverlay').classList.add('open');
+    if (!CART_UI) return;
+    var s = document.getElementById('avCartSlideout');
+    var o = document.getElementById('avCartOverlay');
+    if (s) s.classList.add('open');
+    if (o) o.classList.add('open');
   }
 
   function closeCart() {
-    document.getElementById('avCartSlideout').classList.remove('open');
-    document.getElementById('avCartOverlay').classList.remove('open');
+    if (!CART_UI) return;
+    var s = document.getElementById('avCartSlideout');
+    var o = document.getElementById('avCartOverlay');
+    if (s) s.classList.remove('open');
+    if (o) o.classList.remove('open');
   }
 
   window.toggleCart = function() {
+    if (!CART_UI) return;
     var slide = document.getElementById('avCartSlideout');
+    if (!slide) return;
     if (slide.classList.contains('open')) closeCart(); else openCart();
   };
 
-  document.getElementById('avCartClose').addEventListener('click', closeCart);
-  document.getElementById('avCartOverlay').addEventListener('click', closeCart);
-  document.getElementById('avCartSubmit').addEventListener('click', function() {
-    localStorage.setItem('av-inquiry-submit-v2', JSON.stringify(cart));
-  });
+  if (CART_UI) {
+    document.getElementById('avCartClose').addEventListener('click', closeCart);
+    document.getElementById('avCartOverlay').addEventListener('click', closeCart);
+    document.getElementById('avCartSubmit').addEventListener('click', function() {
+      localStorage.setItem('av-inquiry-submit-v2', JSON.stringify(cart));
+    });
+  }
 
   // Add buttons to existing product cards after they render
   function injectButtons() {
@@ -185,10 +199,12 @@
   setTimeout(injectButtons, 500);
   document.addEventListener('DOMContentLoaded', function() { setTimeout(injectButtons, 300); });
 
-  // Wire header cart icon
-  var cartIcon = document.querySelector('.header-actions button:nth-child(2)');
-  if (cartIcon) {
-    cartIcon.addEventListener('click', function(e) { e.preventDefault(); openCart(); });
+  // Header cart icon removed site-wide — do not bind nth-child(2) (would hit Search)
+  if (CART_UI) {
+    var cartIcon = document.querySelector('.header-actions button[aria-label="Cart"], .header-actions button[aria-label="询价"]');
+    if (cartIcon) {
+      cartIcon.addEventListener('click', function(e) { e.preventDefault(); openCart(); });
+    }
   }
 })();
 

@@ -20,7 +20,7 @@ gtag('config', 'G-N12LZG5H61');
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://asiavisionled.com/">
-<meta property="og:title" content="Shenzhen LED Display Manufacturer | Asia Vision — COB Rental">
+<meta property="og:title" content="LED Display Manufacturer in Shenzhen | COB &amp; Rental Screens">
 <meta property="og:description" content="Shenzhen LED display manufacturer for distributors, AV integrators and rental fleets. COB, rental, outdoor and custom LED screens, factory direct.">
 <meta property="og:image" content="https://asiavisionled.com/images/hero-aaa.jpg">
 <meta property="og:image:width" content="1200">
@@ -29,7 +29,7 @@ gtag('config', 'G-N12LZG5H61');
 <meta property="og:site_name" content="Asia Vision Technology">
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Shenzhen LED Display Manufacturer | Asia Vision — COB Rental">
+<meta name="twitter:title" content="LED Display Manufacturer in Shenzhen | COB &amp; Rental Screens">
 <meta name="twitter:description" content="Shenzhen LED display manufacturer for distributors, AV integrators and rental fleets. COB, rental, outdoor and custom LED screens, factory direct.">
 <meta name="twitter:image" content="https://asiavisionled.com/images/hero-aaa.jpg">
 <!-- Hreflang -->
@@ -42,10 +42,10 @@ gtag('config', 'G-N12LZG5H61');
 <style>
 /* ===== CSS CUSTOM PROPERTIES ===== */
 :root {--accent:#ff6b35;
-  --bg-deep: #fafafa;
+  --bg-deep: #ffffff;
   --bg-primary: #ffffff;
-  --bg-secondary: #f9f9f9;
-  --bg-tertiary: #f5f5f7;
+  --bg-secondary: #ffffff;
+  --bg-tertiary: #ffffff;
   --bg-card: rgba(255,255,255,0.95);
   --cyan: #ff6b35;
   --cyan-glow: rgba(255,107,53,0.1);
@@ -1345,7 +1345,7 @@ section{padding:100px 0}
 table.tt{width:100%;border-collapse:collapse;font-size:.78rem;table-layout:fixed}
 table.tt th{background:var(--bg-secondary);text-align:left;padding:11px 14px;font-weight:700;word-break:break-word;
   color:var(--white);border-bottom:2px solid var(--border-glass);font-size:.72rem;
-  letter-spacing:.4px;text-transform:uppercase;white-space:nowrap}
+  letter-spacing:.4px;text-transform:uppercase}
 table.tt td{padding:11px 14px;border-bottom:1px solid var(--border-glass);color:var(--white-70);line-height:1.55;word-break:break-word}
 table.tt tr:last-child td{border-bottom:0}
 table.tt td:first-child{font-weight:800;color:var(--cyan);white-space:nowrap}
@@ -1668,6 +1668,11 @@ table.tt td:first-child{font-weight:800;color:var(--cyan);white-space:nowrap}
 .cob-process-body h3{font-size:1rem;font-weight:800;color:var(--white);margin:8px 0 8px}
 .cob-process-body h3 span{font-weight:500;color:var(--white-50);font-size:.8rem;margin-left:6px}
 .cob-process-body p{font-size:.85rem;color:var(--white-70);line-height:1.7;margin:0}
+.cob-actions{display:flex;flex-wrap:wrap;align-items:center;gap:16px 24px;margin-top:28px}
+.cob-cta-btn{display:inline-flex;align-items:center;gap:8px;padding:12px 28px;border-radius:24px;background:var(--cyan);color:#fff;font-size:.88rem;font-weight:600;text-decoration:none;transition:background .25s,gap .25s}
+.cob-cta-btn:hover{background:#e55a2a;gap:13px}
+.cob-visit-link{font-size:.88rem;font-weight:600;color:var(--cyan);text-decoration:none}
+.cob-visit-link:hover{color:#e55a2a}
 .cob-actions a:focus-visible{outline:2px solid var(--cyan);outline-offset:3px}
 @media(max-width:900px){.cob-process-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:600px){.cob-process-grid{grid-template-columns:1fr}}
@@ -1889,10 +1894,67 @@ src="https://www.facebook.com/tr?id=XXXXXXXXXXXXXXXX&ev=PageView&noscript=1"
 <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="manifest" href="/site.webmanifest">
-<link rel="stylesheet" href="/css/av-design.css">
+<link rel="stylesheet" href="/css/av-design.css?v=spotv1chain-1115">
+<style>
+/* === Scheme B light re-theme on Grok 6c397553 (overrides av-design.css) === */
+body.av-p2.av-home-led .header{background:rgba(255,255,255,.88)!important;-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border-bottom:1px solid rgba(0,0,0,.06)}
+body.av-p2.av-home-led .header .logo{background-image:url(/images/logo-dark.png)!important}
+body.av-p2.av-home-led .header .nav a{color:rgba(29,29,31,.72)!important}
+/* FIX 2026-11-13 (defect 6): the av-design.css white-nav rules
+   (body.av-p2.av-home-led header.header:not(.scrolled) .nav>li>a, specificity 0,5,4) beat the
+   earlier dark override, so nav text stayed near-white on the light hero. These rules match that
+   specificity (header.header) and come later in source order, so dark text wins. The header sits
+   over a light hero, so nav/logo/icons must be dark. */
+body.av-p2.av-home-led header.header:not(.scrolled) .nav>li>a{color:rgba(29,29,31,.85)!important;background:transparent!important;text-shadow:none!important}
+body.av-p2.av-home-led header.header:not(.scrolled) .nav>li>a:hover{color:#1d1d1f!important;background:rgba(0,0,0,.05)!important}
+body.av-p2.av-home-led header.header:not(.scrolled) .nav>li>a.on{color:#ff6b35!important;background:rgba(255,107,53,.1)!important}
+body.av-p2.av-home-led header.header:not(.scrolled) .nav>li>a .mega-caret{color:inherit!important;stroke:currentColor!important}
+body.av-p2.av-home-led header.header:not(.scrolled) .logo{background-image:url(/images/logo-dark.png)!important}
+body.av-p2.av-home-led header.header:not(.scrolled) .header-actions .icon-btn{color:rgba(29,29,31,.7)!important;background:transparent!important;filter:none!important}
+body.av-p2.av-home-led header.header:not(.scrolled) .lang-links a{color:rgba(29,29,31,.55)!important;background:transparent!important}
+body.av-p2.av-home-led header.header:not(.scrolled) .lang-links a.active,body.av-p2.av-home-led header.header:not(.scrolled) .lang-links a:hover{color:#1d1d1f!important;background:rgba(0,0,0,.06)!important}
+body.av-p2.av-home-led header.header:not(.scrolled) .hamburger span{background:#1d1d1f!important}
+body.av-p2.av-home-led .header .nav a.on{color:#ff6b35!important;background:rgba(255,107,53,.1)!important}
+body.av-p2.av-home-led .header .header-actions .icon-btn{color:rgba(29,29,31,.6)!important}
+body.av-p2.av-home-led section.hero-full#hero{background:#fbfcfd!important;background-color:#fbfcfd!important;background-image:none!important}
+body.av-p2.av-home-led section.hero-full#hero::after{background:transparent!important}
+body.av-p2.av-home-led section.hero-full#hero .hero-bg{background:transparent!important}
+body.av-p2.av-home-led section.hero-full#hero .hero-copy h1{color:#1d1d1f!important}
+body.av-p2.av-home-led section.hero-full#hero h1 .highlight{text-shadow:none!important}
+body.av-p2.av-home-led section.hero-full#hero .hero-copy p{color:rgba(29,29,31,.66)!important}
+body.av-p2.av-home-led section.hero-full#hero .hero-eyebrow{background:rgba(255,107,53,.08)!important;border-color:rgba(255,107,53,.22)!important;color:#ff6b35!important}
+body.av-p2.av-home-led section.hero-full#hero .hero-facts,body.av-p2.av-home-led section.hero-full#hero .hero-facts li{border-color:rgba(0,0,0,.08)!important}
+body.av-p2.av-home-led section.hero-full#hero .hf-val{color:#1d1d1f!important}
+body.av-p2.av-home-led section.hero-full#hero .hf-lab{color:rgba(29,29,31,.66)!important}
+body.av-p2.av-home-led section.hero-full#hero .btn-hero-glass{background:rgba(255,255,255,.6)!important;color:#1d1d1f!important;border-color:rgba(0,0,0,.14)!important}
+body.av-p2.av-home-led section.hero-full#hero .hero-scroll-indicator{color:#98a2b3!important}
+.px-strip{position:relative;z-index:2;max-width:1180px;margin:0 auto;padding:0 32px;height:14px}
+.px-strip canvas{width:100%;height:100%;display:block}
+</style>
+<!-- FIX 2026-11-13 (defect 2): .sports-point is opacity:0 in CSS and only revealed by JS.
+     Without JS it would stay invisible forever; force it visible. -->
+<noscript><style>.sports-point{opacity:1!important;transform:none!important}</style></noscript>
+
+<style id="av-force-white">html,body{background:#fff!important;background-color:#fff!important;background-image:none!important}body.av-p2 section:not(.cta-dark):not(.hero-full),body.av-p2 .home-products,body.av-p2 .cob-v2,body.av-p2 .sports-section,body.av-p2 .why-section,body.av-p2 footer.footer,body.av-p2 header.header.scrolled{background:#fff!important;background-color:#fff!important;background-image:none!important}.av-scenes,#avScenes,.av-stage-bg,.hero-glow{display:none!important}</style>
+<style id="av-hero-demo">
+/* S1 hero: copy left, live demo right, facts row below; plain white background, no decorative effects */
+section.hero-full#hero,body.av-p2.av-home-led section.hero-full#hero{background:#fff!important;background-color:#fff!important;background-image:none!important}
+section.hero-full#hero .hero-bg,section.hero-full#hero .hero-scroll-indicator,section.hero-full#hero canvas.av-led{display:none!important}
+.hero-split{grid-template-columns:minmax(0,1fr) minmax(0,1.06fr)!important;grid-template-areas:"copy demo" "facts facts";gap:28px 48px!important;align-items:center}
+.hero-split .hero-copy{grid-area:copy}
+.hero-split .hero-demo{grid-area:demo;position:relative;width:100%;aspect-ratio:1.26/1;min-width:0}
+.hero-split .hero-facts{grid-area:facts;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));column-gap:22px;max-width:none!important;margin-top:12px}
+.hero-split .hero-facts li{border-bottom:0!important;padding:16px 0 4px}
+@media(max-width:980px){
+  .hero-split{grid-template-columns:1fr!important;grid-template-areas:"copy" "demo" "facts";gap:24px!important}
+  .hero-split .hero-demo{aspect-ratio:1.18/1}
+  .hero-split .hero-facts{display:block;max-width:520px!important}
+  .hero-split .hero-facts li{border-bottom:1px solid rgba(0,0,0,.08)!important;padding:12px 0}
+}
+@media(prefers-reduced-motion:reduce){.hero-split .hero-demo{cursor:default}}
+</style>
 </head>
 <body class="av-p2 av-home-led">
-
 <!-- ===== HEADER ===== -->
 <header class="header" id="header">
   <div class="container">
@@ -1900,10 +1962,10 @@ src="https://www.facebook.com/tr?id=XXXXXXXXXXXXXXXX&ev=PageView&noscript=1"
     <nav>
       <ul class="nav">
         <li><a href="/" class="on">Home</a></li>
-        <li class="nav-item has-mega"><a href="/products-v2" class="mega-toggle" aria-haspopup="true" aria-expanded="false" aria-controls="megaProducts">Products<svg class="mega-caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></a><div class="mega-menu" id="megaProducts" role="menu" aria-label="Products"><div class="mega-inner"><div class="mega-cats" role="group" aria-label="Products"><a class="mega-cat is-active" data-cat="all-platform" href="/products-v2" role="menuitem"><span class="mega-cat-name">All-Platform</span><span class="mega-cat-desc">One cabinet ecosystem across COB, SMD and GOB</span></a><a class="mega-cat" data-cat="rental" href="/products-v2" role="menuitem"><span class="mega-cat-name">Rental &amp; Touring</span><span class="mega-cat-desc">Fast-lock cabinets for concerts, festivals &amp; broadcast</span></a><a class="mega-cat" data-cat="outdoor" href="/products-v2" role="menuitem"><span class="mega-cat-name">Outdoor Fixed</span><span class="mega-cat-desc">High-brightness, weather-sealed for billboards &amp; signage</span></a><a class="mega-cat" data-cat="indoor" href="/products-v2" role="menuitem"><span class="mega-cat-name">Indoor Fixed</span><span class="mega-cat-desc">Fine pitch for conference rooms, control &amp; retail</span></a></div><div class="mega-mid"><ul class="mega-panel is-active" data-cat="all-platform"><li><a href="/products/x-series" role="menuitem"><span class="mega-prod-name">X Series</span><span class="mega-prod-sub">Premium All-Platform · COB+SMD+GOB · Front Service</span></a></li></ul><ul class="mega-panel" data-cat="rental"><li><a href="/products/cob-z" role="menuitem"><span class="mega-prod-name">COB Z Series</span><span class="mega-prod-sub">High Stability COB Rental · 7680Hz · Flip Chip</span></a></li><li><a href="/products/cob-zh" role="menuitem"><span class="mega-prod-name">COB ZH Series</span><span class="mega-prod-sub">Durable COB Touring · 3400-4000 nits · Wind 20m/s</span></a></li><li><a href="/products/e-pro" role="menuitem"><span class="mega-prod-name">E-PRO Series</span><span class="mega-prod-sub">High-End Rental · COB+SMD Dual Platform · XR Studio</span></a></li><li><a href="/products/s-series" role="menuitem"><span class="mega-prod-name">S Series</span><span class="mega-prod-sub">Universal Rental · Indoor &amp; Outdoor · Competitive</span></a></li></ul><ul class="mega-panel" data-cat="outdoor"><li><a href="/products/cob-eh-pro" role="menuitem"><span class="mega-prod-name">COB EH-PRO Series</span><span class="mega-prod-sub">Premium COB Outdoor Fine Pitch · IP65 · 3500cd</span></a></li><li><a href="/products/cob-ef" role="menuitem"><span class="mega-prod-name">COB EF Series</span><span class="mega-prod-sub">Pioneer COB Outdoor · 3000 nits · Fixed</span></a></li><li><a href="/products/d-pro" role="menuitem"><span class="mega-prod-name">D-PRO Series</span><span class="mega-prod-sub">SMD Outdoor Fixed · Front Maintenance · High Brightness</span></a></li></ul><ul class="mega-panel" data-cat="indoor"><li><a href="/products/cob-cv-pro" role="menuitem"><span class="mega-prod-name">COB CV-PRO Series</span><span class="mega-prod-sub">COB Package · Ultra-HD Fine Pitch · Indoor</span></a></li><li><a href="/products/rh-pro-cob" role="menuitem"><span class="mega-prod-name">RH-PRO COB Series</span><span class="mega-prod-sub">Flagship COB Fine Pitch · Full Redundancy · DCI-P3 ≥99%</span></a></li><li><a href="/products/m-pro" role="menuitem"><span class="mega-prod-name">M-PRO Series</span><span class="mega-prod-sub">SMD/GOB Indoor Small Pitch · 16:9 Cabinet · ≥8000:1</span></a></li><li><a href="/products/r-pro" role="menuitem"><span class="mega-prod-name">R-PRO Series</span><span class="mega-prod-sub">SMD/GOB Indoor Fixed · High Compatibility · 640×480mm</span></a></li></ul></div><div class="mega-feature"><a class="mega-feature-card ui-card ui-card--product" href="/products/cob-eh-pro" role="menuitem"><img src="/images/products/ehpro-main.jpg" alt="COB EH-PRO Series" loading="lazy"><div class="mega-feature-body"><span class="mega-feature-tag">Featured</span><h3>COB EH-PRO Series</h3><p>Premium outdoor COB fine pitch · IP65 · 3500cd</p><span class="mega-feature-link">Explore &rarr;</span></div></a><a class="mega-all" href="/products-v2" role="menuitem">View All Products &rarr;</a><a class="mega-quote" href="/contact" role="menuitem">Request a Quote</a></div></div></div></li>
+        <li class="nav-item has-mega"><a href="/products-v2" class="mega-toggle" aria-haspopup="true" aria-expanded="false" aria-controls="megaProducts">Products<svg class="mega-caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></a><div class="mega-menu" id="megaProducts" role="menu" aria-label="Products"><div class="mega-inner"><div class="mega-cats" role="group" aria-label="Products"><a class="mega-cat is-active" data-cat="all-platform" href="/products-v2#all-platform" role="menuitem"><span class="mega-cat-name">All-Platform</span><span class="mega-cat-desc">One cabinet ecosystem across COB, SMD and GOB</span></a><a class="mega-cat" data-cat="rental" href="/products-v2#rental" role="menuitem"><span class="mega-cat-name">Rental &amp; Touring</span><span class="mega-cat-desc">Fast-lock cabinets for concerts, festivals &amp; broadcast</span></a><a class="mega-cat" data-cat="outdoor" href="/products-v2#outdoor" role="menuitem"><span class="mega-cat-name">Outdoor Fixed</span><span class="mega-cat-desc">High-brightness, weather-sealed for billboards &amp; signage</span></a><a class="mega-cat" data-cat="indoor" href="/products-v2#indoor" role="menuitem"><span class="mega-cat-name">Indoor Fixed</span><span class="mega-cat-desc">Fine pitch for conference rooms, control &amp; retail</span></a></div><div class="mega-mid"><ul class="mega-panel is-active" data-cat="all-platform"><li><a href="/products/x-series" role="menuitem"><span class="mega-prod-name">X Series</span><span class="mega-prod-sub">Premium All-Platform · COB+SMD+GOB · Front Service</span></a></li></ul><ul class="mega-panel" data-cat="rental"><li><a href="/products/cob-z" role="menuitem"><span class="mega-prod-name">COB Z Series</span><span class="mega-prod-sub">High Stability COB Rental · 7680Hz · Flip Chip</span></a></li><li><a href="/products/cob-zh" role="menuitem"><span class="mega-prod-name">COB ZH Series</span><span class="mega-prod-sub">Durable COB Touring · 4000 nits · Wind 20m/s</span></a></li><li><a href="/products/e-pro" role="menuitem"><span class="mega-prod-name">E-PRO Series</span><span class="mega-prod-sub">High-End Rental · COB+SMD Dual Platform · XR Studio</span></a></li><li><a href="/products/s-series" role="menuitem"><span class="mega-prod-name">S Series</span><span class="mega-prod-sub">Universal Rental · Indoor &amp; Outdoor · Competitive</span></a></li></ul><ul class="mega-panel" data-cat="outdoor"><li><a href="/products/cob-eh-pro" role="menuitem"><span class="mega-prod-name">COB EH-PRO Series</span><span class="mega-prod-sub">Premium COB Outdoor Fine Pitch · IP65 · 3500cd</span></a></li><li><a href="/products/cob-ef" role="menuitem"><span class="mega-prod-name">COB EF Series</span><span class="mega-prod-sub">Pioneer COB Outdoor · 3000 nits · Fixed</span></a></li><li><a href="/products/d-pro" role="menuitem"><span class="mega-prod-name">D-PRO Series</span><span class="mega-prod-sub">SMD Outdoor Fixed · Front Maintenance · High Brightness</span></a></li></ul><ul class="mega-panel" data-cat="indoor"><li><a href="/products/cob-cv-pro" role="menuitem"><span class="mega-prod-name">COB CV-PRO Series</span><span class="mega-prod-sub">COB Package · Ultra-HD Fine Pitch · Indoor</span></a></li><li><a href="/products/rh-pro-cob" role="menuitem"><span class="mega-prod-name">RH-PRO COB Series</span><span class="mega-prod-sub">Flagship COB Fine Pitch · Full Redundancy · DCI-P3 ≥99%</span></a></li><li><a href="/products/m-pro" role="menuitem"><span class="mega-prod-name">M-PRO Series</span><span class="mega-prod-sub">SMD/GOB Indoor Small Pitch · 16:9 Cabinet · ≥8000:1</span></a></li><li><a href="/products/r-pro" role="menuitem"><span class="mega-prod-name">R-PRO Series</span><span class="mega-prod-sub">SMD/GOB Indoor Fixed · High Compatibility · 640×480mm</span></a></li></ul></div><div class="mega-feature"><a class="mega-feature-card ui-card ui-card--product" href="/products/cob-eh-pro" role="menuitem"><img src="/images/products/ehpro-main-cut.webp" alt="COB EH-PRO Series" loading="lazy"><div class="mega-feature-body"><span class="mega-feature-tag">Featured</span><h3>COB EH-PRO Series</h3><p>Premium outdoor COB fine pitch · IP65 · 3500cd</p><span class="mega-feature-link">Explore &rarr;</span></div></a><a class="mega-all" href="/products-v2" role="menuitem">View All Products &rarr;</a><a class="mega-quote" href="/contact" role="menuitem">Request a Quote</a></div></div></div></li>
         
-        <li class="nav-item has-mega"><a href="/cases/" class="mega-toggle" aria-haspopup="true" aria-expanded="false" aria-controls="megaCases">Cases<svg class="mega-caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></a><div class="mega-menu mega-menu-cases" id="megaCases" role="menu" aria-label="Cases"><div class="mega-inner mega-inner-cases"><div class="mega-cats" role="group" aria-label="Cases"><a class="mega-cat is-active" data-cat="rental-events" href="/cases/" role="menuitem"><span class="mega-cat-name">Rental &amp; Events</span><span class="mega-cat-desc">Concerts, launches, touring stages</span></a><a class="mega-cat" data-cat="retail" href="/cases/" role="menuitem"><span class="mega-cat-name">Retail</span><span class="mega-cat-desc">Bars, stores, flagship facades</span></a><a class="mega-cat" data-cat="control-room" href="/cases/" role="menuitem"><span class="mega-cat-name">Control Room</span><span class="mega-cat-desc">Studios, command centres, transport hubs</span></a><a class="mega-cat" data-cat="outdoor-adv" href="/cases/" role="menuitem"><span class="mega-cat-name">Outdoor Advertising</span><span class="mega-cat-desc">Billboards and landmark screens</span></a></div><div class="mega-mid"><ul class="mega-panel mega-case-panel is-active" data-cat="rental-events"><li><a class="mega-case-card ui-card ui-card--case" href="/cases/" role="menuitem"><img src="/images/cases/web/case-concert-stage.jpg" alt="Concert Stage" loading="lazy"><span class="mega-case-body"><span class="mega-case-name">Concert Stage</span><span class="mega-case-desc">Four-sided P3.91 rental LED display</span></span></a></li><li><a class="mega-case-card ui-card ui-card--case" href="/cases/" role="menuitem"><img src="/images/cases/web/case-event-outdoor.jpg" alt="Outdoor Event Performance" loading="lazy"><span class="mega-case-body"><span class="mega-case-name">Outdoor Event Performance</span><span class="mega-case-desc">IP65 backdrop for rapid deployment</span></span></a></li></ul><ul class="mega-panel mega-case-panel" data-cat="retail"><li><a class="mega-case-card ui-card ui-card--case" href="/cases/" role="menuitem"><img src="/images/cases/web/case-boston-soccer.jpg" alt="Boston Soccer Bar" loading="lazy"><span class="mega-case-body"><span class="mega-case-name">Boston Soccer Bar</span><span class="mega-case-desc">Immersive LED for World Cup viewing</span></span></a></li><li><a class="mega-case-card ui-card ui-card--case" href="/cases/" role="menuitem"><img src="/images/cases/web/case-gucci-shanghai.jpg" alt="GUCCI Outdoor Billboard" loading="lazy"><span class="mega-case-body"><span class="mega-case-name">GUCCI Outdoor Billboard</span><span class="mega-case-desc">P6 LED advertising, Shanghai</span></span></a></li></ul><ul class="mega-panel mega-case-panel" data-cat="control-room"><li><a class="mega-case-card ui-card ui-card--case" href="/cases/" role="menuitem"><img src="/images/cases/web/yle-5.jpg" alt="Yle News Finland" loading="lazy"><span class="mega-case-body"><span class="mega-case-name">Yle News Finland</span><span class="mega-case-desc">Official broadcast studio rebrand</span></span></a></li><li><a class="mega-case-card ui-card ui-card--case" href="/cases/" role="menuitem"><img src="/images/cases/web/case-command.jpg" alt="Nanning Rail Station" loading="lazy"><span class="mega-case-body"><span class="mega-case-name">Nanning Rail Station</span><span class="mega-case-desc">P1.86 four-sided column display</span></span></a></li></ul><ul class="mega-panel mega-case-panel" data-cat="outdoor-adv"><li><a class="mega-case-card ui-card ui-card--case" href="/cases/" role="menuitem"><img src="/images/cases/web/case-hangzhou-openscreen.jpg" alt="Hangzhou West Lake" loading="lazy"><span class="mega-case-body"><span class="mega-case-name">Hangzhou West Lake</span><span class="mega-case-desc">Mechanical opening &amp; closing screen</span></span></a></li><li><a class="mega-case-card ui-card ui-card--case" href="/cases/" role="menuitem"><img src="/images/cases/web/lemans-3.jpg" alt="Le Mans 24 Hours" loading="lazy"><span class="mega-case-body"><span class="mega-case-name">Le Mans 24 Hours</span><span class="mega-case-desc">Dual-side giant LED screens</span></span></a></li></ul></div></div><a class="mega-all mega-all-bar" href="/cases/" role="menuitem">View All Cases &rarr;</a></div></li>
-        <li class="nav-item has-mega"><a href="/about" class="mega-toggle" aria-haspopup="true" aria-expanded="false" aria-controls="megaAbout">About<svg class="mega-caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></a><div class="mega-menu mega-menu-about" id="megaAbout" role="menu" aria-label="About"><div class="mega-inner mega-inner-about"><div class="mega-mid"><a class="mega-about-item" href="/factory/" role="menuitem"><span class="mega-about-name">Factory &amp; Capacity</span><span class="mega-about-desc">Tour our Shenzhen plant</span></a><a class="mega-about-item" href="/about#manufacturing" role="menuitem"><span class="mega-about-name">Manufacturing</span><span class="mega-about-desc">SMT, COB assembly, 72h burn-in</span></a><a class="mega-about-item" href="/about#quality" role="menuitem"><span class="mega-about-name">Quality &amp; Certifications</span><span class="mega-about-desc">ISO 9001 · CE · FCC · RoHS</span></a><a class="mega-about-item" href="/about#support" role="menuitem"><span class="mega-about-name">Support &amp; Process</span><span class="mega-about-desc">From concept to delivery</span></a></div><a class="mega-about-feature" href="/factory/" role="menuitem"><img src="/images/factory/smt-placement-machine.jpg" alt="Shenzhen Factory" loading="lazy"><span class="mega-about-feature-body"><span class="mega-about-feature-name">Shenzhen Factory</span><span class="mega-about-feature-desc">8 IC lines, 7 SMT lines, ISO-certified manufacturing</span></span></a></div></div></li>
+        <li class="nav-item has-mega"><a href="/cases/" class="mega-toggle" aria-haspopup="true" aria-expanded="false" aria-controls="megaCases">Cases<svg class="mega-caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></a><div class="mega-menu mega-menu-cases" id="megaCases" role="menu" aria-label="Cases"><div class="mega-inner mega-inner-cases"><div class="mega-cats" role="group" aria-label="Cases"><a class="mega-cat is-active" data-cat="rental-events" href="/cases/#rental-events" role="menuitem"><span class="mega-cat-name">Rental &amp; Events</span><span class="mega-cat-desc">Concerts, launches, touring stages</span></a><a class="mega-cat" data-cat="retail" href="/cases/#retail" role="menuitem"><span class="mega-cat-name">Retail</span><span class="mega-cat-desc">Bars, stores, flagship facades</span></a><a class="mega-cat" data-cat="control-room" href="/cases/#control-room" role="menuitem"><span class="mega-cat-name">Control Room</span><span class="mega-cat-desc">Studios, command centres, transport hubs</span></a><a class="mega-cat" data-cat="outdoor-adv" href="/cases/#outdoor-adv" role="menuitem"><span class="mega-cat-name">Outdoor Advertising</span><span class="mega-cat-desc">Billboards and landmark screens</span></a></div><div class="mega-mid"><ul class="mega-panel mega-case-panel is-active" data-cat="rental-events"><li><a class="mega-case-card ui-card ui-card--case" href="/cases/#tech-product-launch" role="menuitem"><img src="/images/why-popup-booth.jpg" alt="Tech Product Launch — LED Backdrop Wall" loading="lazy"><span class="mega-case-body"><span class="mega-case-name">Tech Product Launch</span><span class="mega-case-desc">LED backdrop wall for a product launch</span></span></a></li><li><a class="mega-case-card ui-card ui-card--case" href="/cases/#yle-news-finland" role="menuitem"><img src="/images/cases/web/yle-5.jpg" alt="Yle News Finland" loading="lazy"><span class="mega-case-body"><span class="mega-case-name">Yle News Finland</span><span class="mega-case-desc">Finnish Broadcasting Company news channel</span></span></a></li></ul><ul class="mega-panel mega-case-panel" data-cat="retail"><li><a class="mega-case-card ui-card ui-card--case" href="/cases/#boston-soccer-bar" role="menuitem"><img src="/images/cases/web/case-boston-soccer.jpg" alt="Boston Soccer Bar" loading="lazy"><span class="mega-case-body"><span class="mega-case-name">Boston Soccer Bar</span><span class="mega-case-desc">Immersive LED for World Cup viewing</span></span></a></li><li><a class="mega-case-card ui-card ui-card--case" href="/cases/#gucci-outdoor-billboard" role="menuitem"><img src="/images/cases/web/case-gucci-shanghai.jpg" alt="GUCCI Outdoor Billboard" loading="lazy"><span class="mega-case-body"><span class="mega-case-name">GUCCI Outdoor Billboard</span><span class="mega-case-desc">P6 LED advertising, Shanghai</span></span></a></li></ul><ul class="mega-panel mega-case-panel" data-cat="control-room"><li><a class="mega-case-card ui-card ui-card--case" href="/cases/#yle-news-finland" role="menuitem"><img src="/images/cases/web/yle-5.jpg" alt="Yle News Finland" loading="lazy"><span class="mega-case-body"><span class="mega-case-name">Yle News Finland</span><span class="mega-case-desc">Official broadcast studio rebrand</span></span></a></li><li><a class="mega-case-card ui-card ui-card--case" href="/cases/#nanning-rail-station" role="menuitem"><img src="/images/cases/web/case-command.jpg" alt="Nanning Rail Station" loading="lazy"><span class="mega-case-body"><span class="mega-case-name">Nanning Rail Station</span><span class="mega-case-desc">P1.86 four-sided column display</span></span></a></li></ul><ul class="mega-panel mega-case-panel" data-cat="outdoor-adv"><li><a class="mega-case-card ui-card ui-card--case" href="/cases/#hangzhou-west-lake" role="menuitem"><img src="/images/cases/web/case-hangzhou-openscreen.jpg" alt="Hangzhou West Lake" loading="lazy"><span class="mega-case-body"><span class="mega-case-name">Hangzhou West Lake</span><span class="mega-case-desc">Mechanical opening &amp; closing screen</span></span></a></li><li><a class="mega-case-card ui-card ui-card--case" href="/cases/#le-mans-24-hours" role="menuitem"><img src="/images/cases/web/lemans-3.jpg" alt="Le Mans 24 Hours" loading="lazy"><span class="mega-case-body"><span class="mega-case-name">Le Mans 24 Hours</span><span class="mega-case-desc">Dual-side giant LED screens</span></span></a></li></ul></div></div><a class="mega-all mega-all-bar" href="/cases/" role="menuitem">View All Cases &rarr;</a></div></li>
+        <li class="nav-item has-mega"><a href="/about" class="mega-toggle" aria-haspopup="true" aria-expanded="false" aria-controls="megaAbout">About<svg class="mega-caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></a><div class="mega-menu mega-menu-about" id="megaAbout" role="menu" aria-label="About"><div class="mega-inner mega-inner-about"><div class="mega-mid"><a class="mega-about-item" href="/factory/" role="menuitem"><span class="mega-about-name">Factory &amp; Capacity</span><span class="mega-about-desc">Tour our Shenzhen plant</span></a><a class="mega-about-item" href="/about#manufacturing" role="menuitem"><span class="mega-about-name">Manufacturing</span><span class="mega-about-desc">SMT, COB assembly, 72h burn-in</span></a><a class="mega-about-item" href="/about#quality" role="menuitem"><span class="mega-about-name">Quality &amp; Certifications</span><span class="mega-about-desc">ISO 9001 · CE · FCC · RoHS</span></a><a class="mega-about-item" href="/about#support" role="menuitem"><span class="mega-about-name">Support &amp; Process</span><span class="mega-about-desc">From concept to delivery</span></a></div><a class="mega-about-feature" href="/factory/" role="menuitem"><img src="/images/why-popup-smt-line.jpg" alt="SMT production line in the Shenzhen factory" loading="lazy"><span class="mega-about-feature-body"><span class="mega-about-feature-name">Shenzhen Factory</span><span class="mega-about-feature-desc">8 IC lines, 7 SMT lines, ISO-certified manufacturing</span></span></a></div></div></li>
         <li class="nav-item has-mega"><a href="/blog/" class="mega-toggle" aria-haspopup="true" aria-expanded="false" aria-controls="megaBlog">Blog<svg class="mega-caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></a><div class="mega-menu mega-menu-blog" id="megaBlog" role="menu" aria-label="Blog"><div class="mega-inner mega-inner-blog"><a class="mega-blog-item" href="/blog/#market" role="menuitem"><span class="mega-blog-name">Procurement Guides</span><span class="mega-blog-desc">Country-by-country buying guides</span></a><a class="mega-blog-item" href="/blog/#trend" role="menuitem"><span class="mega-blog-name">Technical Articles</span><span class="mega-blog-desc">Trends, tech &amp; product explainers</span></a><a class="mega-blog-item" href="/blog/#guide" role="menuitem"><span class="mega-blog-name">Industry Knowledge</span><span class="mega-blog-desc">Application guides by use case</span></a></div><a class="mega-all mega-all-bar" href="/blog/" role="menuitem">View All Articles &rarr;</a></div></li>
         <li><a href="/faq/">FAQ</a></li>
         <li><a href="/contact">Contact</a></li>
@@ -1912,7 +1974,6 @@ src="https://www.facebook.com/tr?id=XXXXXXXXXXXXXXXX&ev=PageView&noscript=1"
     <button class="hamburger" id="hamburger" aria-label="Menu" onclick="toggleMobileNav()"><span></span><span></span><span></span></button>
     <div class="header-actions">
       <button class="icon-btn" aria-label="Search" onclick="openSearch()">&#128269;</button>
-      <button class="icon-btn" aria-label="Cart" onclick="openCart()">&#128722;</button>
       <a href="/contact" class="btn-nav">Inquiry</a>
       <div class="lang-links">
         <a href="/" class="active">EN</a>
@@ -1954,7 +2015,8 @@ src="https://www.facebook.com/tr?id=XXXXXXXXXXXXXXXX&ev=PageView&noscript=1"
       <a href="/cases/" class="btn-hero-glass ui-btn ui-btn--secondary">View Projects</a>
     </div>
     </div>
-    <ul class="hero-facts"><li class="fade-in"><span class="hf-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"><path d="M20.4 12.7l-7.8 7.8a1.6 1.6 0 01-2.3 0l-6.7-6.7a1.6 1.6 0 01-.5-1.1V4.8c0-.6.5-1.1 1.1-1.1h7.9c.4 0 .8.2 1.1.5l6.7 6.7a1.6 1.6 0 010 2.3z"/><circle cx="8" cy="8" r="1.3"/></svg></span><span class="hf-val">OEM / ODM</span><span class="hf-lab">Built for Your Brand</span></li><li class="fade-in"><span class="hf-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"><path d="M12 3.2l7 2.9v5.2c0 4.1-2.9 7.5-7 8.9-4.1-1.4-7-4.8-7-8.9V6.1l7-2.9z"/><path d="M9.1 11.9l2.1 2.1 3.9-4.1"/></svg></span><span class="hf-val">ISO 9001</span><span class="hf-lab">Certified Manufacturing</span></li><li class="fade-in"><span class="hf-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><circle cx="12" cy="9.3" r="5.4"/><path d="M8.7 13.9L7.2 21l4.8-2.3L16.8 21l-1.5-7.1"/></svg></span><span class="hf-val">CE &middot; FCC &middot; RoHS</span><span class="hf-lab">Product Certification</span></li><li class="fade-in"><span class="hf-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.4"/><path d="M12 7.6V12l3 2"/></svg></span><span class="hf-val">72h</span><span class="hf-lab">Burn-In Test</span></li><li class="fade-in"><span class="hf-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M3.5 7.5h17M3.5 12h17M3.5 16.5h17"/><circle cx="7" cy="7.5" r="1.7" fill="currentColor" stroke="none"/><circle cx="7" cy="16.5" r="1.7" fill="currentColor" stroke="none"/></svg></span><span class="hf-val">8 IC / 7 SMT</span><span class="hf-lab">Production Lines</span></li></ul>
+    <div class="hero-demo" id="hero-demo" data-base="/images/unfold/" role="img" aria-label="Animation: six LED modules slide out of a cabinet, then the screen plays an ink-wash ASIA VISION intro"></div>
+    <ul class="hero-facts"><li class="fade-in"><span class="hf-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"><path d="M20.4 12.7l-7.8 7.8a1.6 1.6 0 01-2.3 0l-6.7-6.7a1.6 1.6 0 01-.5-1.1V4.8c0-.6.5-1.1 1.1-1.1h7.9c.4 0 .8.2 1.1.5l6.7 6.7a1.6 1.6 0 010 2.3z"/><circle cx="8" cy="8" r="1.3"/></svg></span><span class="hf-val">OEM / ODM</span><span class="hf-lab">Built for Your Brand</span></li><li class="fade-in"><span class="hf-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"><path d="M12 3.2l7 2.9v5.2c0 4.1-2.9 7.5-7 8.9-4.1-1.4-7-4.8-7-8.9V6.1l7-2.9z"/><path d="M9.1 11.9l2.1 2.1 3.9-4.1"/></svg></span><span class="hf-val">ISO 9001</span><span class="hf-lab">Certified Manufacturing</span></li><li class="fade-in"><span class="hf-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><circle cx="12" cy="9.3" r="5.4"/><path d="M8.7 13.9L7.2 21l4.8-2.3L16.8 21l-1.5-7.1"/></svg></span><span class="hf-val">CE &middot; FCC &middot; RoHS</span><span class="hf-lab">Product Certification</span></li><li class="fade-in"><span class="hf-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.4"/><path d="M8.2 12.2l2.4 2.4 5.2-5.4"/></svg></span><span class="hf-val">3-year</span><span class="hf-lab">Warranty</span></li><li class="fade-in"><span class="hf-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M3.5 7.5h17M3.5 12h17M3.5 16.5h17"/><circle cx="7" cy="7.5" r="1.7" fill="currentColor" stroke="none"/><circle cx="7" cy="16.5" r="1.7" fill="currentColor" stroke="none"/></svg></span><span class="hf-val">8 IC / 7 SMT</span><span class="hf-lab">Production Lines</span></li></ul>
   </div>
   <div class="hero-scroll-indicator">
     <span>Scroll</span>
@@ -1962,100 +2024,113 @@ src="https://www.facebook.com/tr?id=XXXXXXXXXXXXXXXX&ev=PageView&noscript=1"
   </div>
 </section>
 
-<!-- ===== STATS BAR ===== -->
+<!-- ===== FEATURED PRODUCT CARDS ===== -->
+<section class="home-products" id="homeProducts">
+  <div class="container">
+    <div class="cob-cards row"><a href="/products/cob-eh-pro" class="cob-card ui-card ui-card--product"><img width="900" height="900" src="/images/products/ehpro-main-cut.webp" alt="COB EH-PRO Series LED display" loading="lazy"><div class="cob-txt"><h4>COB EH-PRO Series</h4><span>Outdoor Fine Pitch · IP65 · 3500cd</span></div></a><a href="/products/cob-zh" class="cob-card ui-card ui-card--product"><img width="900" height="900" src="/images/products/cobzh-5-cut.webp" alt="COB ZH Series LED display" loading="lazy"><div class="cob-txt"><h4>COB ZH Series</h4><span>Durable COB Touring · 4000 nits · Wind 20m/s</span></div></a><a href="/products/e-pro" class="cob-card ui-card ui-card--product"><img width="900" height="900" src="/images/products/epro-2-cut.webp" alt="E-PRO Series LED display" loading="lazy"><div class="cob-txt"><h4>E-PRO Series</h4><span>High-End Rental · COB+SMD Dual Platform · XR Studio</span></div></a><a href="/products/cob-z" class="cob-card ui-card ui-card--product"><img width="900" height="900" src="/images/products/cobz-1-cut.webp" alt="COB Z Series LED display" loading="lazy"><div class="cob-txt"><h4>COB Z Series</h4><span>High Stability COB Rental · 7680Hz · Flip Chip</span></div></a></div>
+  </div>
+</section>
+
+<!-- ===== WHY ASIA VISION (banner + 6 photos + COB ZH big stage + feature cards, one block) ===== -->
 <section class="why-section" id="why">
   <div class="container">
     <div class="why-figs">
-      <div class="cob-cards row"><a href="/products/cob-eh-pro" class="cob-card ui-card ui-card--product"><img width="1390" height="1400" src="images/products/ehpro-main.jpg" alt="COB EH-PRO Series LED display" loading="lazy"><div class="cob-txt"><h4>COB EH-PRO Series</h4><span>Outdoor Fine Pitch · IP65 · 3500cd</span></div></a><a href="/products/cob-zh" class="cob-card ui-card ui-card--product"><img width="1400" height="934" src="images/products/cobzh-5.jpg" alt="COB ZH Series LED display" loading="lazy"><div class="cob-txt"><h4>COB ZH Series</h4><span>Durable COB Touring · 3400–4000 nits · Wind 20m/s</span></div></a><a href="/products/e-pro" class="cob-card ui-card ui-card--product"><img width="1400" height="1307" src="images/products/epro-2.jpg" alt="E-PRO Series LED display" loading="lazy"><div class="cob-txt"><h4>E-PRO Series</h4><span>High-End Rental · COB+SMD Dual Platform · XR Studio</span></div></a><a href="/products/cob-z" class="cob-card ui-card ui-card--product"><img width="1400" height="1050" src="images/products/cobz-1.jpg" alt="COB Z Series LED display" loading="lazy"><div class="cob-txt"><h4>COB Z Series</h4><span>High Stability COB Rental · 7680Hz · Flip Chip</span></div></a></div>
     <h2 class="sr-only">Why Asia Vision &mdash; Built for AV Integrators &amp; Rental Fleets</h2>
-      <figure class="why-hero">
-        <img loading="eager" decoding="async" width="1206" height="679" src="images/why-asia-vision.jpg" alt="Why Asia Vision &mdash; Built for AV Integrators &amp; Rental Fleets. More than an LED display manufacturer. A reliable production and technical partner for your business.">
+      
+
+      <figure class="why-hero" id="whyHero">
+        <img loading="eager" decoding="async" width="2000" height="1120" src="/images/why-asia-vision-v2.jpg" alt="Why Asia Vision &mdash; Built for AV Integrators &amp; Rental Fleets. More than an LED display manufacturer. A reliable production and technical partner for your business.">
+        <div class="why-spot" aria-hidden="true"><span class="why-spot-dim"></span><span class="why-spot-shadow"></span><span class="why-spot-beam"></span><span class="why-spot-cone"></span><span class="why-spot-axis"></span><span class="why-spot-core"></span><span class="why-spot-dust"></span><span class="why-spot-pool"></span><span class="why-spot-lamp"></span><span class="why-spot-flare"></span></div>
+        <button type="button" class="why-hotspot" data-why="mfg" style="left:4.2%;top:29.3%;width:44.9%;height:28.3%" aria-label="Learn more about Manufacturing Strength"></button>
+        <button type="button" class="why-hotspot" data-why="rental" style="left:50.5%;top:29.3%;width:45%;height:28.3%" aria-label="Learn more about Rental-Ready Engineering"></button>
+        <button type="button" class="why-hotspot" data-why="tech" style="left:4.2%;top:59.6%;width:44.9%;height:26.7%" aria-label="Learn more about Advanced LED Technology"></button>
+        <button type="button" class="why-hotspot" data-why="partner" style="left:50.5%;top:59.6%;width:45.3%;height:26.7%" aria-label="Learn more about Engineering Partnership"></button>
       </figure>
+
+      <div class="why-modal" id="whyModal" role="dialog" aria-modal="true" aria-labelledby="whyModalTitle" hidden>
+        <div class="why-modal-backdrop" data-why-close></div>
+        <div class="why-modal-card">
+          <button type="button" class="why-modal-close" data-why-close aria-label="Close">&times;</button>
+          <img class="why-modal-img" id="whyModalImg" src="" alt="">
+          <div class="why-modal-body">
+            <p class="why-modal-num" id="whyModalNum"></p>
+            <h3 class="why-modal-title" id="whyModalTitle"></h3>
+            <p class="why-modal-desc" id="whyModalDesc"></p>
+            <p class="why-modal-detail" id="whyModalDetail"></p>
+            <div class="why-modal-actions"><a class="why-modal-cta" href="/contact">Get a Quote &rarr;</a><a class="why-modal-more" id="whyModalMore" href="/products/cob-zh" hidden>Explore COB Products &rarr;</a></div>
+          </div>
+        </div>
+      </div>
 
       <div class="concert-gallery" id="concertGallery">
         <div class="gallery-thumbs" role="list" aria-label="Concert LED displays">
-          <button type="button" class="gallery-thumb" role="listitem" data-scenes="touring" data-full="images/why-02.jpg" data-alt="Panoramic view of a concert stage LED display build" data-cap="Concert stage LED build" aria-label="Concert stage LED build"><img loading="eager" decoding="async" width="1600" height="900" src="images/why-02.jpg" alt=""></button>
-          <button type="button" class="gallery-thumb" role="listitem" data-scenes="touring" data-full="images/concert-back-stage.jpg" data-alt="LED display screen behind a concert stage" data-cap="Behind the concert stage" aria-label="Behind the concert stage"><img loading="lazy" decoding="async" width="1600" height="900" src="images/concert-back-stage.jpg" alt=""></button>
-          <button type="button" class="gallery-thumb" role="listitem" data-scenes="launch" data-full="images/concert-screen-rear.jpg" data-alt="Concert LED screen seen from the rear" data-cap="Concert screen from the rear" aria-label="Concert screen from the rear"><img loading="lazy" decoding="async" width="1600" height="900" src="images/concert-screen-rear.jpg" alt=""></button>
-          <button type="button" class="gallery-thumb" role="listitem" data-scenes="launch" data-full="images/scenes/concert-display-1.jpg" data-alt="Concert LED display 1" data-cap="Concert display 1" aria-label="Concert display 1"><img loading="lazy" decoding="async" width="1206" height="678" src="images/scenes/concert-display-1.jpg" alt=""></button>
-          <button type="button" class="gallery-thumb" role="listitem" data-scenes="festival" data-full="images/scenes/concert-display-2.jpg" data-alt="Concert LED display" data-cap="Concert display 2" aria-label="Concert display 2"><img loading="lazy" decoding="async" width="1554" height="874" src="images/scenes/concert-display-2.jpg" alt=""></button>
-          <button type="button" class="gallery-thumb" role="listitem" data-scenes="launch" data-full="images/scenes/event-infocomm-beijing.jpg" data-alt="LED display wall at an InfoComm China launch event in Beijing" data-cap="InfoComm China launch event" aria-label="InfoComm China launch event"><img loading="lazy" decoding="async" width="1206" height="678" src="images/scenes/event-infocomm-beijing.jpg" alt=""></button>
+          <button type="button" class="gallery-thumb" role="listitem" data-scenes="touring" data-full="/images/why-02.jpg" data-alt="Panoramic view of a concert stage LED display build" data-cap="Concert stage LED build" aria-label="Concert stage LED build"><img loading="eager" decoding="async" width="1600" height="900" src="/images/why-02.jpg" alt=""><span class="gt-cap"><b>Arena stage build</b><small>Stage and LED structure set up before the show</small></span></button>
+          <button type="button" class="gallery-thumb" role="listitem" data-scenes="touring" data-full="/images/concert-back-stage.jpg" data-alt="LED display screen behind a concert stage" data-cap="Behind the concert stage" aria-label="Behind the concert stage"><img loading="lazy" decoding="async" width="1600" height="900" src="/images/concert-back-stage.jpg" alt=""><span class="gt-cap"><b>Behind the stage</b><small>Rear view of flown LED panels during setup</small></span></button>
+          <button type="button" class="gallery-thumb" role="listitem" data-scenes="launch" data-full="/images/concert-screen-rear.jpg" data-alt="Concert LED screen seen from the rear" data-cap="Concert screen from the rear" aria-label="Concert screen from the rear"><img loading="lazy" decoding="async" width="1600" height="900" src="/images/concert-screen-rear.jpg" alt=""><span class="gt-cap"><b>Rear-service check</b><small>Technicians cabling and checking from the rear</small></span></button>
+          <button type="button" class="gallery-thumb" role="listitem" data-scenes="launch" data-full="/images/scenes/concert-display-1.jpg" data-alt="LED display at an event venue" data-cap="Event venue display" aria-label="Event venue display"><img loading="lazy" decoding="async" width="1206" height="678" src="/images/scenes/concert-display-1.jpg" alt=""><span class="gt-cap"><b>Event Venue Display</b><small>LED screen at an event venue</small></span></button>
+          <button type="button" class="gallery-thumb" role="listitem" data-scenes="festival" data-full="/images/scenes/concert-display-2.jpg" data-alt="Concert LED display" data-cap="Concert display 2" aria-label="Concert display 2"><img loading="lazy" decoding="async" width="1554" height="874" src="/images/scenes/concert-display-2.jpg" alt=""><span class="gt-cap"><b>Large-scale live show</b><small>Main and side screens in sync for the whole crowd</small></span></button>
+          <button type="button" class="gallery-thumb" role="listitem" data-scenes="launch" data-full="/images/scenes/event-infocomm-beijing.jpg" data-alt="LED display wall at an InfoComm China launch event in Beijing" data-cap="InfoComm China launch event" aria-label="InfoComm China launch event"><img loading="lazy" decoding="async" width="1206" height="678" src="/images/scenes/event-infocomm-beijing.jpg" alt=""><span class="gt-cap"><b>InfoComm China launch event</b><small>LED display wall at the Beijing launch</small></span></button>
+          <button type="button" class="gallery-thumb" role="listitem" data-scenes="broadcast" data-full="/images/scenes/broadcast-studio-led.jpg" data-alt="Multimedia broadcast studio with LED display walls behind the presenter desk" data-cap="Multimedia broadcast studio" aria-label="Multimedia broadcast studio"><img loading="lazy" decoding="async" width="889" height="500" src="/images/scenes/broadcast-studio-led.jpg" alt=""><span class="gt-cap"><b>Multimedia broadcast studio</b><small>LED display walls for TV and studio sets</small></span></button>
+          <button type="button" class="gallery-thumb" role="listitem" data-scenes="cinema" data-full="/images/scenes/cinema-immersive-led.jpg" data-alt="Three-screen panoramic immersive LED cinema with direct-view emissive display" data-cap="Immersive 3-screen LED cinema" aria-label="Immersive 3-screen LED cinema"><img loading="lazy" decoding="async" width="1206" height="724" src="/images/scenes/cinema-immersive-led.jpg" alt=""><span class="gt-cap"><b>Immersive 3-screen LED cinema</b><small>Direct-view emissive LED for rich, true-to-life colour</small></span></button>
         </div>
       </div>
-      <div class="ring-lightbox" id="ringLightbox" role="dialog" aria-modal="true" aria-label="Image preview" hidden>
-        <button type="button" class="ring-lightbox-close" id="ringLightboxClose" aria-label="Close preview">&times;</button>
-        <button type="button" class="ring-lightbox-nav ring-lightbox-prev" id="ringLightboxPrev" aria-label="Previous image">&#8249;</button>
-        <img class="ring-lightbox-img" id="ringLightboxImg" alt="">
-        <p class="ring-lightbox-cap" id="ringLightboxCap"></p>
-        <button type="button" class="ring-lightbox-nav ring-lightbox-next" id="ringLightboxNext" aria-label="Next image">&#8250;</button>
+      <div class="ring-lightbox" id="ringLightbox" role="dialog" aria-modal="true" aria-label="Image preview" aria-hidden="true" hidden>
+        <button type="button" class="ring-lightbox-close ring-lb-chrome" id="ringLightboxClose" aria-label="Close preview">&times;</button>
+        <button type="button" class="ring-lightbox-nav ring-lightbox-prev ring-lb-chrome" id="ringLightboxPrev" aria-label="Previous image">&#8249;</button>
+        <div class="ring-lightbox-stage" id="ringLightboxStage">
+          <div class="ring-lightbox-bounce" id="ringLightboxBounce">
+            <img class="ring-lightbox-img" id="ringLightboxImg" alt="">
+          </div>
+        </div>
+        <p class="ring-lightbox-cap ring-lb-chrome" id="ringLightboxCap"></p>
+        <button type="button" class="ring-lightbox-nav ring-lightbox-next ring-lb-chrome" id="ringLightboxNext" aria-label="Next image">&#8250;</button>
       </div>
-
       <figure class="concert-hero">
-        <img loading="eager" decoding="async" width="1206" height="679" src="images/scenes/concert-cob-zh-stage.jpg" alt="COB ZH Series &mdash; Engineered for the Big Stage: professional COB LED display for touring and outdoor events">
+        <img loading="eager" decoding="async" width="1206" height="679" src="/images/scenes/concert-cob-zh-stage.jpg" alt="COB ZH Series &mdash; Engineered for the Big Stage: professional COB LED display for touring and outdoor events">
+      <a class="ch-go" href="/products/cob-zh" aria-label="View Pro Stage Products">View Pro Stage Products<span class="ch-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></span></a>
       </figure>
       <div class="why-right">
 <div class="why-feats compact"><div class="wf"><div class="ic">&#127981;</div><h4>OEM &amp; ODM for AV Partners</h4><p>We manufacture under your brand &mdash; cabinet size, pixel pitch, structure, configuration and branding are specified to your project, not picked from a catalogue.</p></div><div class="wf"><div class="ic">&#9889;</div><h4>7680Hz Stage Refresh</h4><p>Rental and touring panels run at &ge;7680Hz for flicker-free broadcast and XR capture. Indoor fixed series run at 3840Hz, matched to their viewing environment.</p></div><div class="wf"><div class="ic">&#128230;</div><h4>18-Day Factory Dispatch</h4><p>Goods leave our Shenzhen factory within 18 days of order confirmation. Production slots are reserved for fleet and repeat orders.</p></div><div class="wf"><div class="ic">&#128737;</div><h4>3-year warranty</h4><p>Every panel ships with a 3-year warranty, backed by in-house spare-parts logistics so a rental fleet keeps working on site.</p></div><div class="wf"><div class="ic">&#128208;</div><h4>P0.78 &ndash; P10, COB / SMD / GOB</h4><p>Three process platforms from a 5,000m&sup2; Shenzhen plant, shipping worldwide with batch-matched brightness and colour.</p></div><div class="wf"><div class="ic">&#129309;</div><h4>Built for Integrators</h4><p>Engineering drawings, mounting interfaces and measured performance data supplied with the order &mdash; what you specify is what arrives.</p></div></div>
       </div>
       <p class="concert-cta"><a class="concert-cta-btn" href="/contact">为你的巡演配屏</a></p>
-<div class="cob-row cob-row--gallery">
-    <div class="cob-feature-imgs">
-      <figure class="cob-feature"><img loading="lazy" decoding="async" width="1376" height="768" src="images/scenes/flexible-cabinet-design-16x9.jpg" alt="Flexible COB cabinet design available in 16:9, 4:3, 2:1 and custom dimensions"><figcaption>Flexible sizing &mdash; 16:9, 4:3, 2:1 and custom</figcaption></figure>
-      <figure class="cob-feature"><img loading="lazy" decoding="async" width="1672" height="941" src="images/scenes/ultra-slim-display-cob.jpg" alt="Ultra slim COB LED display"><figcaption>Ultra Slim Display COB</figcaption></figure>
-    </div>
-    <div class="cob-info">
-          <span class="case-tag">COB Manufacturing</span>
-          <h2>Built on Our Own COB Line</h2>
-          <div class="case-subtitle">Chip-on-board encapsulation, assembly and testing &mdash; handled in Shenzhen</div>
-          <p class="case-desc">We build COB panels on our own production line &mdash; chip-on-board encapsulation, module assembly, aging and QC handled in-house rather than subcontracted. Keeping those steps together is what lets us hold display uniformity and surface quality steady across a batch, and why a COB panel resists impact, moisture, dust and UV with no exposed lamp bead or wire bond to fail. Indoor fine pitch, sealed IP65 outdoor and wind-rated touring builds all come off the same COB process.</p>
-          <div class="case-stats">
-            <div class="case-stat"><div class="num">P0.62&ndash;2.6</div><div class="label">Pixel Pitch</div><div class="stat-detail">0.62 / 0.93 / 1.25 / 1.56 / 1.953 / 2.604mm</div></div>
-            <div class="case-stat"><div class="num">IP65</div><div class="label">Protection</div><div class="stat-detail">Fully sealed</div></div>
-            <div class="case-stat"><div class="num" data-count="4000">4000</div><div class="label">Nits Max</div><div class="stat-detail">Daylight visible</div></div>
-            <div class="case-stat"><div class="num">In-House</div><div class="label">COB Process</div><div class="stat-detail">Encapsulation to QC</div></div>
-          </div>
-          <a href="/products/cob-zh" class="case-study-link">Explore COB Products <span style="font-size:1.1rem">&rarr;</span></a>
-        </div>
-    
-  </div>
-    <!-- COB 制造流程（2026-11-08）：4 张图直接横排展示，不用点开；文案沿用原步骤详情文字 -->
-    <div class="cob-process" id="cobProcess">
-      <div class="cob-process-grid" role="list" aria-label="COB manufacturing process">
-        <article class="cob-process-card" role="listitem">
-          <figure class="cob-process-fig"><img loading="lazy" decoding="async" width="1362" height="768" src="images/scenes/cob-workshop-shenzhen.jpg" alt="COB production workshop and inspection line at the Asia Vision factory in Shenzhen"><figcaption>Our COB line &mdash; encapsulation, assembly, inspection</figcaption></figure>
-          <div class="cob-process-body"><span class="cob-process-tag">STEP 1 &middot; 封装</span><h3>封装 <span>Encapsulation</span></h3><p>Chip-on-board encapsulation on our own line &mdash; no exposed lamp bead or wire bond to fail.</p></div>
-        </article>
-        <article class="cob-process-card" role="listitem">
-          <figure class="cob-process-fig"><img loading="lazy" decoding="async" width="1394" height="768" src="images/scenes/cob-pixel-calibration.jpg" alt="Pixel-by-pixel chromaticity calibration of a COB LED display"><figcaption>Pixel-by-pixel calibration</figcaption></figure>
-          <div class="cob-process-body"><span class="cob-process-tag">STEP 2 &middot; 校准</span><h3>校准 <span>Calibration</span></h3><p>Pixel-by-pixel chromaticity calibration &mdash; brightness and colour calibration (Chroma / LightSpace).</p></div>
-        </article>
-        <article class="cob-process-card" role="listitem">
-          <figure class="cob-process-fig"><img loading="lazy" decoding="async" width="1206" height="679" src="images/factory/aging-test-72h.jpg" alt="Aging and Testing Lab - 72 hour LED burn-in"><figcaption>72-hour burn-in aging</figcaption></figure>
-          <div class="cob-process-body"><span class="cob-process-tag">STEP 3 &middot; 老化测试</span><h3>老化测试 <span>Aging Test</span></h3><p>72-hour burn-in aging for every display, plus IP65 waterproof testing.</p></div>
-        </article>
-        <article class="cob-process-card" role="listitem">
-          <figure class="cob-process-fig"><img loading="lazy" decoding="async" width="1206" height="679" src="images/factory/dispatch-flight-cases.jpg" alt="Custom flight case packaging for LED display shipment"><figcaption>Custom flight case packaging</figcaption></figure>
-          <div class="cob-process-body"><span class="cob-process-tag">STEP 4 &middot; 出货</span><h3>出货 <span>Dispatch</span></h3><p>Custom flight case packaging and global shipping &mdash; goods leave our Shenzhen factory within 18 days of order confirmation.</p></div>
-        </article>
-      </div>
-    </div>
-    <div class="cob-actions">
-      <a class="cob-cta-btn" href="/contact">索取 COB 报价</a>
-      <a class="cob-visit-link" href="/factory/">参观工厂 &rarr;</a>
-    </div>
-
-      
-    </div>
+</div>
     
   </div>
 
     
   </section>
 
-<!-- ===== TRUST & CERTIFICATIONS ===== -->
-<!-- Trust strip removed: CE / FCC / RoHS / ISO 9001 already appear in the credentials bar above -->
+<!-- ===== COB MANUFACTURING (standalone, poster-1109ar) ===== -->
+<section class="cob-section" id="cob">
+<div class="cob-v2" id="cobMfg">
+    <div class="section-header cob-header">
+      <span class="tag">COB Manufacturing</span>
+      <h2>Built on Our Own COB Line</h2>
+      <p class="cob-subtitle">Chip-on-board encapsulation, assembly and testing &mdash; handled in Shenzhen</p>
+      <p class="cob-intro">We build COB panels on our own production line &mdash; chip-on-board encapsulation, module assembly, aging and QC handled in-house rather than subcontracted. Keeping those steps together is what lets us hold display uniformity and surface quality steady across a batch, and why a COB panel resists impact, moisture, dust and UV with no exposed lamp bead or wire bond to fail. Indoor fine pitch, sealed IP65 outdoor and wind-rated touring builds all come off the same COB process.</p>
+      <a href="/products/cob-zh" class="case-study-link">Explore COB Products <span aria-hidden="true">&rarr;</span></a>
+    </div>
+    <div class="cob-stats">
+      <div class="cob-stat"><div class="num">P0.62&ndash;2.6</div><div class="label">Pixel Pitch</div><div class="stat-detail">0.62 / 0.93 / 1.25 / 1.56 / 1.953 / 2.604mm</div></div>
+      <div class="cob-stat"><div class="num">IP65</div><div class="label">Protection</div><div class="stat-detail">Fully sealed</div></div>
+      <div class="cob-stat"><div class="num" data-count="4000">4000</div><div class="label">Nits Max</div><div class="stat-detail">Daylight visible</div></div>
+      <div class="cob-stat"><div class="num">In-House</div><div class="label">COB Process</div><div class="stat-detail">Encapsulation to QC</div></div>
+    </div>
+    <div class="cob-v2-grid cob-marquee" role="list" aria-label="COB manufacturing process">
+      <article class="cob-v2-card" role="button" tabindex="0" data-full="/images/scenes/flexible-cabinet-design-16x9.jpg" data-alt="Flexible COB cabinet design available in 16:9, 4:3, 2:1 and custom dimensions" data-cap="Flexible sizing" aria-label="Enlarge: Flexible sizing"><div class="cob-v2-media"><img loading="lazy" decoding="async" width="1376" height="768" src="/images/scenes/flexible-cabinet-design-16x9.jpg" alt="Flexible COB cabinet design available in 16:9, 4:3, 2:1 and custom dimensions"></div><div class="cob-v2-cap"><h3>Flexible sizing</h3><p>16:9, 4:3, 2:1 and custom</p></div></article>
+      <article class="cob-v2-card" role="button" tabindex="0" data-full="/images/scenes/ultra-slim-display-cob.jpg" data-alt="Ultra slim COB LED display" data-cap="Ultra Slim Display COB" aria-label="Enlarge: Ultra Slim Display COB"><div class="cob-v2-media"><img loading="lazy" decoding="async" width="1672" height="941" src="/images/scenes/ultra-slim-display-cob.jpg" alt="Ultra slim COB LED display"></div><div class="cob-v2-cap"><h3>Ultra Slim Display COB</h3><p>Low-profile cabinets for tight installs</p></div></article>
+      <article class="cob-v2-card" role="button" tabindex="0" data-full="/images/scenes/cob-workshop-shenzhen.jpg" data-alt="COB production workshop and inspection line at the Asia Vision factory in Shenzhen" data-cap="STEP 1 &middot; Encapsulation" aria-label="Enlarge: Encapsulation"><div class="cob-v2-media"><img loading="lazy" decoding="async" width="1362" height="768" src="/images/scenes/cob-workshop-shenzhen.jpg" alt="COB production workshop and inspection line at the Asia Vision factory in Shenzhen"></div><div class="cob-v2-cap"><h3>STEP 1 &middot; Encapsulation</h3><p>Chip-on-board encapsulation on our own line &mdash; no exposed lamp bead or wire bond to fail.</p></div></article>
+      <article class="cob-v2-card" role="button" tabindex="0" data-full="/images/scenes/cob-pixel-calibration.jpg" data-alt="Pixel-by-pixel chromaticity calibration of a COB LED display" data-cap="STEP 2 &middot; Calibration" aria-label="Enlarge: Calibration"><div class="cob-v2-media"><img loading="lazy" decoding="async" width="1394" height="768" src="/images/scenes/cob-pixel-calibration.jpg" alt="Pixel-by-pixel chromaticity calibration of a COB LED display"></div><div class="cob-v2-cap"><h3>STEP 2 &middot; Calibration</h3><p>Pixel-by-pixel chromaticity calibration &mdash; brightness and colour calibration (Chroma / LightSpace).</p></div></article>
+      <article class="cob-v2-card" role="button" tabindex="0" data-full="/images/factory/aging-test-72h.jpg" data-alt="Aging and Testing Lab - 72 hour LED burn-in" data-cap="STEP 3 &middot; Aging Test" aria-label="Enlarge: Aging Test"><div class="cob-v2-media"><img loading="lazy" decoding="async" width="1206" height="679" src="/images/factory/aging-test-72h.jpg" alt="Aging and Testing Lab - 72 hour LED burn-in"></div><div class="cob-v2-cap"><h3>STEP 3 &middot; Aging Test</h3><p>72-hour burn-in aging for every display, plus IP65 waterproof testing.</p></div></article>
+      <article class="cob-v2-card" role="button" tabindex="0" data-full="/images/factory/dispatch-flight-cases.jpg" data-alt="Custom flight case packaging for LED display shipment" data-cap="STEP 4 &middot; Dispatch" aria-label="Enlarge: Dispatch"><div class="cob-v2-media"><img loading="lazy" decoding="async" width="1206" height="679" src="/images/factory/dispatch-flight-cases.jpg" alt="Custom flight case packaging for LED display shipment"></div><div class="cob-v2-cap"><h3>STEP 4 &middot; Dispatch</h3><p>Custom flight case packaging and global shipping &mdash; goods leave our Shenzhen factory within 18 days of order confirmation.</p></div></article>
+    </div>
+    <div class="cob-actions">
+      <a class="cob-cta-btn" href="/contact">索取 COB 报价</a>
+      <a class="cob-visit-link" href="/factory/">参观工厂 &rarr;</a>
+    </div>
+  </div>
+</section>
 
-<!-- ===== VIRTUAL PRODUCTION XR CASE STUDY ===== -->
-<!-- ===== WHY CHOOSE US ===== -->
 
 <section class="sports-section">
   <div class="container">
@@ -2064,19 +2139,62 @@ src="https://www.facebook.com/tr?id=XXXXXXXXXXXXXXXX&ev=PageView&noscript=1"
       <h2>LED Displays for Sports Venues and Events</h2>
       <p>From stadium perimeter boards and arena screens to temporary event walls &mdash; specified around sight lines, ambient light and the broadcast plan, then built in our Shenzhen factory.</p>
     </div>
-    <figure class="sports-hero">
-      <img loading="eager" decoding="async" width="1080" height="672" src="images/scenes/sports-venue.jpg" alt="Stadium panorama with LED perimeter and ribbon displays in operation">
-      <figcaption>Stadium LED display in operation</figcaption>
-    </figure>
-    <div class="stadium-photos">
-      <figure class="stadium-photo"><img loading="eager" decoding="async" width="1206" height="678" src="images/scenes/sports-perimeter-wide-1-v2.jpg" alt="Perimeter LED boards close-up at a football stadium"><figcaption>Perimeter LED boards close-up during a football match</figcaption></figure>
-      <figure class="stadium-photo"><img loading="eager" decoding="async" width="1206" height="678" src="images/scenes/sports-perimeter-wide-2.jpg" alt="Perimeter LED boards showing matchday advertising at a football stadium"><figcaption>Perimeter LED boards showing matchday advertising</figcaption></figure>
-      <p class="stadium-caption">Stadium perimeter boards and arena screens &mdash; specified around sight lines, ambient light and the broadcast plan.</p>
+    
+    <div class="sports-gallery sports-marquee" id="sportsGallery">
+      <div class="sp-viewport" aria-label="Sports LED gallery">
+      <div class="sp-track">
+      <figure class="sports-card" data-full="/images/scenes/sports-poster-2-v2.jpg" data-alt="Sports event LED display campaign visual 2" data-cap="Professional perimeter display solution" tabindex="0" role="button" aria-label="Enlarge: Professional perimeter display solution">
+        <div class="sp-in">
+          <div class="sp-media">
+            <img loading="eager" decoding="async" width="1206" height="674" src="/images/scenes/sports-poster-2-v2.jpg" alt="Sports event LED display campaign visual 2">
+          </div>
+          <figcaption class="sp-scene">Professional perimeter display solution</figcaption>
+        </div>
+      </figure>
+      <figure class="sports-card" data-full="/images/scenes/sports-poster-1.jpg" data-alt="Sports event LED display campaign visual 1" data-cap="Built for football stadiums" tabindex="0" role="button" aria-label="Enlarge: Built for football stadiums">
+        <div class="sp-in">
+          <div class="sp-media">
+            <img loading="eager" decoding="async" width="1376" height="768" src="/images/scenes/sports-poster-1.jpg" alt="Sports event LED display campaign visual 1">
+          </div>
+          <figcaption class="sp-scene">Built for football stadiums</figcaption>
+        </div>
+      </figure>
+      <figure class="sports-card" data-full="/images/scenes/sports-perimeter-wide-1-v2.jpg" data-alt="Football stadium perimeter LED strip screens during a live match" data-cap="Perimeter LED strip screens at a live match" tabindex="0" role="button" aria-label="Enlarge: Perimeter LED strip screens at a live match">
+        <div class="sp-in">
+          <div class="sp-media">
+            <img loading="eager" decoding="async" width="1206" height="678" src="/images/scenes/sports-perimeter-wide-1-v2.jpg" alt="Football stadium perimeter LED strip screens during a live match">
+          </div>
+          <figcaption class="sp-scene">Perimeter LED strip screens at a live match</figcaption>
+        </div>
+      </figure>
+      <figure class="sports-card" data-full="/images/scenes/sports-perimeter-wide-2.jpg" data-alt="Perimeter LED boards showing matchday advertising at a football stadium" data-cap="Perimeter LED boards running match-day ads" tabindex="0" role="button" aria-label="Enlarge: Perimeter LED boards running match-day ads">
+        <div class="sp-in">
+          <div class="sp-media">
+            <img loading="eager" decoding="async" width="1206" height="678" src="/images/scenes/sports-perimeter-wide-2.jpg" alt="Perimeter LED boards showing matchday advertising at a football stadium">
+          </div>
+          <figcaption class="sp-scene">Perimeter LED boards running match-day ads</figcaption>
+        </div>
+      </figure>
+      <figure class="sports-card" data-full="/images/scenes/sports-venue-169.jpg" data-alt="Stadium panorama with LED perimeter and ribbon displays in operation" data-cap="Football stadium LED panorama" tabindex="0" role="button" aria-label="Enlarge: Football stadium LED panorama">
+        <div class="sp-in">
+          <div class="sp-media">
+            <img loading="eager" decoding="async" width="796" height="448" src="/images/scenes/sports-venue-169.jpg" alt="Stadium panorama with LED perimeter and ribbon displays in operation">
+          </div>
+          <figcaption class="sp-scene">Football stadium LED panorama</figcaption>
+        </div>
+      </figure>
+      <figure class="sports-card" data-full="/images/scenes/sports-rigging.jpg" data-alt="Stadium stands during LED display installation and pre-event setup" data-cap="A venue in preparation &mdash; the screens are about to light up the stadium" tabindex="0" role="button" aria-label="Enlarge: A venue in preparation &mdash; the screens are about to light up the stadium">
+        <div class="sp-in">
+          <div class="sp-media">
+            <img loading="eager" decoding="async" width="1935" height="1080" src="/images/scenes/sports-rigging.jpg" alt="Stadium stands during LED display installation and pre-event setup">
+          </div>
+          <figcaption class="sp-scene">A venue in preparation &mdash; the screens are about to light up the stadium</figcaption>
+        </div>
+      </figure>
+      </div>
+      </div>
     </div>
-    <div class="sports-gallery">
-      <figure class="sports-card"><img loading="lazy" decoding="async" width="1206" height="674" src="images/scenes/sports-poster-2-v2.jpg" alt="Sports event LED display campaign visual 2"><figcaption>PROFESSIONAL GRADE &ndash; PERIMETER DISPLAY SOLUTION</figcaption></figure>
-      <figure class="sports-card"><img loading="lazy" decoding="async" width="1376" height="768" src="images/scenes/sports-poster-1.jpg" alt="Sports event LED display campaign visual 1"><figcaption>IP65 ULTIMATE PROTECTION &ndash; BUILT FOR FOOTBALL</figcaption></figure>
-    </div>
+    <p class="stadium-caption">Stadium perimeter boards and arena screens &mdash; specified around sight lines, ambient light and the broadcast plan.</p>
     <div class="sports-points">
       <div class="sports-point"><span class="stadium-icon" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" focusable="false"><rect x="3" y="7" width="16" height="6" rx="1"/><path d="M6 13v4M14 13v4M3 17h14"/></svg></span><div><h3>Stadium &amp; perimeter</h3><p>High-brightness ribbon and perimeter displays with sealed cabinets for outdoor exposure.</p></div></div>
       <div class="sports-point"><span class="stadium-icon" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M11 2.5l7 4v9l-7 4-7-4v-9z"/><path d="M11 2.5v9m0 0l7-4.5M11 11.5L4 7"/></svg></span><div><h3>Arena &amp; centre-hung</h3><p>Lightweight cabinets, front service and fine pitch for courtside and centre-hung screens.</p></div></div>
@@ -2088,7 +2206,14 @@ src="https://www.facebook.com/tr?id=XXXXXXXXXXXXXXXX&ev=PageView&noscript=1"
   </div>
 </section>
 
-<section class="fc-section">
+<!-- ===== TRUST & CERTIFICATIONS ===== -->
+<!-- Trust strip removed: CE / FCC / RoHS / ISO 9001 already appear in the credentials bar above -->
+
+<!-- ===== VIRTUAL PRODUCTION XR CASE STUDY ===== -->
+<!-- ===== WHY CHOOSE US ===== -->
+
+      
+    <section class="fc-section">
   <div class="container">
     <div class="section-header">
       <h2>Built Around Your Project</h2>
@@ -2138,7 +2263,7 @@ src="https://www.facebook.com/tr?id=XXXXXXXXXXXXXXXX&ev=PageView&noscript=1"
 </section>
 <section class="terms-band"><div class="container">
 <div class="why-terms">
-      <div class="why-poster"><img width="1309" height="1202" src="images/scenes/av-poster.jpg" alt="Asia Vision Technology LED display factory and product range" loading="lazy"></div>
+      <div class="why-poster"><img width="1206" height="1108" src="/images/scenes/av-poster-grid.jpg" alt="Asia Vision LED display solutions: trade show LED walls and creative displays" loading="lazy"></div>
       <div>
         <div class="tt-h">Flexible International Trade Terms</div>
         <div class="tt-sub">Choose the Incoterm that matches how you clear customs and how much risk you carry. We handle export documentation for every option below.</div>
@@ -2161,7 +2286,7 @@ src="https://www.facebook.com/tr?id=XXXXXXXXXXXXXXXX&ev=PageView&noscript=1"
       <div class="global-map">
         <svg class="world-map-svg" viewBox="0 0 1000 500" xmlns="http://www.w3.org/2000/svg">
         <!-- Simplified world map outline -->
-        <g fill="none" stroke="rgba(0,0,0,0.06)" stroke-width="1.5">
+        <g fill="rgba(0,0,0,0.09)" stroke="rgba(29,29,31,0.38)" stroke-width="1.5">
           <!-- North America -->
           <path d="M120,60 L280,40 L340,80 L360,130 L320,230 L280,280 L200,300 L140,280 L100,200 L80,140 Z"/>
           <!-- South America -->
@@ -2192,11 +2317,11 @@ src="https://www.facebook.com/tr?id=XXXXXXXXXXXXXXXX&ev=PageView&noscript=1"
         <circle cx="790" cy="410" r="4" class="map-dot" style="animation-delay:0.3s"/>
         <circle cx="730" cy="280" r="5" fill="#ff6b35" opacity="1"><animate attributeName="r" values="4;7;4" dur="2s" repeatCount="indefinite"/></circle>
         <!-- Labels -->
-        <text x="200" y="185" fill="rgba(29,29,31,0.4)" font-size="9" font-weight="600" text-anchor="middle" font-family="sans-serif">USA</text>
-        <text x="460" y="105" fill="rgba(29,29,31,0.4)" font-size="9" font-weight="600" text-anchor="middle" font-family="sans-serif">EUROPE</text>
-        <text x="510" y="190" fill="rgba(29,29,31,0.4)" font-size="9" font-weight="600" text-anchor="middle" font-family="sans-serif">MIDDLE EAST</text>
-        <text x="260" y="358" fill="rgba(29,29,31,0.4)" font-size="9" font-weight="600" text-anchor="middle" font-family="sans-serif">S. AMERICA</text>
-        <text x="790" y="428" fill="rgba(29,29,31,0.4)" font-size="9" font-weight="600" text-anchor="middle" font-family="sans-serif">AUSTRALIA</text>
+        <text x="200" y="185" fill="#1d1d1f" font-size="11" font-weight="600" text-anchor="middle" font-family="sans-serif">USA</text>
+        <text x="460" y="105" fill="#1d1d1f" font-size="11" font-weight="600" text-anchor="middle" font-family="sans-serif">EUROPE</text>
+        <text x="510" y="190" fill="#1d1d1f" font-size="11" font-weight="600" text-anchor="middle" font-family="sans-serif">MIDDLE EAST</text>
+        <text x="260" y="358" fill="#1d1d1f" font-size="11" font-weight="600" text-anchor="middle" font-family="sans-serif">S. AMERICA</text>
+        <text x="790" y="428" fill="#1d1d1f" font-size="11" font-weight="600" text-anchor="middle" font-family="sans-serif">AUSTRALIA</text>
       </svg>
       </div>
       <div class="global-info">
@@ -2228,7 +2353,7 @@ src="https://www.facebook.com/tr?id=XXXXXXXXXXXXXXXX&ev=PageView&noscript=1"
       <h2>Built on Proven Control Platforms</h2>
       <p>We integrate the same control systems your AV team already specifies &mdash; with 24-hour technical support behind every panel.</p>
     </div>
-    <div class="pt-logos"><img width="900" height="192" src="images/partners/novastar.jpg" alt="NovaStar LED display control system partner" loading="lazy"><img width="772" height="268" src="images/partners/colorlight.jpg" alt="Colorlight LED display control system partner" loading="lazy"><img width="900" height="570" src="images/partners/mooncell.jpg" alt="Mooncell LED display control system partner" loading="lazy"></div>
+    <div class="pt-logos"><img width="900" height="192" src="/images/partners/novastar.jpg" alt="NovaStar LED display control system partner" loading="lazy"><img width="772" height="268" src="/images/partners/colorlight.jpg" alt="Colorlight LED display control system partner" loading="lazy"><img width="900" height="570" src="/images/partners/mooncell.jpg" alt="Mooncell LED display control system partner" loading="lazy"></div>
     <div class="pt-note"><div><h4>24/7 Remote Support</h4><p>Control-system partners staff our support channel around the clock, so a firmware or configuration issue is answered the day it appears.</p></div><div><h4>Branded Control Systems</h4><p>NovaStar, Colorlight and Mooncell are the platforms our panels ship with &mdash; and the ones your local AV team already knows.</p></div><div><h4>Spares &amp; Firmware</h4><p>Receiving cards, sending cards and firmware files are held in stock, so a replacement is dispatched without waiting on a third party.</p></div></div>
   </div>
     </section>
@@ -2254,7 +2379,7 @@ src="https://www.facebook.com/tr?id=XXXXXXXXXXXXXXXX&ev=PageView&noscript=1"
   <div class="container">
     <div class="footer-grid">
       <div class="brand-info">
-        <a href="/" class="footer-logo" style="display:inline-flex;align-items:center;text-decoration:none;position:relative;margin-bottom:14px"><img loading="lazy" decoding="async" width="774" height="120" src="images/logo-dark.png" alt="Asia Vision LED Display" style="height:13px;width:auto;display:block"></a>
+        <a href="/" class="footer-logo" style="display:inline-flex;align-items:center;text-decoration:none;position:relative;margin-bottom:14px"><img loading="lazy" decoding="async" width="774" height="120" src="/images/logo-dark.png" alt="Asia Vision LED Display" style="height:13px;width:auto;display:block"></a>
         <p>Shenzhen Asia Vision Technology Co., Ltd. &mdash; LED display manufacturer based in Shenzhen, China. With 8 IC production lines, 7 LED SMT production lines and ISO-certified manufacturing, we supply COB, SMD, rental and custom LED display solutions to B2B partners worldwide.</p>
         <div class="footer-social">
           <a class="fs-li" href="https://www.linkedin.com/in/david-lu-362231414" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn"><svg viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
@@ -2266,10 +2391,10 @@ src="https://www.facebook.com/tr?id=XXXXXXXXXXXXXXXX&ev=PageView&noscript=1"
       <div>
         <h4>Products</h4>
         <ul>
-          <li><a href="/products-v2">Fine Pitch LED</a></li>
-          <li><a href="/products-v2">Fixed Installation</a></li>
-          <li><a href="/products-v2">Rental LED</a></li>
-          <li><a href="/products-v2">Creative Screens</a></li>
+          <li><a href="/products-v2#indoor">Fine Pitch LED</a></li>
+          <li><a href="/products-v2#outdoor">Fixed Installation</a></li>
+          <li><a href="/products-v2#rental">Rental LED</a></li>
+          <li><a href="/cases/#creative">Creative Screens</a></li>
         </ul>
       </div>
       <div>
@@ -2277,20 +2402,20 @@ src="https://www.facebook.com/tr?id=XXXXXXXXXXXXXXXX&ev=PageView&noscript=1"
         <ul>
           <li><a href="/contact">Contact Us</a></li>
           <li><a href="/faq/">FAQ</a></li>
-          <li><a href="/contact">Shipping</a></li>
+          <li><a href="/faq/#shipping">Shipping</a></li>
         </ul>
       </div>
       <div>
         <h4>Company</h4>
         <ul>
           <li><a href="/about">About Us</a></li>
-          <li><a href="factory/">Factory Tour</a></li>
-          <li><a href="/about">Certifications</a></li>
+          <li><a href="/factory/">Factory Tour</a></li>
+          <li><a href="/about#quality">Certifications</a></li>
         </ul>
       </div>
     </div>
     <div class="footer-bottom">
-      <span>&copy; 2025 Asia Vision Technology Co., Ltd. All rights reserved.</span>
+      <span>&copy; 2026 Asia Vision Technology Co., Ltd. All rights reserved.</span>
       <span>T/T &middot; L/C &middot; PayPal &middot; Western Union</span>
     </div>
   </div>
@@ -2302,20 +2427,6 @@ src="https://www.facebook.com/tr?id=XXXXXXXXXXXXXXXX&ev=PageView&noscript=1"
     <input type="text" id="searchInput" placeholder="Search LED products..." oninput="doSearch()">
     <div class="search-results" id="searchResults"></div>
     <button class="search-close-btn" onclick="closeSearch()">Close</button>
-  </div>
-</div>
-
-<!-- ===== CART SLIDEOUT ===== -->
-<div class="cart-slideout" id="cartSlideout" style="position:fixed;top:0;right:-400px;width:380px;height:100vh;background:var(--white);z-index:200;box-shadow:-5px 0 30px rgba(0,0,0,.2);transition:right .3s;display:flex;flex-direction:column">
-  <div class="cart-header">
-    <h3>Inquiry Cart</h3>
-    <button class="cart-close" onclick="closeCart()">&times;</button>
-  </div>
-  <div class="cart-body">
-    <p style="text-align:center;padding:40px 0">Add products to your inquiry list.<br>Contact us for a quotation.</p>
-  </div>
-  <div class="cart-footer">
-    <a href="/contact" class="btn btn-primary ui-btn ui-btn--primary">Submit Inquiry</a>
   </div>
 </div>
 
@@ -2354,7 +2465,7 @@ document.getElementById('searchOverlay').addEventListener('click', function(e) {
 
 var allProducts = [
   {id:'cob-z',ext:'png',name:'COB Z Series',desc:'High Stability COB Rental · 7680Hz · Flip Chip'},
-  {id:'cob-zh',ext:'jpg',name:'COB ZH Series',desc:'Durable COB Touring · 3400-4000 nits · Wind 20m/s'},
+  {id:'cob-zh',ext:'jpg',name:'COB ZH Series',desc:'Durable COB Touring · 4000 nits · Wind 20m/s'},
   {id:'e-pro',ext:'png',name:'E-PRO Series',desc:'High-End Rental · COB+SMD Dual Platform · XR Studio'},
   {id:'s-series',ext:'png',name:'S Series',desc:'Universal Rental · Indoor & Outdoor · Competitive'},
   {id:'cob-eh-pro',ext:'png',name:'COB EH-PRO Series',desc:'Premium COB Outdoor Fine Pitch · IP65 · 3500cd'},
@@ -2375,18 +2486,10 @@ function doSearch() {
   for (var i = 0; i < allProducts.length; i++) {
     var p = allProducts[i];
     if (p.name.toLowerCase().indexOf(q) > -1 || p.desc.toLowerCase().indexOf(q) > -1) {
-      h += '<a href="/products/' + p.id + '"><img loading="lazy" decoding="async" src="images/products/' + p.id + '.' + p.ext + '" alt="' + p.name + '"><div><strong>' + p.name + '</strong><br><small style="opacity:0.5">' + p.desc + '</small></div></a>';
+      h += '<a href="/products/' + p.id + '"><img loading="lazy" decoding="async" src="/images/products/' + p.id + '.' + p.ext + '" alt="' + p.name + '"><div><strong>' + p.name + '</strong><br><small style="opacity:0.5">' + p.desc + '</small></div></a>';
     }
   }
   r.innerHTML = h || '<p style="color:var(--white-50);padding:16px;text-align:center">No products found</p>';
-}
-
-// ===== CART =====
-function openCart() {
-  document.getElementById('cartSlideout').classList.add('open');
-}
-function closeCart() {
-  document.getElementById('cartSlideout').classList.remove('open');
 }
 
 // ===== PRODUCT GRID =====
@@ -2397,6 +2500,10 @@ function closeCart() {
 // ===== SCROLL ANIMATIONS (Intersection Observer) =====
 (function(){
   var observerOptions = { threshold: 0.15, rootMargin: '0px 0px -40px 0px' };
+  /* FIX 2026-11-13 (defect 5): a counter already in view at load must show its final value
+     immediately. Animating from 0 makes a screenshot/quick glance read a wrong interim value. */
+  var loadAt = (window.performance && performance.now) ? performance.now() : 0;
+  function isEarly(){ return (window.performance && performance.now) ? (performance.now() - loadAt < 2000) : false; }
 
   var observer = new IntersectionObserver(function(entries) {
     entries.forEach(function(entry) {
@@ -2407,7 +2514,8 @@ function closeCart() {
         var counter = entry.target.querySelector('.counter');
         if (counter && !counter.dataset.done) {
           counter.dataset.done = '1';
-          animateCounter(counter);
+          if (isEarly()) { counter.textContent = parseInt(counter.getAttribute('data-target'), 10).toLocaleString(); }
+          else { animateCounter(counter); }
         }
       }
     });
@@ -2506,7 +2614,7 @@ if (typeof gsap !== 'undefined' && typeof ScrollTrigger !== 'undefined') {
       {"@type": "Offer","name": "COB EH-PRO Series","url": "https://asiavisionled.com/products/cob-eh-pro.html","description": "Premium COB outdoor fine pitch LED display, IP65, P1.56-P1.95"},
       {"@type": "Offer","name": "COB EF Series","url": "https://asiavisionled.com/products/cob-ef.html","description": "COB outdoor LED display, 3000 nits, P1.56-P1.95"},
       {"@type": "Offer","name": "COB Z Series","url": "https://asiavisionled.com/products/cob-z.html","description": "High stability COB rental LED display, 7680Hz, P1.95-P2.6"},
-      {"@type": "Offer","name": "COB ZH Series","url": "https://asiavisionled.com/products/cob-zh.html","description": "Durable COB touring LED display, 3400-4000 nits, P1.95-P2.6"},
+      {"@type": "Offer","name": "COB ZH Series","url": "https://asiavisionled.com/products/cob-zh.html","description": "Durable COB touring LED display, 4000 nits, P1.95-P2.6"},
       {"@type": "Offer","name": "RH-PRO COB Series","url": "https://asiavisionled.com/products/rh-pro-cob.html","description": "Flagship COB fine pitch LED display, P0.78-P1.56, DCI-P3 >=99%"},
       {"@type": "Offer","name": "D-PRO Series","url": "https://asiavisionled.com/products/d-pro.html","description": "SMD outdoor fixed LED display, P5-P10, front maintenance"},
       {"@type": "Offer","name": "E-PRO Series","url": "https://asiavisionled.com/products/e-pro.html","description": "High-end COB+SMD rental LED display, P1.95-P4.81, XR studio"},
@@ -2557,43 +2665,7 @@ if (typeof gsap !== 'undefined' && typeof ScrollTrigger !== 'undefined') {
 })();
 </script>
 <script src="/js/search.js"></script>
-<script>(function(){
-  /* Concert gallery (2026-11-08): 2x3 thumbnail grid — click a thumbnail
-     to open the lightbox; arrows/Esc navigate inside the lightbox.
-     No featured image, no auto-rotation, no 3D, no drag. The lightbox
-     keeps its own index (boxCurrent), independent of the grid. */
-  var wrap=document.getElementById('concertGallery');
-  if(!wrap) return;
-  var thumbs=Array.prototype.slice.call(wrap.querySelectorAll('.gallery-thumb'));
-  var N=thumbs.length;
-  var box=document.getElementById('ringLightbox');
-  var boxImg=document.getElementById('ringLightboxImg');
-  var boxCap=document.getElementById('ringLightboxCap');
-  var boxCurrent=0;
-  function openBox(i){
-    boxCurrent=(i+N)%N;
-    var t=thumbs[boxCurrent];
-    boxImg.src=t.getAttribute('data-full');
-    boxImg.alt=t.getAttribute('data-alt');
-    var c=t.getAttribute('data-cap')||'';
-    boxCap.textContent=c ? c+'  \u00b7  '+(boxCurrent+1)+' / '+N : (boxCurrent+1)+' / '+N;
-    box.hidden=false;
-    document.getElementById('ringLightboxClose').focus();
-  }
-  function closeBox(){ box.hidden=true; }
-  thumbs.forEach(function(t,i){ t.addEventListener('click',function(){ openBox(i); }); });
-  document.getElementById('ringLightboxClose').addEventListener('click',closeBox);
-  document.getElementById('ringLightboxPrev').addEventListener('click',function(){ openBox(boxCurrent-1); });
-  document.getElementById('ringLightboxNext').addEventListener('click',function(){ openBox(boxCurrent+1); });
-  box.addEventListener('click',function(e){ if(e.target===box) closeBox(); });
-  document.addEventListener('keydown',function(e){
-    if(!box.hidden){
-      if(e.key==='Escape') closeBox();
-      if(e.key==='ArrowLeft') openBox(boxCurrent-1);
-      if(e.key==='ArrowRight') openBox(boxCurrent+1);
-    }
-  });
-})();</script>
+
 <script>(function(){
   /* Scroll reveal for the four sports points, one by one; instant when reduced motion is preferred. */
   var reduceMotion=window.matchMedia('(prefers-reduced-motion: reduce)').matches,
@@ -2605,6 +2677,9 @@ if (typeof gsap !== 'undefined' && typeof ScrollTrigger !== 'undefined') {
       entries.forEach(function(entry){ if(entry.isIntersecting){ entry.target.classList.add('is-visible'); ob.unobserve(entry.target); } });
     },{threshold:0.25});
     points.forEach(function(p){ obs.observe(p); });
+    /* FIX 2026-11-13 (defect 2): last-resort fallback — never leave the points hidden if the
+       observer misbehaves. By 4s the observer has had ample time; reveal whatever is left. */
+    window.setTimeout(revealAll, 4000);
   }
 })();</script>
 <script>(function(){
@@ -2613,10 +2688,14 @@ if (typeof gsap !== 'undefined' && typeof ScrollTrigger !== 'undefined') {
   var num=document.querySelector('.case-stats .num[data-count]');
   if(!num) return;
   var target=parseInt(num.getAttribute('data-count'),10), done=false;
+  /* FIX 2026-11-13 (defect 5): if the stat is already in view at load, show the final value
+     immediately instead of animating from 0 (a screenshot would read a wrong interim number). */
+  var loadAt = (window.performance && performance.now) ? performance.now() : 0;
+  function isEarly(){ return (window.performance && performance.now) ? (performance.now() - loadAt < 2000) : false; }
   function runCount(){
     if(done) return;
     done=true;
-    if(reduceMotion){ num.textContent=String(target); return; }
+    if(reduceMotion || isEarly()){ num.textContent=String(target); return; }
     var duration=1200, startTime=null;
     function step(ts){
       if(!startTime) startTime=ts;
@@ -2637,6 +2716,52 @@ if (typeof gsap !== 'undefined' && typeof ScrollTrigger !== 'undefined') {
     statObserver.observe(num);
   } else { runCount(); }
 })();</script>
-<script src="/js/mega-menu.js" defer></script><script src="/js/av-motion.js" defer></script><script src="/js/av-interactions.js" defer></script><script src="/js/av-led-hero.js" defer></script>
+<script src="/js/mega-menu.js" defer></script><script src="/js/av-motion.js" defer></script><script src="/js/av-interactions.js" defer></script><script src="/js/av-lightbox.js?v=chain-1115" defer></script><script src="/js/av-why-hotspots.js?v=wideall-1115" defer></script><script src="/js/av-film-strip.js?v=ring-1115" defer></script>
+<script src="/js/av-sports-marquee.js?v=nopause-1115" defer></script>
+<script src="/js/av-cob-marquee.js?v=nopause-1115" defer></script>
+<script src="/js/av-strip-controls.js" defer></script>
+<script src="/js/av-pushin.js" defer></script>
+<script src="/js/av-unfold.js" defer></script>
+
+<script>
+/* Pixel divider strips between sections (warm orange). The S1 hero no longer has any LED matrix / glow / strip. */
+(function(){
+  var reduce=matchMedia('(prefers-reduced-motion: reduce)').matches,dpr=Math.min(devicePixelRatio||1,2);
+  function size(){}
+  /* pixel divider strips between sections — same warm-orange language */
+  var stripEls=Array.prototype.slice.call(document.querySelectorAll('canvas.strip-cv'));
+  var strips=[];
+  function buildStrips(){
+    strips=stripEls.map(function(cv){
+      var r=cv.getBoundingClientRect();
+      cv.width=Math.max(1,Math.round(r.width*dpr));
+      cv.height=Math.max(1,Math.round(r.height*dpr));
+      var ctx=cv.getContext('2d');
+      ctx.setTransform(dpr,0,0,dpr,0,0);
+      return {ctx:ctx,w:r.width,h:r.height,phase:Math.random()*Math.PI*2};
+    });
+  }
+  buildStrips();
+  function drawStrips(t){
+    for(var i=0;i<strips.length;i++){
+      var s=strips[i],ctx=s.ctx;
+      ctx.clearRect(0,0,s.w,s.h);
+      var gap=9,sz=5,y=(s.h-sz)/2;
+      for(var xx=0;xx<s.w;xx+=gap){
+        var a=(.08+.16*Math.abs(Math.sin(xx*.045+s.phase)))*(.85+.15*Math.sin(t*.0006+s.phase));
+        ctx.fillStyle='rgba(255,107,53,'+a.toFixed(3)+')';
+        ctx.fillRect(xx,y,sz,sz);
+      }
+    }
+  }
+  var rT;
+  addEventListener('resize',function(){clearTimeout(rT);rT=setTimeout(function(){size();buildStrips();},150);});
+  (function loop(ts){
+    if(!document.hidden){drawStrips(ts||0);}
+    if(!reduce)requestAnimationFrame(loop);
+  })(0);
+})();
+</script>
+
 </body>
 </html>
