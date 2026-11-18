@@ -1,0 +1,32 @@
+/* Spec PDF download cards on product detail pages */
+.spec-downloads{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin:28px 0 8px;max-width:1100px}
+.spec-dl-card{display:flex;flex-direction:column;background:#fff;border:1px solid rgba(0,0,0,.08);border-radius:12px;overflow:hidden;min-width:0}
+.spec-dl-thumb{display:block;background:#f6f6f8;border-bottom:1px solid rgba(0,0,0,.06)}
+.spec-dl-thumb img{width:100%;height:auto;display:block;aspect-ratio:210/297;object-fit:contain;object-position:top;background:#fff}
+.spec-dl-body{padding:16px 18px 18px;display:flex;flex-direction:column;flex:1}
+.spec-dl-body h4{font-size:.92rem;font-weight:700;color:var(--black,#1d1d1f);margin:0 0 6px;line-height:1.35}
+.spec-dl-meta{font-size:.78rem;color:rgba(29,29,31,.5);margin:0 0 14px}
+.spec-dl-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:auto}
+.spec-dl-note{font-size:.75rem;color:rgba(29,29,31,.5);margin:8px 0 0;line-height:1.45}
+.spec-dl-heading{font-size:1rem;font-weight:700;color:var(--black,#1d1d1f);margin:28px 0 0}
+@media(max-width:640px){.spec-downloads{grid-template-columns:1fr}}
+
+.specs-table--models{max-width:100%}
+.specs-table--models thead th{background:var(--gray50,#f9f9f9);color:var(--black,#1d1d1f);font-weight:700;width:auto}
+.specs-table--models th,.specs-table--models td{font-size:.78rem;vertical-align:top}
+.specs-table--models td[colspan]{color:var(--gray600)}
+
+/* Gated spec-sheet lead capture */
+.spec-gate-overlay{position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:400;display:none;align-items:center;justify-content:center;padding:24px}
+.spec-gate-overlay.is-open{display:flex}
+.spec-gate-box{background:#fff;width:100%;max-width:420px;border-radius:12px;padding:24px;box-shadow:0 20px 60px rgba(0,0,0,.18);position:relative}
+.spec-gate-box h3{margin:0 0 8px;font-size:1.05rem;font-weight:700;color:#1d1d1f}
+.spec-gate-box p{margin:0 0 16px;font-size:.84rem;color:rgba(29,29,31,.65);line-height:1.5}
+.spec-gate-box label{display:block;font-size:.74rem;font-weight:600;color:rgba(29,29,31,.7);margin-bottom:5px}
+.spec-gate-box input{width:100%;padding:10px 14px;border:1px solid rgba(0,0,0,.12);border-radius:8px;font-size:.84rem;font-family:inherit;outline:none;margin-bottom:12px;box-sizing:border-box}
+.spec-gate-or{text-align:center;font-size:.74rem;color:rgba(29,29,31,.45);margin:-4px 0 10px}
+.spec-gate-err{display:none;background:#fff3f3;color:#c00;border-radius:8px;padding:8px 10px;font-size:.8rem;font-weight:600;margin-bottom:12px;text-align:center}
+.spec-gate-actions{display:flex;gap:8px;flex-wrap:wrap}
+.spec-gate-actions button{flex:1;min-width:120px;cursor:pointer}
+.spec-gate-close{position:absolute;top:10px;right:12px;background:none;border:0;font-size:1.2rem;cursor:pointer;color:#888;line-height:1}
+.spec-dl-locked-note{font-size:.75rem;color:rgba(29,29,31,.5);margin:8px 0 0}

@@ -1,0 +1,3 @@
+action,site_v2_path,reason,bytes,sha256,notes
+suggest_delete,images/通用首图2.jpg,banned_image_cleanup,243133,e1a4f09f9bd026bdda67f649f19031fde2564b3d6469987d9d48058af1ac6d51,David banned 2026-11-12 (通用首图2 / Asia Vision trade-show stand with tall LED columns). Hash matches the recorded banned original. Absent from the 11/17 stage. Suggest delete from site-v2 only; do not recreate.
+suggest_delete,images/通用首图3.jpg,banned_image_cleanup,216463,9587ff2d8080ccd9baafad3226aa27662f3a5bb22ecab92d15ddd0e408d3ab50,"David banned 2026-11-12 (通用首图3 / same booth, other frame). Hash matches the recorded banned original. Absent from the 11/17 stage. Suggest delete from site-v2 only; do not recreate."

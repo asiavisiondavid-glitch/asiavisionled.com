@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1152pt" height="648pt" viewBox="0 0 1152 648" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-13T04:11:53.399093</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 648 
+L 1152 648 
+L 1152 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 32.688 233.568 
+L 343.152 233.568 
+Q 348.7968 233.568 348.7968 228.96 
+L 348.7968 136.8 
+Q 348.7968 132.192 343.152 132.192 
+L 32.688 132.192 
+Q 27.0432 132.192 27.0432 136.8 
+L 27.0432 228.96 
+Q 27.0432 233.568 32.688 233.568 
+z
+" clip-path="url(#pd39851384f)" style="fill: #ffffff; stroke: #0b1f3a; stroke-width: 2.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 427.824 233.568 
+L 738.288 233.568 
+Q 743.9328 233.568 743.9328 228.96 
+L 743.9328 136.8 
+Q 743.9328 132.192 738.288 132.192 
+L 427.824 132.192 
+Q 422.1792 132.192 422.1792 136.8 
+L 422.1792 228.96 
+Q 422.1792 233.568 427.824 233.568 
+z
+" clip-path="url(#pd39851384f)" style="fill: #e4f4e7; stroke: #2a9d3f; stroke-width: 2.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 822.96 233.568 
+L 1119.312 233.568 
+Q 1124.9568 233.568 1124.9568 228.96 
+L 1124.9568 136.8 
+Q 1124.9568 132.192 1119.312 132.192 
+L 822.96 132.192 
+Q 817.3152 132.192 817.3152 136.8 
+L 817.3152 228.96 
+Q 817.3152 233.568 822.96 233.568 
+z
+" clip-path="url(#pd39851384f)" style="fill: #f5f8fc; stroke: #8a94a6; stroke-width: 2.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 32.688 400.608 
+L 343.152 400.608 
+Q 348.7968 400.608 348.7968 396 
+L 348.7968 303.84 
+Q 348.7968 299.232 343.152 299.232 
+L 32.688 299.232 
+Q 27.0432 299.232 27.0432 303.84 
+L 27.0432 396 
+Q 27.0432 400.608 32.688 400.608 
+z
+" clip-path="url(#pd39851384f)" style="fill: #ffffff; stroke: #0b1f3a; stroke-width: 2.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 427.824 400.608 
+L 787.68 400.608 
+Q 793.3248 400.608 793.3248 396 
+L 793.3248 303.84 
+Q 793.3248 299.232 787.68 299.232 
+L 427.824 299.232 
+Q 422.1792 299.232 422.1792 303.84 
+L 422.1792 396 
+Q 422.1792 400.608 427.824 400.608 
+z
+" clip-path="url(#pd39851384f)" style="fill: #dcebf8; stroke: #1e73be; stroke-width: 2.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 32.688 561.888 
+L 343.152 561.888 
+Q 348.7968 561.888 348.7968 557.28 
+L 348.7968 465.12 
+Q 348.7968 460.512 343.152 460.512 
+L 32.688 460.512 
+Q 27.0432 460.512 27.0432 465.12 
+L 27.0432 557.28 
+Q 27.0432 561.888 32.688 561.888 
+z
+" clip-path="url(#pd39851384f)" style="fill: #ffffff; stroke: #0b1f3a; stroke-width: 2.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 427.824 561.888 
+L 787.68 561.888 
+Q 793.3248 561.888 793.3248 557.28 
+L 793.3248 465.12 
+Q 793.3248 460.512 787.68 460.512 
+L 427.824 460.512 
+Q 422.1792 460.512 422.1792 465.12 
+L 422.1792 557.28 
+Q 422.1792 561.888 427.824 561.888 
+z
+" clip-path="url(#pd39851384f)" style="fill: #dcebf8; stroke: #1e73be; stroke-width: 2.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 858.24 481.248 
+L 1119.312 481.248 
+Q 1124.9568 481.248 1124.9568 476.64 
+L 1124.9568 326.88 
+Q 1124.9568 322.272 1119.312 322.272 
+L 858.24 322.272 
+Q 852.5952 322.272 852.5952 326.88 
+L 852.5952 476.64 
+Q 852.5952 481.248 858.24 481.248 
+z
+" clip-path="url(#pd39851384f)" style="fill: #fbebc8; stroke: #e07a1f; stroke-width: 2.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 187.92 557.28 
+L 187.92 586.08 
+L 988.776 586.08 
+" clip-path="url(#pd39851384f)" style="fill: none; stroke: #0b1f3a; stroke-width: 2; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 13.5px; font-family: 'DejaVu Sans'; fill: #0b1f3a" transform="translate(108.348047 170.183672)">1. Do you already run a</text>
+    <text style="font-size: 13.5px; font-family: 'DejaVu Sans'; fill: #0b1f3a" transform="translate(112.986563 186.387363)">NovaStar or Colorlight</text>
+    <text style="font-size: 13.5px; font-family: 'DejaVu Sans'; fill: #0b1f3a" transform="translate(134.776406 202.591055)">fleet or sender?</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 14px; font-family: 'DejaVu Sans'; fill: #0b1f3a" transform="translate(550.188813 169.712891)">MATCH IT</text>
+    <text style="font-size: 14px; font-family: 'DejaVu Sans'; fill: #0b1f3a" transform="translate(498.293656 186.516719)">Same family, same card</text>
+    <text style="font-size: 14px; font-family: 'DejaVu Sans'; fill: #0b1f3a" transform="translate(504.495219 203.320547)">model, same firmware</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; fill: #0b1f3a" transform="translate(880.1035 170.653906)">Get in writing: sender, card,</text>
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; fill: #0b1f3a" transform="translate(900.885219 186.257461)">firmware, config files,</text>
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; fill: #0b1f3a" transform="translate(920.027719 201.861016)">calibration data</text>
+   </g>
+   <g id="patch_10">
+    <path d="M 345.14942 182.88 
+Q 385.486329 182.88 423.587171 182.88 
+" style="fill: none; stroke: #0b1f3a; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 419.587171 180.88 
+L 423.587171 182.88 
+L 419.587171 184.88 
+" style="fill: none; stroke: #0b1f3a; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 12.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #8a94a6" x="392.544" y="174.24" transform="rotate(-0 392.544 174.24)">yes</text>
+   </g>
+   <g id="patch_11">
+    <path d="M 740.28542 182.88 
+Q 780.622329 182.88 818.723171 182.88 
+" style="fill: none; stroke: #0b1f3a; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 814.723171 180.88 
+L 818.723171 182.88 
+L 814.723171 184.88 
+" style="fill: none; stroke: #0b1f3a; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 13.5px; font-family: 'DejaVu Sans'; fill: #0b1f3a" transform="translate(130.190625 345.32499)">2. Camera, XR or</text>
+    <text style="font-size: 13.5px; font-family: 'DejaVu Sans'; fill: #0b1f3a" transform="translate(136.77082 361.528682)">broadcast use?</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; fill: #0b1f3a" transform="translate(493.508406 337.693906)">Compare SENDER + CARD models:</text>
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; fill: #0b1f3a" transform="translate(513.636062 353.297461)">genlock, latency, frame rate,</text>
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; fill: #0b1f3a" transform="translate(491.029266 368.901016)">shutter lock. Test with your camera.</text>
+   </g>
+   <g id="patch_12">
+    <path d="M 187.92 230.957227 
+Q 187.92 266.399945 187.92 299.606595 
+" style="fill: none; stroke: #0b1f3a; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 189.92 295.606595 
+L 187.92 299.606595 
+L 185.92 295.606595 
+" style="fill: none; stroke: #0b1f3a; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 12.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #8a94a6" x="196.3872" y="266.4" transform="rotate(-0 196.3872 266.4)">no</text>
+   </g>
+   <g id="patch_13">
+    <path d="M 345.14942 349.92 
+Q 385.486329 349.92 423.587171 349.92 
+" style="fill: none; stroke: #0b1f3a; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 419.587171 347.92 
+L 423.587171 349.92 
+L 419.587171 351.92 
+" style="fill: none; stroke: #0b1f3a; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 12.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #8a94a6" x="392.544" y="341.28" transform="rotate(-0 392.544 341.28)">yes</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 13.5px; font-family: 'DejaVu Sans'; fill: #0b1f3a" transform="translate(98.001563 506.605518)">3. Signage or outdoor with</text>
+    <text style="font-size: 13.5px; font-family: 'DejaVu Sans'; fill: #0b1f3a" transform="translate(123.076758 522.809209)">remote publishing?</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; fill: #0b1f3a" transform="translate(519.736922 498.973906)">Compare cloud, player and</text>
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; fill: #0b1f3a" transform="translate(543.350203 514.577461)">monitoring features</text>
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; fill: #0b1f3a" transform="translate(536.435828 530.181016)">of the specific models</text>
+   </g>
+   <g id="patch_14">
+    <path d="M 187.92 398.003906 
+Q 187.92 430.560373 187.92 460.880772 
+" style="fill: none; stroke: #0b1f3a; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 189.92 456.880772 
+L 187.92 460.880772 
+L 185.92 456.880772 
+" style="fill: none; stroke: #0b1f3a; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 12.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #8a94a6" x="196.3872" y="430.56" transform="rotate(-0 196.3872 430.56)">no</text>
+   </g>
+   <g id="patch_15">
+    <path d="M 345.14942 511.2 
+Q 385.486329 511.2 423.587171 511.2 
+" style="fill: none; stroke: #0b1f3a; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 419.587171 509.2 
+L 423.587171 511.2 
+L 419.587171 513.2 
+" style="fill: none; stroke: #0b1f3a; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 12.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #8a94a6" x="392.544" y="502.56" transform="rotate(-0 392.544 502.56)">yes</text>
+   </g>
+   <g id="patch_16">
+    <path d="M 988.776 584.079434 
+Q 988.776 531.358109 988.776 480.872852 
+" style="fill: none; stroke: #0b1f3a; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 986.776 484.872852 
+L 988.776 480.872852 
+L 990.776 484.872852 
+" style="fill: none; stroke: #0b1f3a; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 12.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #8a94a6" x="434.88" y="580.32" transform="rotate(-0 434.88 580.32)">no</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; fill: #0b1f3a" transform="translate(910.035609 373.930352)">4. Who supports spares,</text>
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; fill: #0b1f3a" transform="translate(919.321469 389.533906)">software and training</text>
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; fill: #0b1f3a" transform="translate(915.213266 405.137461)">near you? Choose that</text>
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; fill: #0b1f3a" transform="translate(935.139828 420.741016)">family and put it</text>
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; fill: #0b1f3a" transform="translate(918.815687 436.34457)">in the purchase order</text>
+   </g>
+   <g id="patch_17">
+    <path d="M 789.475869 350.799609 
+Q 822.961869 367.200915 854.439739 382.618648 
+" style="fill: none; stroke: #0b1f3a; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 851.727223 379.063053 
+L 854.439739 382.618648 
+L 849.967753 382.655303 
+" style="fill: none; stroke: #0b1f3a; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 788.896626 509.610938 
+Q 822.959908 465.12012 855.66386 422.404754 
+" style="fill: none; stroke: #0b1f3a; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 851.644207 424.364955 
+L 855.66386 422.404754 
+L 854.82023 426.796597 
+" style="fill: none; stroke: #0b1f3a; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+  </g>
+  <g id="text_15">
+   <text style="font-weight: 700; font-size: 24px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b1f3a" x="23.04" y="45.36" transform="rotate(-0 23.04 45.36)">NovaStar or Colorlight: a decision path</text>
+  </g>
+  <g id="text_16">
+   <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #8a94a6" x="17.28" y="636.336" transform="rotate(-0 17.28 636.336)">Asia Vision editorial guide, 2026-11-13. Neither brand is better in every case; model, fleet and local support decide.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pd39851384f">
+   <rect x="11.52" y="90.72" width="1128.96" height="518.4"/>
+  </clipPath>
+ </defs>
+<text x="1573" y="873" text-anchor="end" font-family="DejaVu Sans, Arial, sans-serif" font-weight="bold" font-size="33" fill="#0B1F3A" fill-opacity="0.37">asiavisionled.com</text>
+</svg>

@@ -1,0 +1,8 @@
+DO NOT delete anything outside site-v2, and do not delete git or repository handoff documentation.
+These paths are outside the publish directory and must be kept:
+  /HANDOFF-Cloud.md
+  /handoff/   (including handoff/muse-2026-11-08/ and any later handoff folders)
+  /.git/
+  New drafts destination: /handoff/drafts-20261118/  (create; do not put drafts inside site-v2)
+The only site-v2 files that exist in baseline bc99fd4 but not in the 11/17 stage are the two banned images listed in deletion-suggestions.csv. No other deletions are suggested.
+Known banned derivative filenames from later 11/12 cleanup were not present in this site-v2 tree, so they are not listed for deletion here.

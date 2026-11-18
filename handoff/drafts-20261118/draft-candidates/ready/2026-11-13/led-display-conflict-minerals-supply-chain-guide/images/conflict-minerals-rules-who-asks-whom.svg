@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1152pt" height="648pt" viewBox="0 0 1152 648" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-13T04:16:27.679731</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 648 
+L 1152 648 
+L 1152 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 25.632 152.496 
+L 295.1712 152.496 
+L 295.1712 113.184 
+L 25.632 113.184 
+z
+" clip-path="url(#pa100c4463e)" style="fill: #0b1f3a"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 300.816 152.496 
+L 711.4752 152.496 
+L 711.4752 113.184 
+L 300.816 113.184 
+z
+" clip-path="url(#pa100c4463e)" style="fill: #0b1f3a"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 717.12 152.496 
+L 1127.7792 152.496 
+L 1127.7792 113.184 
+L 717.12 113.184 
+z
+" clip-path="url(#pa100c4463e)" style="fill: #0b1f3a"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 25.632 260.8848 
+L 295.1712 260.8848 
+L 295.1712 161.4816 
+L 25.632 161.4816 
+z
+" clip-path="url(#pa100c4463e)" style="fill: #dcebf8; stroke: #d5dbe5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 300.816 260.8848 
+L 711.4752 260.8848 
+L 711.4752 161.4816 
+L 300.816 161.4816 
+z
+" clip-path="url(#pa100c4463e)" style="fill: #f6f8fb; stroke: #d5dbe5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 717.12 260.8848 
+L 1127.7792 260.8848 
+L 1127.7792 161.4816 
+L 717.12 161.4816 
+z
+" clip-path="url(#pa100c4463e)" style="fill: #f6f8fb; stroke: #d5dbe5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 25.632 364.7808 
+L 295.1712 364.7808 
+L 295.1712 265.3776 
+L 25.632 265.3776 
+z
+" clip-path="url(#pa100c4463e)" style="fill: #fbebc8; stroke: #d5dbe5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 300.816 364.7808 
+L 711.4752 364.7808 
+L 711.4752 265.3776 
+L 300.816 265.3776 
+z
+" clip-path="url(#pa100c4463e)" style="fill: #f6f8fb; stroke: #d5dbe5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 717.12 364.7808 
+L 1127.7792 364.7808 
+L 1127.7792 265.3776 
+L 717.12 265.3776 
+z
+" clip-path="url(#pa100c4463e)" style="fill: #f6f8fb; stroke: #d5dbe5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 25.632 468.6768 
+L 295.1712 468.6768 
+L 295.1712 369.2736 
+L 25.632 369.2736 
+z
+" clip-path="url(#pa100c4463e)" style="fill: #e3f3e5; stroke: #d5dbe5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 300.816 468.6768 
+L 711.4752 468.6768 
+L 711.4752 369.2736 
+L 300.816 369.2736 
+z
+" clip-path="url(#pa100c4463e)" style="fill: #f6f8fb; stroke: #d5dbe5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 717.12 468.6768 
+L 1127.7792 468.6768 
+L 1127.7792 369.2736 
+L 717.12 369.2736 
+z
+" clip-path="url(#pa100c4463e)" style="fill: #f6f8fb; stroke: #d5dbe5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 25.632 572.5728 
+L 295.1712 572.5728 
+L 295.1712 473.1696 
+L 25.632 473.1696 
+z
+" clip-path="url(#pa100c4463e)" style="fill: #eef1f5; stroke: #d5dbe5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 300.816 572.5728 
+L 711.4752 572.5728 
+L 711.4752 473.1696 
+L 300.816 473.1696 
+z
+" clip-path="url(#pa100c4463e)" style="fill: #f6f8fb; stroke: #d5dbe5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 717.12 572.5728 
+L 1127.7792 572.5728 
+L 1127.7792 473.1696 
+L 717.12 473.1696 
+z
+" clip-path="url(#pa100c4463e)" style="fill: #f6f8fb; stroke: #d5dbe5; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 14px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #ffffff" x="36.216" y="136.477266" transform="rotate(-0 36.216 136.477266)">Framework</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 14px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #ffffff" x="311.4" y="136.477266" transform="rotate(-0 311.4 136.477266)">Directly covers</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 14px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #ffffff" x="727.704" y="136.477266" transform="rotate(-0 727.704 136.477266)">What reaches an LED display supplier</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 13.5px; font-family: 'DejaVu Sans'; fill: #1a1a1a" transform="translate(36.216 206.588718)">US Dodd-Frank Section 1502</text>
+    <text style="font-weight: 700; font-size: 13.5px; font-family: 'DejaVu Sans'; fill: #1a1a1a" transform="translate(36.216 222.792409)">(SEC rule, Form SD)</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; fill: #1a1a1a" transform="translate(311.4 198.957106)">Companies that file with the SEC and whose</text>
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; fill: #1a1a1a" transform="translate(311.4 214.560661)">products contain 3TG necessary to function</text>
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; fill: #1a1a1a" transform="translate(311.4 230.164216)">or production</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; fill: #1a1a1a" transform="translate(727.704 198.957106)">A country-of-origin inquiry and a request</text>
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; fill: #1a1a1a" transform="translate(727.704 214.560661)">for a CMRT from the supplier of the product</text>
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; fill: #1a1a1a" transform="translate(727.704 230.164216)">or its parts</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 13.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1a1a1a" x="36.216" y="318.586563" transform="rotate(-0 36.216 318.586563)">EU Regulation 2017/821</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; fill: #1a1a1a" transform="translate(311.4 302.853106)">EU importers of 3TG ores, concentrates and</text>
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; fill: #1a1a1a" transform="translate(311.4 318.456661)">metals. Companies beyond the metal stage</text>
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; fill: #1a1a1a" transform="translate(311.4 334.060216)">have no obligations under it</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; fill: #1a1a1a" transform="translate(727.704 310.654884)">Usually nothing directly. Customers may</text>
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; fill: #1a1a1a" transform="translate(727.704 326.258438)">still ask for reporting tools to be used</text>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 13.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1a1a1a" x="36.216" y="422.482563" transform="rotate(-0 36.216 422.482563)">OECD Due Diligence Guidance</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; fill: #1a1a1a" transform="translate(311.4 414.550884)">Nobody by law. The reference both rules</text>
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; fill: #1a1a1a" transform="translate(311.4 430.154438)">point to</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; fill: #1a1a1a" transform="translate(727.704 414.550884)">The five-step language used in</text>
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; fill: #1a1a1a" transform="translate(727.704 430.154438)">questionnaires and supplier codes</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 13.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1a1a1a" x="36.216" y="526.378563" transform="rotate(-0 36.216 526.378563)">Buyer contract or tender</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1a1a1a" x="311.4" y="526.248661" transform="rotate(-0 311.4 526.248661)">Whoever signs it</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; fill: #1a1a1a" transform="translate(727.704 518.446884)">A clause naming the CMRT, a policy or an</text>
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; fill: #1a1a1a" transform="translate(727.704 534.050438)">audit scheme</text>
+   </g>
+  </g>
+  <g id="text_16">
+   <text style="font-weight: 700; font-size: 24px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b1f3a" x="34.56" y="45.36" transform="rotate(-0 34.56 45.36)">Who is directly covered, and what reaches an LED display supplier</text>
+  </g>
+  <g id="text_17">
+   <text style="font-size: 14px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #8a94a6" x="34.56" y="74.52" transform="rotate(-0 34.56 74.52)">Summary of the main frameworks; not legal advice</text>
+  </g>
+  <g id="text_18">
+   <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #8a94a6" x="17.28" y="636.336" transform="rotate(-0 17.28 636.336)">Sources: SEC conflict minerals guide; European Commission, Conflict Minerals Regulation explained; OECD. Not legal advice.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pa100c4463e">
+   <rect x="11.52" y="90.72" width="1128.96" height="505.44"/>
+  </clipPath>
+ </defs>
+<text x="1573" y="873" text-anchor="end" font-family="DejaVu Sans, Arial, sans-serif" font-weight="bold" font-size="33" fill="#0B1F3A" fill-opacity="0.37">asiavisionled.com</text>
+</svg>
