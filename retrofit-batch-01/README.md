@@ -7,8 +7,11 @@ Prepared by Muse, 2026-11-18, approved by David (Asia Vision Technology).
 
 - 19 replacement images (10 heroes + 9 inline), each as JPG + WebP with the
   same filename: 38 image files total. All 16:9, never upscaled, watermarked
-  `asiavisionled.com` bottom-right. All are real Asia Vision photos — no
-  stock, no competitor images, no AI-generated images.
+  `www.asiavisionled.com` bottom-right (watermark v3: DejaVu Sans Regular,
+  no stroke, colour adapts to the background — white / dark grey #444 /
+  black; see `缺素材与待确认事项.md` for the per-image colour list). All
+  are real Asia Vision photos — no stock, no competitor images, no
+  AI-generated images.
 - `image-manifest.csv` — the index for all 19 images: article URL, old image
   path, new filename, role (hero/inline), replacement reason, material source,
   dimensions, JPG/WebP bytes, English alt, English caption, suggested
@@ -61,10 +64,11 @@ Prepared by Muse, 2026-11-18, approved by David (Asia Vision Technology).
 
 ## Notes
 
-- `transparent-led-cabinet-front-hero` reuses an already-approved file
-  (byte-identical to the facade batch delivery); its caption honestly says
-  it shows the transparent cabinet front face — the grille comparison
-  figures live in the article's comparison table, not in the photo.
+- `transparent-led-cabinet-front-hero` was re-rendered from David's
+  supplied photo 2954.jpg with the v3 watermark (dark grey) instead of
+  reusing the facade batch file; its caption honestly says it shows the
+  transparent cabinet front face — the grille comparison figures live in
+  the article's comparison table, not in the photo.
 - `smt-production-line-shenzhen-factory-hero` is 800x450: the source
   `smt-line.jpg` is actually 800x600 (the proposal said 1400x934). It was
   delivered at native width, never upscaled.
